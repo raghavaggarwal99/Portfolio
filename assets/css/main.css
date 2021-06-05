@@ -1147,7 +1147,7 @@ view more work*/
   .a-h-container {
     padding-top: 250px;
     padding-bottom: 9%;
-    width: 60%;
+    width: 80%;
   }
 }
 
@@ -1155,7 +1155,7 @@ view more work*/
   .a-h-container {
     padding-top: 250px;
     padding-bottom: 9%;
-    width: 70%;
+    width: 100%;
   }
 }
 
@@ -1228,8 +1228,8 @@ view more work*/
 }
 
 .me-images {
-  width: 65%;
-  left: 19%;
+  width: 70%;
+  left: 15%;
   background-color: white;
   height: auto;
   position: absolute;

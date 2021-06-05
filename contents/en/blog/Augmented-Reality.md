@@ -1,15 +1,15 @@
 ---
-name: 'building-my-static-blog-with-nuxtjs-and-markdown-beginner'
+name: 'Augmented Reality'
 
-title:  Building a static blog with NuxtJs and Markdown as a beginner 
+title:  Augmented Reality
 description:
-  A summary of my ongoing journey to get a statically generated blog up and running with the help of NuxtJS and Markdown.
+  A brief dive into the upcoming Augmented Reality tech in games
 year: 10 August 2019
 color: '#edece7'
 isTextColorDark: true
-
+link: 'https://medium.com/@raghavaggarwal0089/augmented-reality-b564922fe702'
 heroimagedes: Code ONN
-id: 'building-my-static-blog-with-nuxtjs-and-markdown-beginner'
+id: 'Augmented-Reality'
 
 github_doclink: building-my-static-blog-with-nuxtjs-and-markdown-beginner.md
 

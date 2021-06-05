@@ -4,14 +4,14 @@
       <!-- <LangSwitcher /> -->
 
       <div class="single-article" v-for="blog in blogs" :key="blog.name" :blog="blog">
-        <nuxt-link :to="localePath({ name: 'blog-slug', params: { slug: blog.name }})">
+          <a target="_blank" :href= blog.link>
           <div class="projects-wrapper-top hover-target">
             <div class="projects-wrapper item1">
               <div class="projects-card-wrapper">
                 <div class="projects-card"></div>
                 <div class="image-placeholder projects-image">
                   <img
-                    :src="require(`~/assets/images/blog/${blog.id}/_thumbnail.jpg`)"
+                    :src="require(`~/assets/blog/${blog.id}.png`)"
                     :classes="'article-thumbnail'"
                     width="100%"
                     :alt="blog.cardAlt"
@@ -29,7 +29,7 @@
               </div>
             </div>
           </div>
-        </nuxt-link>
+          </a>
 
         <!-- <blog-card v-for="blog in blogs" :key="blog.name" :blog="blog" /> -->
       </div>
@@ -37,6 +37,7 @@
   </section>
 </template>
 <script>
+
 export default {
   props: {
     blogs: {

@@ -2,6 +2,7 @@
   <div class="p-info-4">
     <div class="p-info-4 contain">
       <div class="p-info">
+      
         <div style="flex-grow: 1; align-self: center">
           <div>
             <h5
@@ -39,6 +40,24 @@
               data-aos-anchor-placement="top-bottom"
             ></p>
           </div>
+          <div>
+            <h5
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="200"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            >Purpose</h5>
+            <p
+              class="ps opacity80"
+              v-html="purpose"
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="300"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            ></p>
+          </div>
         </div>
         <div style="flex-grow: 1; align-self: center">
           <div>
@@ -63,6 +82,24 @@
             <h5
               data-aos="fade-up"
               data-aos-duration="500"
+              data-aos-delay="200"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            >Github</h5>
+            <p
+              class="ps opacity80"
+              v-html="github"
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="300"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            ></p>
+          </div>
+          <div>
+            <h5
+              data-aos="fade-up"
+              data-aos-duration="500"
               data-aos-delay="600"
               data-aos-once="true"
               data-aos-anchor-placement="top-bottom"
@@ -76,8 +113,7 @@
               data-aos-once="true"
               data-aos-anchor-placement="top-bottom"
             >
-              Four ebgineers, two medical
-              <br>residents, one designer
+              <br>
             </p>
           </div>
         </div>
@@ -91,8 +127,11 @@ export default {
   props: {
     timeframe: String,
     tools: String,
+    purpose: String,
     role: String,
-    team: String
+    team: String,
+    github: String,
+    
   }
 }
 </script>

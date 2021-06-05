@@ -1,13 +1,6 @@
 <template>
   <div class="blog-page">
     <div class="b-hero-container">
-      <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-        <img src="~assets/svg/circle.svg" alt="circle" />
-      </div>
-
-      <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-        <img class="hero-svg" src="~assets/svg/b.svg" alt="w" v-rellax="{ speed: -2, center: 0.5 }" />
-      </div>
 
       <div class="contain b-heading-container">
         <p class="pm b-h-subheading" data-aos="fade-up" data-aos-duration="1000">My Blog</p>

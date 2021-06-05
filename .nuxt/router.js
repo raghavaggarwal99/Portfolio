@@ -19,6 +19,7 @@ const _5aa85703 = () => interopDefault(import('../pages/projects/elevito.vue' /*
 const _31d3c8b8 = () => interopDefault(import('../pages/projects/feeding-trends.vue' /* webpackChunkName: "pages/projects/feeding-trends" */))
 const _b5f7a428 = () => interopDefault(import('../pages/projects/filmingeye.vue' /* webpackChunkName: "pages/projects/filmingeye" */))
 const _66a1fa2f = () => interopDefault(import('../pages/projects/ft-events.vue' /* webpackChunkName: "pages/projects/ft-events" */))
+const _1bf88346 = () => interopDefault(import('../pages/projects/GoCorona.vue' /* webpackChunkName: "pages/projects/GoCorona" */))
 const _262a80c8 = () => interopDefault(import('../pages/projects/happy-miles.vue' /* webpackChunkName: "pages/projects/happy-miles" */))
 const _8d05dbc2 = () => interopDefault(import('../pages/projects/hello-color.vue' /* webpackChunkName: "pages/projects/hello-color" */))
 const _04a0d022 = () => interopDefault(import('../pages/projects/hindigiri.vue' /* webpackChunkName: "pages/projects/hindigiri" */))
@@ -114,6 +115,10 @@ export const routerOptions = {
     path: "/projects/ft-events",
     component: _66a1fa2f,
     name: "projects-ft-events___en"
+  }, {
+    path: "/projects/GoCorona",
+    component: _1bf88346,
+    name: "projects-GoCorona___en"
   }, {
     path: "/projects/happy-miles",
     component: _262a80c8,

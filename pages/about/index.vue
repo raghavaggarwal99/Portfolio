@@ -33,7 +33,6 @@
             src="~/assets/about/raghav.jpg"
             alt="Raghav Aggarwal"
              height="800px"
-              width="50px"
           />
         </div>
       </div>

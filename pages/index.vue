@@ -1,17 +1,11 @@
 <template>
   <div>
     <div class="a-hero_container">
-      <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
-        <img src="~assets/svg/circle.svg" alt="circle" />
-      </div>
-      <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
-        <img class="hero-svg" src="~assets/svg/s.svg" alt="w" v-rellax="{ speed: -2, center: 0.5 }" />
-      </div>
-
+ 
       <div class="nametag-container contain">
         <div class="h-name" data-aos="fade-up" data-aos-duration="900">
           <nuxt-link to="/about" style="text-decoration: none;">
-            <span class="underline-magical">Saurabh Chandra Rai</span>
+            <span class="underline-magical">Raghav Aggarwal</span>
           </nuxt-link>
         </div>
         <div
@@ -19,7 +13,7 @@
           data-aos="fade-up"
           data-aos-duration="900"
           data-aos-delay="200"
-        >UX/UI Designer & Developer</div>
+        >Software Developer</div>
       </div>
 
       <div
@@ -61,122 +55,9 @@
       </div>
     </div>
 
-    <!-- home Grid pics section 2 -->
-
-    <section class="h-sec2-container">
-      <div class="h-sec2-grid">
-        <div
-          class="bottom-fit"
-          data-aos="fade-up"
-          data-aos-duration="600"
-          data-aos-delay="1000"
-          data-aos-anchor-placement="top-bottom"
-        >
-          <img id="zoom-default" src="~assets/img/home/1.jpg?webp" type="image/webp" />
-        </div>
-        <div
-          class="bottom-fit"
-          data-aos="fade-up"
-          data-aos-duration="600"
-          data-aos-delay="1200"
-          data-aos-anchor-placement="top-bottom"
-        >
-          <img id="zoom-default" src="~assets/img/home/2.gif" type="image/webp" />
-        </div>
-        <div
-          class="bottom-fit"
-          data-aos="fade-up"
-          data-aos-duratio="600"
-          data-aos-delay="1300"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-offset="-200"
-        >
-          <img id="zoom-default" src="~assets/img/home/3.jpg?webp" type="image/webp" />
-        </div>
-        <div
-          class="bottom-fit"
-          data-aos="fade-up"
-          data-aos-duration="600"
-          data-aos-delay="1400"
-          data-aos-anchor-placement="top-bottom"
-        >
-          <img id="zoom-default" src="~assets/img/home/4.gif" type="image/webp" />
-        </div>
-        <div
-          class="middle-fit"
-          data-aos="zoom-out-up"
-          data-aos-duration="600"
-          data-aos-anchor-placement="top-bottom"
-        >
-          <img id="zoom-default" src="~assets/img/home/5.jpg?webp" type="image/webp" />
-        </div>
-        <div
-          class="middle-fit"
-          data-aos="zoom-out-up"
-          data-aos-duration="600"
-          data-aos-delay="100"
-          data-aos-anchor-placement="top-bottom"
-        >
-          <img id="zoom-default" src="~assets/img/home/6.jpg?webp" type="image/webp" />
-        </div>
-        <div
-          class="middle-fit"
-          data-aos="zoom-out-up"
-          data-aos-duration="600"
-          data-aos-delay="200"
-          data-aos-anchor-placement="top-bottom"
-        >
-          <img id="zoom-default" src="~assets/img/home/7.jpg?webp" type="image/webp" />
-        </div>
-        <div
-          class="middle-fit"
-          data-aos="zoom-out-up"
-          data-aos-duration="600"
-          data-aos-delay="300"
-          data-aos-anchor-placement="top-bottom"
-        >
-          <img id="zoom-default" src="~assets/img/home/8.jpg?webp" type="image/webp" />
-        </div>
-        <div
-          class="up-fit"
-          data-aos="zoom-out-up"
-          data-aos-duration="600"
-          data-aos-anchor-placement="top-bottom"
-        >
-          <img id="zoom-default" src="~assets/img/home/9.jpg?webp" type="image/webp" />
-        </div>
-        <div
-          class="up-fit"
-          data-aos="zoom-out-up"
-          data-aos-duration="600"
-          data-aos-delay="100"
-          data-aos-anchor-placement="top-bottom"
-        >
-          <img id="zoom-default" src="~assets/img/home/10.jpg?webp" type="image/webp" />
-        </div>
-        <div
-          class="up-fit"
-          data-aos="zoom-out-up"
-          data-aos-duration="600"
-          data-aos-delay="200"
-          data-aos-anchor-placement="top-bottom"
-        >
-          <img id="zoom-default" src="~assets/img/home/11.jpg?webp" type="image/webp" />
-        </div>
-        <div
-          class="up-fit"
-          data-aos="zoom-out-up"
-          data-aos-duration="600"
-          data-aos-delay="300"
-          data-aos-anchor-placement="top-bottom"
-        >
-          <img id="zoom-default" src="~assets/img/home/12b.jpg?webp" type="image/webp" />
-        </div>
-      </div>
-    </section>
-
+   
     <!-- get to know me -->
-
+    <!-- 
     <div class="more-about-me">
       <div class="center-h-v">
         <nuxt-link to="/about">
@@ -184,7 +65,11 @@
         </nuxt-link>
       </div>
     </div>
+    -->
+
+
     <!-- Showcase video and parallax -->
+    <!--
     <div class="h-showreel">
       <div class="showreel-bg">
         <img v-parallax="0.2" src="~/assets/img/showreel-bg.jpg" alt="elevito wireframe" />
@@ -219,10 +104,12 @@
         </div>
       </div>
     </div>
+   -->
 
     <!-- Showreell Modal -->
   
     <!-- Work Heading -->
+    <!--
     <div class="h-work_heading contain">
       <h1>
         I pour
@@ -236,16 +123,17 @@
         <nuxt-link to="/projects" class="underline-magical">See all my works.</nuxt-link>
       </p>
     </div>
+    -->
 
     <!-- Work Thumbnails -->
 
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/cricbuzz-app-redesign">
+          <nuxt-link to="/projects/GoCorona">
             <thumbnail
-              thumbnailName="CricBuzz"
-              thumbnailDescription="App  Redesign Concept"
+              thumbnailName="GoCorona"
+              thumbnailDescription="App Designed For Corona"
               thumbnail="/cricbuzz-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
@@ -370,37 +258,10 @@
 
     <!-- people parallax slide section -->
 
-    <homepeople />
-
     <!-- <div class="applause-button_container">
       <applause-button style="width: 58px; height: 58px;" color="red" multiclap="true"/>
     </div>-->
 
-    <!-- blog Heading -->
-
-    <div class="h-blog_heading contain">
-      <h1 class="no-white-space">
-        Hack Things,
-        <br />
-        <span class="outlined">Solve</span>
-        Problems.
-        <br />Be Curious.
-      </h1>
-      <p>Few of my latest blogs</p>
-    </div>
-
-    <BlogSection :blogs="blogs" />
-
-    <!-- <ArticleList :isPaginated="false" :postsPerPage="4" /> -->
-
-    <!-- view more article -->
-    <div class="more-about-me">
-      <div class="center-h-v">
-        <nuxt-link to="/blog">
-          <discovermore button-text="view all article" />
-        </nuxt-link>
-      </div>
-    </div>
   </div>
 </template>
 
