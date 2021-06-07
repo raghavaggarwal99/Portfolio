@@ -6,16 +6,15 @@ import scrollBehavior from './router.scrollBehavior.js'
 const _42e0cf74 = () => interopDefault(import('../pages/about/index.vue' /* webpackChunkName: "pages/about/index" */))
 const _32cfddd1 = () => interopDefault(import('../pages/Blog/index.vue' /* webpackChunkName: "pages/Blog/index" */))
 const _1daed4f9 = () => interopDefault(import('../pages/CodeExperiment/index.vue' /* webpackChunkName: "pages/CodeExperiment/index" */))
+const _3ed65091 = () => interopDefault(import('../pages/Opensource.vue' /* webpackChunkName: "pages/Opensource" */))
 const _5fea835e = () => interopDefault(import('../pages/people/index.vue' /* webpackChunkName: "pages/people/index" */))
 const _f37dcef8 = () => interopDefault(import('../pages/photography/index.vue' /* webpackChunkName: "pages/photography/index" */))
 const _ded61aee = () => interopDefault(import('../pages/projects/index.vue' /* webpackChunkName: "pages/projects/index" */))
 const _b00f4e2a = () => interopDefault(import('../pages/projects/awesome-inc.vue' /* webpackChunkName: "pages/projects/awesome-inc" */))
-const _dab6fef6 = () => interopDefault(import('../pages/projects/bharatrohan.vue' /* webpackChunkName: "pages/projects/bharatrohan" */))
+const _12c2fb66 = () => interopDefault(import('../pages/projects/Blockchain.vue' /* webpackChunkName: "pages/projects/Blockchain" */))
 const _a576c140 = () => interopDefault(import('../pages/projects/bls.vue' /* webpackChunkName: "pages/projects/bls" */))
-const _2518eba5 = () => interopDefault(import('../pages/projects/cricbuzz-app-redesign.vue' /* webpackChunkName: "pages/projects/cricbuzz-app-redesign" */))
 const _dcdb5908 = () => interopDefault(import('../pages/projects/dear-zindagi.vue' /* webpackChunkName: "pages/projects/dear-zindagi" */))
 const _d985c8a0 = () => interopDefault(import('../pages/projects/dreamz.vue' /* webpackChunkName: "pages/projects/dreamz" */))
-const _5aa85703 = () => interopDefault(import('../pages/projects/elevito.vue' /* webpackChunkName: "pages/projects/elevito" */))
 const _31d3c8b8 = () => interopDefault(import('../pages/projects/feeding-trends.vue' /* webpackChunkName: "pages/projects/feeding-trends" */))
 const _b5f7a428 = () => interopDefault(import('../pages/projects/filmingeye.vue' /* webpackChunkName: "pages/projects/filmingeye" */))
 const _66a1fa2f = () => interopDefault(import('../pages/projects/ft-events.vue' /* webpackChunkName: "pages/projects/ft-events" */))
@@ -36,6 +35,7 @@ const _4d4745ae = () => interopDefault(import('../pages/projects/prepowl.vue' /*
 const _8603bda2 = () => interopDefault(import('../pages/projects/projects-academia.vue' /* webpackChunkName: "pages/projects/projects-academia" */))
 const _8aebd74c = () => interopDefault(import('../pages/projects/r3.vue' /* webpackChunkName: "pages/projects/r3" */))
 const _314a75d2 = () => interopDefault(import('../pages/projects/salesfactory.vue' /* webpackChunkName: "pages/projects/salesfactory" */))
+const _0e11a878 = () => interopDefault(import('../pages/projects/SocialContour.vue' /* webpackChunkName: "pages/projects/SocialContour" */))
 const _27f414de = () => interopDefault(import('../pages/projects/tbt-app.vue' /* webpackChunkName: "pages/projects/tbt-app" */))
 const _3c2c2f0a = () => interopDefault(import('../pages/projects/thebbdtimes.vue' /* webpackChunkName: "pages/projects/thebbdtimes" */))
 const _897566fe = () => interopDefault(import('../pages/projects/thebegining.vue' /* webpackChunkName: "pages/projects/thebegining" */))
@@ -64,6 +64,10 @@ export const routerOptions = {
     component: _1daed4f9,
     name: "CodeExperiment___en"
   }, {
+    path: "/Opensource",
+    component: _3ed65091,
+    name: "Opensource___en"
+  }, {
     path: "/people",
     component: _5fea835e,
     name: "people___en"
@@ -80,17 +84,13 @@ export const routerOptions = {
     component: _b00f4e2a,
     name: "projects-awesome-inc___en"
   }, {
-    path: "/projects/bharatrohan",
-    component: _dab6fef6,
-    name: "projects-bharatrohan___en"
+    path: "/projects/Blockchain",
+    component: _12c2fb66,
+    name: "projects-Blockchain___en"
   }, {
     path: "/projects/bls",
     component: _a576c140,
     name: "projects-bls___en"
-  }, {
-    path: "/projects/cricbuzz-app-redesign",
-    component: _2518eba5,
-    name: "projects-cricbuzz-app-redesign___en"
   }, {
     path: "/projects/dear-zindagi",
     component: _dcdb5908,
@@ -99,10 +99,6 @@ export const routerOptions = {
     path: "/projects/dreamz",
     component: _d985c8a0,
     name: "projects-dreamz___en"
-  }, {
-    path: "/projects/elevito",
-    component: _5aa85703,
-    name: "projects-elevito___en"
   }, {
     path: "/projects/feeding-trends",
     component: _31d3c8b8,
@@ -183,6 +179,10 @@ export const routerOptions = {
     path: "/projects/salesfactory",
     component: _314a75d2,
     name: "projects-salesfactory___en"
+  }, {
+    path: "/projects/SocialContour",
+    component: _0e11a878,
+    name: "projects-SocialContour___en"
   }, {
     path: "/projects/tbt-app",
     component: _27f414de,

@@ -11,6 +11,7 @@ const productionUrl = {
   en: "/en",
 
 };
+
 const baseUrl = 'https://saurabhcrai.com';
 
 export default {
@@ -22,7 +23,7 @@ export default {
 
   head: {
 
-    title: 'Saurabh Chandra Rai - UX Designer and Front-End Developer',
+    title: 'Raghav Aggarwal - Software Developer',
 
     meta: [{
         charset: 'utf-8'

@@ -145,10 +145,10 @@
         </div>
 
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/elevito">
+          <nuxt-link to="/projects/Blockchain">
             <thumbnail
-              thumbnailName="Elevito"
-              thumbnailDescription="Web, Branding, Print"
+              thumbnailName="Blockchain Aadhar Voting"
+              thumbnailDescription="Microsoft Code fundoo Competition"
               thumbnail="/elevito-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
@@ -175,10 +175,10 @@
         </div>
 
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/bharatrohan">
+          <nuxt-link to="/projects/SocialContour">
             <thumbnail
-              thumbnailName="BharatRohan"
-              thumbnailDescription="Admin, App, Web"
+              thumbnailName="SocialContour"
+              thumbnailDescription="SocialContour"
               thumbnail="/bharatrohangif2.gif"
               data-aos="zoom-out-up"
               data-aos-duration="400"
@@ -203,10 +203,10 @@
         </div>
 
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/dreamz">
+          <nuxt-link to="/OpenSource">
             <thumbnail
-              thumbnailName="Dreamz"
-              thumbnailDescription="App Design, HF Prototype"
+              thumbnailName="OpenSource"
+              thumbnailDescription="OpenSource"
               thumbnail="/dreamz-thumbnail-cyan.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"

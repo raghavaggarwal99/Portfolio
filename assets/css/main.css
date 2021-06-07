@@ -3268,16 +3268,6 @@ background: linear-gradient(#6adfff 0%, #005094 100%);
 }
 
 
-/* BharatRohan
-   akcent colour   #11A78E
-   green
-   background: linear-gradient(#fff 0%, #11b18e 0%, #11998e 100%);
-  Light green
-
-  background: linear-gradient(#fff 0%, #8fa66d 0%, #5ba44c 100%);
-
-   */
-
 .reveal-block.theme_br::before {
   background: #11A78E;
 }

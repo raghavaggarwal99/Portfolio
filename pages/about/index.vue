@@ -26,6 +26,7 @@
 
     </div>
 
+<!--
        <div class="column">
       <div class="me-images">
         <div v-rellax="{ speed: -1.2, center: 0.4 }" class="me-image1">
@@ -37,6 +38,7 @@
         </div>
       </div>
       </div>
+      -->
   
 
 
@@ -63,7 +65,7 @@
 
     <a href></a>
 
-  
+  <!--
     <div class="about-section3">
       <div class="about-me-text a-hello_container contain">
         <p class="para hero-para black70">
@@ -87,31 +89,41 @@
 
       </div>
     </div>
+-->
 
+<div class="distress-row">
+  <div class="distress-column">
+    <pcase
+      heading=""
+      para=" I'm Raghav Aggarwal and Currently I work in Deutsche Bank  in Pune, India. Being from a non CS background, I have developed quite an interest in 
+          how software industry works. May it be App development or some new technology like Blockchain, i
+          am always interested to learn and dive into it. <br>
+           I have done a lot of projects and have tried to explore every oppurtunity that i get in my way.
+
+     "
+      theme="theme_cricbuzz"
+    />
+
+  </div>
+  <div class="distress-column">
+  <br>
+  <br>
     <br>
-
-     <br>
-      <br>
-      <br>
-
-     <br>
-      <br>
-
-    <br>
-
-     <br>
-      <br>
-      <br>
-
-     <br>
-      <br>
-
-     <br>
-      <br>
-      <br>
-
-     <br>
-      <br>
+  <br>
+    <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+          />
+          <img
+            src="~assets/about/raghav.jpg"
+            alt="GoCorona app screenshots"
+            width="575px"
+            height="600px"
+          />
+        </picture>
+  </div>
+</div>
 
 
     <!-- capability -->
@@ -148,12 +160,14 @@
             </div>
           </div>
         </div>
+        <!--
         <nuxt-link to="/photography">
           <div class="a-c_photography">
             <p class="a-c_subheading red">+Photography</p>
           </div>
         </nuxt-link>
         <div class="a-hl"></div>
+        -->
 
         <nuxt-link to="/blog">
           <div class="a-c_photography">
@@ -743,10 +757,15 @@
 <script>
 // import VideoShowcase from '~/components/Modal'
 import Playbutton from '~/components/playbutton'
+import Preface from '~/components/projects/preface'
+import Pcase from '~/components/projects/pcase'
+
 export default {
   components: {
     // VideoShowcase,
-    Playbutton
+    Playbutton,
+    Preface,
+    Pcase
   },
 
   layout: 'projects',
@@ -1052,5 +1071,26 @@ export default {
   padding: 40px 0px 40px 0px;
 }
 
+.distress-column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-left: 150px;
+}
+
+.admin-column {
+  float: left;
+  width: 30.33%;
+  padding: 5px;
+  margin-left: 40px;
+
+}
+
+/* Clearfix (clear floats) */
+.distress-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 </style>

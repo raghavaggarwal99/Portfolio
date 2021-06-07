@@ -1,8 +1,6 @@
 <template>
-  <div class="p-info-4">
-    <div class="p-info-4 contain">
+  <div class="p-info-4 contain">
       <div class="p-info">
-      
         <div style="flex-grow: 1; align-self: center">
           <div>
             <h5
@@ -113,10 +111,8 @@
               data-aos-once="true"
               data-aos-anchor-placement="top-bottom"
             >
-              <br>
             </p>
           </div>
-        </div>
       </div>
     </div>
   </div>

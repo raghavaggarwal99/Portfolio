@@ -20,26 +20,24 @@
     </div>
 
     <projecthero
-      pDate="November 2019 "
-      pWebsite="Homey"
-      pCategory="Web, Branding"
-      pHeading="Find your home, on homely"
+      pDate="March 2020 "
+      pWebsite="GoCorona"
+      pCategory="App Design"
+      pHeading="GoCorona App Development"
       pHeadingcolor="color:#0088FF;"
-      pSubheading="Web Design for Homey."
+      pSubheading="An app designed to help people in difficult times"
     />
 
     <!-- hero image -->
     <div class="p-dz-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
-        <div class="reveal-block right theme_cricbuzz" data-aos="reveal-right"></div>
-
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/cricbuzz/cricbuzz-hero-mobile.jpg"
+            srcset="~assets/projects/gocorona/cricbuzz-hero-mobile.jpg"
           />
           <img
-            src="~assets/projects/cricbuzz/cricbuzz-hero.jpg"
+            src="~assets/projects/gocorona/preview.png"
             alt="woman t-shirt, woman t-shirt mockup"
             align
           />
@@ -48,119 +46,222 @@
     </div>
 
     <Preface
-      timeframe=" November 2019
-            <br>2 Days"
-      tools="Adobe Creative Suite
-            <br>Adobe Photoshop"
-      role="  UX/UI Design
-            <br>Content Strategist"
-      team=" Lone wolf
-            <br>Me only"
+      timeframe=" March 2020
+            <br>1 Month"
+      tools="Flutter
+            <br>Google Firebase"
+       purpose="Mishmash Diversity Hackathon"
+        github="https://github.com/mayurnile/gocorona"
+      role=" Backend Developer
+      
+            <br>App Design"
+      team=" R_A_M
+            <br>Raghav Aggarwal
+            <br>Aayush Bansal
+            <br>Mayur Nile"
     />
+
     <!-- Preface -->
     <pcase
       heading="Preface"
-      para=" Homely is one of the leading real estate sites in Australia.
-      Their mission is to make the process of buying a house joyful and easy.
-      They asked Unfold to help them in creating a brand that reflects this mission..
+      para=" GoCorona App was designed in order to address the chaos faced by people due to Covid-19. 
+
       "
       theme="theme_cricbuzz"
     />
 
-    <div class="contain">
-      <div class="p-image-100-duo">
-        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-          <picture>
-            <img src="~assets/projects/cricbuzz/cricbuzz-logo.jpg" alt="Crick buzz app redesign" />
-          </picture>
-        </div>
+      <!-- Desighn -->
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <img
+            src="~assets/projects/gocorona/preface.png"
+            alt="cricbuzz app wireframing"
+          />
+        </picture>
       </div>
     </div>
+  
+
+    
+
 
     <pcase
-      heading="Challenge"
-      para=" 1. Strict Deadline <br>
-      2. Sloppy previous content <br>
-      3. Only Two days to showcase UI/UX Process <br>
-      4. No time for research
-  
-        
+      heading="Ideation"
+      para=" These are the problems that we think we have due to Corona <br>
+            1. Identification of Corona Patients <br>
+            2.  Loss of Money <br>
+            3. Shortage of Food and Supplies <br>
+            4. Not caring about the problem enough <br>
+            5. Lack of awareness <br>
+            6. Checkups and Treatments <br>
+            7. Boredom in Quarantine<br>           
      "
       theme="Research"
     />
 
+    <!--
     <div class="p-quote contain red">
       <blockquote>
         Cricbuzz app is used by millions of user. To redesign something that that
         is already have a existing user base is itself is a challenge.
       </blockquote>
     </div>
+    -->
 
     <!-- Desighn -->
 
-    <pcase
-      heading="Mark construction"
-      para="The mark is built using the golden ratio design system by applying
-      a 42º slant. All corners and curves are rounded using the same radius.
-
-      <br>
-      <br>
-      
-      The smile is constructed based on a circle with the same amount of width
-      as the house.
-
-   
-
-      
-        
+     <pcase
+      heading="Wireframing"
+      para=" To get started I did a very rapid wireframing. With just important
+      screen and feature I thought of adding. Don't mind my handwriting.
+      Its way better originally. 
+               
      "
       theme="theme_cricbuzz"
     />
-
-    <!-- Desighn -->
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
-            media="(max-width: 600px)"
-            srcset="~assets/projects/cricbuzz/cricbuzz-existing-screens-mobile.jpg"
-          />
           <img
-            src="~assets/projects/cricbuzz/cricbuzz-existing-screens.jpg"
-            alt="cricbuzz app screenshots"
+            src="~assets/projects/gocorona/wireframe2.jpg"
+            alt="cricbuzz app wireframing"
           />
-          <p class="ps">Some cricbuzz app screenshots</p>
         </picture>
       </div>
     </div>
 
-    <!-- Problems and initial Findings -->
-    <pcase
-      heading="
-Exploration"
-      para=" During the logo exploration process, the team built a lot of concepts.
-     <br>
-     <br>
-     We ran these concepts by Homely, and with their valuable feedback,
-     we started refining one of the logo concepts. Finally, after a
-     few iterations of the logo mark, we arrived at the completed product.
-      "
-      theme="theme_cricbuzz"
-    />
-
-    <!-- Desighn -->
-    <pcase
-      heading="Mark strategy"
-      para=" We combined the familiar shape of a home with a warm smile.
-      This mark serves to remind users that when you search with Homely,
-      you aren’t looking for a house – you’re finding a home.
+       <pcase
+      heading="Authentification "
+      para="The App opens up with a animated authentification system.  The user is asked to signup if not have an account. 
+      <br>
      "
       theme="theme_cricbuzz"
     />
 
+
+
+    <!-- Desighn -->
+    <div class="distress-row">
+      <div class="distress-column">
+        <picture>
+              <source
+                media="(max-width: 600px)"
+                srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+              />
+              <img
+                src="~assets/projects/gocorona/authentification1.jpg"
+                alt="GoCorona app screenshots"
+              />
+            </picture>
+
+      </div>
+      <div class="distress-column">
+        <picture>
+              <source
+                media="(max-width: 600px)"
+                srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+              />
+              <img
+                src="~assets/projects/gocorona/authentification2.jpg"
+                alt="GoCorona app screenshots"
+              />
+            </picture>
+      </div>
+    </div>
+
+    <br>
+
+    <p style="margin-left: 100px;">The authentification in the firebase is set up when the user makes an account and a unique user id is generated</p>
+
+      <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <img
+            src="~assets/projects/gocorona/authentification3.jpg"
+            alt="cricbuzz app wireframing"
+          />
+        </picture>
+      </div>
+    </div>
+
+ <br>
+    <br>
+    <br>
+    <br>
+
+
+<div class="distress-row">
+    <div class="admin-column">
+       <pcase
+          heading="HomePage"
+          para=" 
+        1. A Map section to track your and infected person’s location.<br>
+        2. The Red Marker points to peoples location.<br>
+        3. Only the corona infected person’s location is shown.<br>
+        4. The marker shows live location.<br>
+        5. Location of every user is stored in Real Time Database.<br>
+        6. Notification section to display messages passed on by admin regarding some issues or instructions which avoids fake news or rumors to get spreaded.<br>
+          "
+          theme="theme_cricbuzz"
+        />
+
+    </div>
+    <div class="admin-column">
+    <br>
+    <br>
+    <br>
+    <br>
+      <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+            />
+            <img
+              src="~assets/projects/gocorona/home.jpg"
+              alt="GoCorona app screenshots"
+            />
+          </picture>
+    </div>
+    <div class="admin-column-location">
+    <br>
+    <br>
+    <br>
+    <br>
+      <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+            />
+            <img
+              src="~assets/projects/gocorona/location.jpg"
+              alt="Live Storing of Location in real time database"
+              width="400px"
+              height="600px"
+            />
+            <figcaption >Live Storing of Location in real time database</figcaption>
+          </picture>
+    </div>
+  </div>
+
+
+    <!-- Problems and initial Findings -->
+
+
+    <!-- Desighn -->
+    <pcase
+      heading="Distress Calls"
+      para=" The user can make a distress call, along which the location of the user will be sent automatically, so that admin can control what action to take.   
+     "
+      theme="theme_cricbuzz"
+    />
+
+<!--
     <div class="p-image-100-duo cricbuzz-ux-image">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
@@ -169,87 +270,215 @@ Exploration"
         <p class="ps black">Applied UX Principles</p>
       </div>
     </div>
+-->
 
-    <!-- Problems -->
+
+<div class="distress-row">
+  <div class="distress-column">
+     <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+          />
+          <img
+            src="~assets/projects/gocorona/distresscall1.jpg"
+            alt="GoCorona app screenshots"
+          />
+        </picture>
+
+  </div>
+  <div class="distress-column">
+    <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+          />
+          <img
+            src="~assets/projects/gocorona/distresscall2.jpg"
+            alt="GoCorona app screenshots"
+          />
+        </picture>
+  </div>
+</div>
+    
+
+  
+
+
+
+    <!-- Message Screen -->
+
     <pcase
-      heading="Brand mission"
-      para="Homely believes in simplicity. Their mission is to help
-      people find the perfect place to buy or rent.
+      heading="Message/Chat Screen "
+      para="Addressing the problem of boredom and corona, the main function of this feature was to connect people who have faced any difficult situation.<br>
+      How to treat corona at home? Is there any available hospital in your contact? 
                
      "
       theme="theme_cricbuzz"
     />
 
-    <div class="p-image-100-duo">
+    <!-- Desighn -->
+  <div class="distress-row">
+    <div class="admin-column">
+      <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+            />
+            <img
+              src="~assets/projects/gocorona/messagescreen1.jpg"
+              alt="GoCorona app screenshots"
+            />
+          </picture>
+
+    </div>
+    <div class="admin-column">
+      <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+            />
+            <img
+              src="~assets/projects/gocorona/messagescreen2.jpg"
+              alt="GoCorona app screenshots"
+            />
+          </picture>
+    </div>
+    <div class="admin-column">
+      <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+            />
+            <img
+              src="~assets/projects/gocorona/messagescreen3.jpg"
+              alt="GoCorona app screenshots"
+            />
+          </picture>
+    </div>
+  </div>
+
+    
+
+    <pcase
+      heading="Help Screen"
+      para=" Here people can tell what groceries they have available with their address and contact number, so that the needy can contact them easily.
+     "
+      theme="theme_cricbuzz"
+    />
+
+   <div class="distress-row">
+  <div class="distress-column">
+     <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+          />
+          <img
+            src="~assets/projects/gocorona/helpscreen1.jpg"
+            alt="GoCorona app screenshots"
+          />
+        </picture>
+
+  </div>
+  <div class="distress-column">
+    <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+          />
+          <img
+            src="~assets/projects/gocorona/helpscreen2.jpg"
+            alt="GoCorona app screenshots"
+          />
+        </picture>
+  </div>
+</div>
+
+ <br>
+
+    <p style="margin-left: 100px;">Every Database is stored according to the person's unique id in Real time Database</p>
+
+      <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
           <img
-            src="~assets/projects/cricbuzz/cricbuzz-wireframing.jpg"
+            src="~assets/projects/gocorona/distressbackend.png"
             alt="cricbuzz app wireframing"
           />
         </picture>
       </div>
     </div>
 
-    <!-- User Interface -->
+    
+
     <pcase
-      heading="Website concept"
-      para="The website concept was built with a basic component style
-      guide of buttons, typography, colors, and layout. We did our best
-      to stay true to Homely’s desire for simplicity.
-               
+      heading="What targets we accomplished so far"
+      para="Total 4 working screens were created as shown. <br>
+      Screens: <br>
+      1. Home Screen- To show the live map and notifications from the admin(government) <br>
+      2. Call Screen- Where people can fill what problems they are facing so that govt. can take action.<br>
+      3. Message Screen- To let people connect and to share their experiences<br>
+      4. Help Screen- To let people donate the groceries for the needy. <br>
+
      "
       theme="theme_cricbuzz"
     />
 
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <img
-            src="~assets/projects/cricbuzz/cricbuzz-xd-all-screen.jpg"
-            alt="cricbuzz app redesign ui screen"
-          />
-          <p class="ps black70">Adobe XD- App screens</p>
-        </picture>
+
+
+    <div class="distress-row">
+      <div class="distress-column">
+        <pcase
+          heading="Admin Screen"
+          para="Due to less time, right now we created a special login for admin so that it can access all the database and perform functions. <br>
+          Role of Admin: <br>
+          1. The admin is the supervisor of the app. <br>
+          2. It can send notifications/alerts to all registered users of the app.<br>
+          3. It can also see the request for the distress call.<br>
+          4. And call can be directly dialed from the app which will redirect to default dialer. <br>
+
+        "
+          theme="theme_cricbuzz"
+        />
+
       </div>
-    </div>
-
-    <pcase
-      heading="Marketing"
-      para="Not only did we develop the branding for Homely,
-      but we also built marketing material for print and online use.
-     "
-      theme="theme_cricbuzz"
-    />
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
+  <div class="distress-column">
+  <br>
+  <br>
+  <br>
+  <br>
+    <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/cricbuzz/cricbuzz-ui-onboarding-mobile.jpg"
+            srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
           />
           <img
-            src="~assets/projects/cricbuzz/cricbuzz-ui-onboarding.jpg"
-            alt="cricbuzz app redesign onboarding experience screen"
+            src="~assets/projects/gocorona/adminscreen.jpg"
+            alt="GoCorona app screenshots"
           />
-          <p class="ps black70">App Onboarding experience</p>
+        </picture>
+  </div>
+</div>
+
+ <br>
+
+    <p style="margin-left: 100px;">The notifications are sent through the admin credentials using firebase cloud functions</p>
+
+      <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <img
+            src="~assets/projects/gocorona/notification.png"
+            alt="cricbuzz app wireframing"
+          />
         </picture>
       </div>
     </div>
 
-    <pcase
-      heading="Mono color logo"
-      para="It’s important that a logo looks good using only one
-      color. Unfold made several variations showing how the logo
-      can be presented using a monotone color.
-
-     "
-      theme="theme_cricbuzz"
-    />
+<!--
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -268,73 +497,85 @@ Exploration"
       </div>
     </div>
 
-    <pcase
-      heading="Other App Screen"
-      para="Every Interactive elements is placed in the Active area of the mobile wherever possible
-      so even a person who is holding phone in one hand can navigate with thumb easily just like in Samsung new one UI. With new search feature
-      user can easily go through topics, related videos, player profile etc. 
+-->
 
-      All menu CTA is placed in in Active area so user can navigate very easily
-      even on bigger screen.
-
-     "
-      theme="theme_cricbuzz"
-    />
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <source
-            media="(max-width: 600px)"
-            srcset="~assets/projects/cricbuzz/cricbuzz-ui-other-mobile.jpg"
-          />
-          <img
-            src="~assets/projects/cricbuzz/cricbuzz-ui-other.jpg"
-            alt="cricbuzz app redesign ui screen"
-          />
-          <p class="ps black70">App other screen UI</p>
-        </picture>
-      </div>
-    </div>
-
-    <!-- User Interface -->
-    <pcase
-      heading="Prototype"
-      para="Made an App rapid prototype showing interactions with elements, sleek animations using Adobe XD auto-animate feature. A lot can 
-      be improved though.In two days This is all did.
+  <pcase
+      heading="Future Scope"
+      para=" If selected we might add these functionalities too in our app. <br>
+      1. Add payment gateway to help NGO’s. <br>
+      2. Backtracking through map history to find contacts of other Corona patients. <br>
+      3. Distributed admins based on locations.<br>
+      4. Alert notification of any increase corona patients in users location.<br>
 .  
                
      "
       theme="theme_cricbuzz"
     />
 
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <img
-            src="~assets/projects/cricbuzz/cricbuzz-xd-prototype-screen.jpg"
-            alt="cricbuzz app redesign prototype"
-          />
-          <p class="ps black70">Adobe XD-Prototype</p>
-        </picture>
-      </div>
+
+    <pcase
+      heading="Other Backend and App screens"
+      para="The whole backend and some other app screens
+
+     "
+      theme="theme_cricbuzz"
+    />
+
+      <!-- Desighn -->
+  <div class="distress-row">
+    <div class="admin-column">
+      <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+            />
+            <img
+              src="~assets/projects/gocorona/backend.jpg"
+              alt="GoCorona app screenshots"
+              width="400px"
+            />
+          </picture>
+
     </div>
+    <div class="admin-column">
+      <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+            />
+            <img
+              src="~assets/projects/gocorona/infected.jpg"
+              alt="GoCorona app screenshots"
+            />
+          </picture>
+    </div>
+    <div class="admin-column">
+      <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+            />
+            <img
+              src="~assets/projects/gocorona/map.jpg"
+              alt="GoCorona app screenshots"
+            />
+          </picture>
+    </div>
+  </div>
+  
+
 
     <pcase
       heading="Conclusion"
-      para="There a lot of things and conditions that these design doesn't justify. With two sleepless
-      night this is all I can design. There may be one and more typos error and not pixel perfect and
-      please don't mind my English and English Grammar. I try hard though to not  mistake. There's a
-      lot of area where with good research and planning app can be made even more awesome for all
-      cricket lover.  Thanks SuperGaming.
+      para="The basic idea hence to conclude is to clear the air of tensions of this pandemic. Amidst the tension  
+      the only motto being to stay safe and sound and not inculcate the lifestyle the pandemic has given to us. 
+      Rather be productive and work towards the better.
 .  
                
      "
       theme="theme_cricbuzz"
     />
-
+    <!--
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
@@ -350,6 +591,7 @@ Exploration"
         </picture>
       </div>
     </div>
+    -->
 
     <!-- key Focus Area -->
 
@@ -360,18 +602,14 @@ Exploration"
 
           <div class="pm black70">
             <div class="kf-layout">
-              <span>✔ Research</span>
-              <span>✔ Ideation</span>
-              <span>✔ Downloaded Apps</span>
-              <span>✔ Taken screenshots</span>
-              <span>✔ User Interface</span>
-              <span>✔ User Experience</span>
+              <span>✔ Firebase Setup</span>
+              <span>✔ Ideation </span>
+              <span>✔ Showing live locations of Users in Map</span>
+              <span>✔ Database Design</span>
+              <span>✔ Grorcery Screen </span>
+              <span>✔ Sending Messages </span>
+              <span>✔ Appropriate using of Real time and Cloud Database</span>
               <span>✔ Basic Wireframe</span>
-              <span>✔ Interactive Prototype</span>
-              <span>✔ Made a simple logo</span>
-              <span>✔ Rapid Prototyping</span>
-              <span>✔ Made Mockups</span>
-              <span>✔ Pop and un-pop things</span>
             </div>
           </div>
         </div>
@@ -385,17 +623,16 @@ Exploration"
         <h2 class="p-para black50">Learnings</h2>``
         <div class="pm black70">
           <p>
-            The most challenging part of any project which I have observed is even starting it.
-            Once I start it the next big thing is Deciding which problem to solve. As a UX designer, we are
-            driven by curiosity and a burning desire to solve problems. The more insights we uncover,
-            the more problems we will identify — and the harder it becomes to settle on just one. During research and design phase
-            i got into loop of deciding what to give more time and which to not. If i have focused on all parts of Cricbuzz app, it would not have
-            been possible to finish it all in 2 days at all. So focusing only on Important stuff is very crucial.
+            The most challenging part of this project we faced was was we all were new to the flutter and we wantted to learn App development.
+            We thought a lot how our app could be any different from Aarogya Setu and other corona related Apps. 
+            We tried to make the app addressing the more local problems and help people in connectivity. My own family was scared about what to do 
+            when we faced corona, and we thought talking to people and being aware of your surroundings might help. 
           </p>
         </div>
       </div>
     </div>
 
+<!--
     <div class="p-quote contain red">
       <blockquote>
         It’s inevitable that we uncover new pain-points along the way, but we can’t
@@ -403,6 +640,7 @@ Exploration"
       </blockquote>
     </div>
 
+-->
     <!-- End Line  -->
 
     <div class="section-divider">
@@ -489,5 +727,35 @@ export default {
   /* height: 100%; */
   width: 300px;
   margin: 20px;
+}
+
+.distress-column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-left: 150px;
+}
+
+.admin-column {
+  float: left;
+  width: 30.33%;
+  padding: 5px;
+  margin-left: 40px;
+
+}
+
+.admin-column-location{
+
+  float: left;
+  width: 20.33%;
+  padding: 5px;
+
+}
+
+/* Clearfix (clear floats) */
+.distress-row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 </style>
