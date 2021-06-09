@@ -9,15 +9,16 @@ const _1daed4f9 = () => interopDefault(import('../pages/CodeExperiment/index.vue
 const _3ed65091 = () => interopDefault(import('../pages/Opensource.vue' /* webpackChunkName: "pages/Opensource" */))
 const _5fea835e = () => interopDefault(import('../pages/people/index.vue' /* webpackChunkName: "pages/people/index" */))
 const _f37dcef8 = () => interopDefault(import('../pages/photography/index.vue' /* webpackChunkName: "pages/photography/index" */))
+const _e7e9b8a6 = () => interopDefault(import('../pages/playcode.vue' /* webpackChunkName: "pages/playcode" */))
+const _0e0bf588 = () => interopDefault(import('../pages/playlife.vue' /* webpackChunkName: "pages/playlife" */))
 const _ded61aee = () => interopDefault(import('../pages/projects/index.vue' /* webpackChunkName: "pages/projects/index" */))
-const _b00f4e2a = () => interopDefault(import('../pages/projects/awesome-inc.vue' /* webpackChunkName: "pages/projects/awesome-inc" */))
+const _7ff4d101 = () => interopDefault(import('../pages/projects/automizeapps.vue' /* webpackChunkName: "pages/projects/automizeapps" */))
 const _12c2fb66 = () => interopDefault(import('../pages/projects/Blockchain.vue' /* webpackChunkName: "pages/projects/Blockchain" */))
 const _a576c140 = () => interopDefault(import('../pages/projects/bls.vue' /* webpackChunkName: "pages/projects/bls" */))
-const _dcdb5908 = () => interopDefault(import('../pages/projects/dear-zindagi.vue' /* webpackChunkName: "pages/projects/dear-zindagi" */))
 const _d985c8a0 = () => interopDefault(import('../pages/projects/dreamz.vue' /* webpackChunkName: "pages/projects/dreamz" */))
-const _31d3c8b8 = () => interopDefault(import('../pages/projects/feeding-trends.vue' /* webpackChunkName: "pages/projects/feeding-trends" */))
 const _b5f7a428 = () => interopDefault(import('../pages/projects/filmingeye.vue' /* webpackChunkName: "pages/projects/filmingeye" */))
 const _66a1fa2f = () => interopDefault(import('../pages/projects/ft-events.vue' /* webpackChunkName: "pages/projects/ft-events" */))
+const _1097596a = () => interopDefault(import('../pages/projects/goals101.vue' /* webpackChunkName: "pages/projects/goals101" */))
 const _1bf88346 = () => interopDefault(import('../pages/projects/GoCorona.vue' /* webpackChunkName: "pages/projects/GoCorona" */))
 const _262a80c8 = () => interopDefault(import('../pages/projects/happy-miles.vue' /* webpackChunkName: "pages/projects/happy-miles" */))
 const _8d05dbc2 = () => interopDefault(import('../pages/projects/hello-color.vue' /* webpackChunkName: "pages/projects/hello-color" */))
@@ -36,9 +37,9 @@ const _8603bda2 = () => interopDefault(import('../pages/projects/projects-academ
 const _8aebd74c = () => interopDefault(import('../pages/projects/r3.vue' /* webpackChunkName: "pages/projects/r3" */))
 const _314a75d2 = () => interopDefault(import('../pages/projects/salesfactory.vue' /* webpackChunkName: "pages/projects/salesfactory" */))
 const _0e11a878 = () => interopDefault(import('../pages/projects/SocialContour.vue' /* webpackChunkName: "pages/projects/SocialContour" */))
-const _27f414de = () => interopDefault(import('../pages/projects/tbt-app.vue' /* webpackChunkName: "pages/projects/tbt-app" */))
 const _3c2c2f0a = () => interopDefault(import('../pages/projects/thebbdtimes.vue' /* webpackChunkName: "pages/projects/thebbdtimes" */))
 const _897566fe = () => interopDefault(import('../pages/projects/thebegining.vue' /* webpackChunkName: "pages/projects/thebegining" */))
+const _c770524a = () => interopDefault(import('../pages/projects/TravelGo.vue' /* webpackChunkName: "pages/projects/TravelGo" */))
 const _31193c89 = () => interopDefault(import('../pages/Blog/_slug.vue' /* webpackChunkName: "pages/Blog/_slug" */))
 const _bba42714 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -76,13 +77,21 @@ export const routerOptions = {
     component: _f37dcef8,
     name: "photography___en"
   }, {
+    path: "/playcode",
+    component: _e7e9b8a6,
+    name: "playcode___en"
+  }, {
+    path: "/playlife",
+    component: _0e0bf588,
+    name: "playlife___en"
+  }, {
     path: "/projects",
     component: _ded61aee,
     name: "projects___en"
   }, {
-    path: "/projects/awesome-inc",
-    component: _b00f4e2a,
-    name: "projects-awesome-inc___en"
+    path: "/projects/automizeapps",
+    component: _7ff4d101,
+    name: "projects-automizeapps___en"
   }, {
     path: "/projects/Blockchain",
     component: _12c2fb66,
@@ -92,17 +101,9 @@ export const routerOptions = {
     component: _a576c140,
     name: "projects-bls___en"
   }, {
-    path: "/projects/dear-zindagi",
-    component: _dcdb5908,
-    name: "projects-dear-zindagi___en"
-  }, {
     path: "/projects/dreamz",
     component: _d985c8a0,
     name: "projects-dreamz___en"
-  }, {
-    path: "/projects/feeding-trends",
-    component: _31d3c8b8,
-    name: "projects-feeding-trends___en"
   }, {
     path: "/projects/filmingeye",
     component: _b5f7a428,
@@ -111,6 +112,10 @@ export const routerOptions = {
     path: "/projects/ft-events",
     component: _66a1fa2f,
     name: "projects-ft-events___en"
+  }, {
+    path: "/projects/goals101",
+    component: _1097596a,
+    name: "projects-goals101___en"
   }, {
     path: "/projects/GoCorona",
     component: _1bf88346,
@@ -184,10 +189,6 @@ export const routerOptions = {
     component: _0e11a878,
     name: "projects-SocialContour___en"
   }, {
-    path: "/projects/tbt-app",
-    component: _27f414de,
-    name: "projects-tbt-app___en"
-  }, {
     path: "/projects/thebbdtimes",
     component: _3c2c2f0a,
     name: "projects-thebbdtimes___en"
@@ -195,6 +196,10 @@ export const routerOptions = {
     path: "/projects/thebegining",
     component: _897566fe,
     name: "projects-thebegining___en"
+  }, {
+    path: "/projects/TravelGo",
+    component: _c770524a,
+    name: "projects-TravelGo___en"
   }, {
     path: "/Blog/:slug",
     component: _31193c89,

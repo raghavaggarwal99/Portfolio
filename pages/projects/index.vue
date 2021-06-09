@@ -64,10 +64,10 @@
         </div>
 
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/feeding-trends">
+          <nuxt-link to="/projects/TravelGo">
             <thumbnail
-              thumbnailName="Feeding Trends"
-              thumbnailDescription="Web, Branding, Print"
+              thumbnailName="Travel Go"
+              thumbnailDescription="Chatbot as Internship in Valiance Solutions"
               thumbnail="/ft-thumbnail-2.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
@@ -92,15 +92,15 @@
           </nuxt-link>
         </div>
 
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/filmingeye">
+           <div class="p-thumbnail-ad">
+          <nuxt-link to="/playlife">
             <thumbnail
-              thumbnailName="Filming Eye"
-              thumbnailDescription="Web, Identity"
-              thumbnail="/filming-eye-thumbnail.jpg"
-              data-aos="zoom-out-up"
+              thumbnailName="Play"
+              thumbnailDescription="Brochure, Identity"
+              thumbnail="/dear-zindagi-thumbnail.webp"
+              data-aos="fade-up"
               data-aos-duration="400"
-              data-aos-delay="100"
+              data-aos-delay="300"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -120,6 +120,33 @@
           </nuxt-link>
         </div>
 
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/automizeapps">
+            <thumbnail
+              thumbnailName="Automize Apps"
+              thumbnailDescription="Internship"
+              thumbnail="/awesome-inc-thumnail-3.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="100"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+
+         <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/goals101">
+            <thumbnail
+              thumbnailName="Change Management Tool"
+              thumbnailDescription="Goals 101, Internship"
+              thumbnail="/tbt-app-thumbnail.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="300"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
         <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/ft-events">
             <thumbnail
@@ -162,26 +189,13 @@
           </nuxt-link>
         </div>
 
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/dear-zindagi">
-            <thumbnail
-              thumbnailName="Dear Zindagi"
-              thumbnailDescription="Brochure, Identity"
-              thumbnail="/dear-zindagi-thumbnail.webp"
-              data-aos="fade-up"
-              data-aos-duration="400"
-              data-aos-delay="300"
-              data-aos-once="true"
-            />
-          </nuxt-link>
-        </div>
 
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/awesome-inc">
+       <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/filmingeye">
             <thumbnail
-              thumbnailName="Awesome Inc."
-              thumbnailDescription="Identity, Print"
-              thumbnail="/awesome-inc-thumnail-3.jpg"
+              thumbnailName="Filming Eye"
+              thumbnailDescription="Web, Identity"
+              thumbnail="/filming-eye-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="100"
@@ -190,19 +204,6 @@
           </nuxt-link>
         </div>
 
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/tbt-app">
-            <thumbnail
-              thumbnailName="TBT App"
-              thumbnailDescription="App, Branding"
-              thumbnail="/tbt-app-thumbnail.jpg"
-              data-aos="zoom-out-up"
-              data-aos-duration="400"
-              data-aos-delay="300"
-              data-aos-once="true"
-            />
-          </nuxt-link>
-        </div>
 
         <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/prepowl">

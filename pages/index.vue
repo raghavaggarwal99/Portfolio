@@ -160,10 +160,10 @@
         </div>
 
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/feeding-trends">
+          <nuxt-link to="/projects/TravelGo">
             <thumbnail
-              thumbnailName="Feeding Trends"
-              thumbnailDescription="Web, Branding, Print"
+              thumbnailName="Travel Go"
+              thumbnailDescription="Chatbot as Internship in Valiance Solutions"
               thumbnail="/ft-thumbnail-2.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"

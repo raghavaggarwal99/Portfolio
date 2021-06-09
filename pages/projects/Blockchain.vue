@@ -40,9 +40,9 @@
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/elevito/elevito-hero-mobile.jpg"
+            srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
           />
-          <img src="~assets/projects/elevito/elevito-hero.jpg" alt="cool background" />
+          <img src="~assets/projects/blockchain/main.jpg" alt="cool background" />
         </picture>
       </div>
     </div>
@@ -51,14 +51,15 @@
       timeframe=" August 2019- September 2019
     <br />2 Months"
       tools="Nodejs
-            <br>Ethereum"
-       purpose="Microsoft Codefundoo++ "
+            <br>Ethereum
+            <br> Solidity"
+       purpose="Microsoft Codefundoo++ 2019"
         github="https://github.com/raghavaggarwal99/Blockchain"
 
       role=" Blockchain Transactions
       
             <br>Google Firebase"
-      team=" R_A_M
+      team=" The Three
             <br>Raghav Aggarwal
             <br>Devaishi Tiwari
             <br>Umang Kakkar"
@@ -115,29 +116,29 @@
 
     <pcase
       heading="Ideation"
-      para=" These are the problems that we think we have due to Corona <br>
-            1. Identification of Corona Patients <br>
-            2.  Loss of Money <br>
-            3. Shortage of Food and Supplies <br>
-            4. Not caring about the problem enough <br>
-            5. Lack of awareness <br>
-            6. Checkups and Treatments <br>
-            7. Boredom in Quarantine   
+      para=" These are the things how we thought E-Voting could be implemented<br>
+            1. Using Blockchain just like a money transaction<br>
+            2. Identifying each user <br>
+            3. Voting can only happens once <br>
+            4. Using camera/image processing to detect a user <br>
+            5. Aadhar login for a unique user 
      "
       theme="Research"
     />
 
-    <p class="contain just-para black90">
+    <!-- <p class="contain just-para black90">
       The purpose of the website was to showcase our works we have done so far particularly me and my fellow designers and through
       that, to clients and to convince them that we are the people they are looking far.
-    </p>
+    </p> -->
 
    
     <!-- Art direction Design-->
 
     <pcase
       heading="Authentification Screens"
-      para="The authentification screens
+      para="The portal opens up with a login page, and another page to get the aadhar information from the user. Every aadhar number is linked with the phone numbner
+      to get the unique OTP which handles the login.
+      All the backend of login is handled through Firebase with Nodejs
       "
       theme="theme_elevito"
     />
@@ -148,13 +149,13 @@
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/elevito/elevito-wireframe-cyan-mobile.jpg"
+            srcset="~assets/projects/blockchain/elevito-wireframe-cyan-mobile.jpg"
           />
           <img
             src="~assets/projects/blockchain/img6.png"
             alt="website wireframing, wireframing"
           />
-          <p class="ps black90">Initial layout and Primary Colours.</p>
+          <!-- <p class="ps black90">Initial layout and Primary Colours.</p> -->
         </picture>
       </div>
     </div>
@@ -165,25 +166,36 @@
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/elevito/elevito-wireframe-cyan-mobile.jpg"
+            srcset="~assets/projects/blockchain/elevito-wireframe-cyan-mobile.jpg"
           />
           <img
             src="~assets/projects/blockchain/img5.png"
             alt="website wireframing, wireframing"
           />
-          <p class="ps black90">Initial layout and Primary Colours.</p>
+          <!-- <p class="ps black90">Initial layout and Primary Colours.</p> -->
         </picture>
       </div>
     </div>
 
-  
-   
 
-    <!-- Fonts, Colors & Patterns -->
+     <pcase
+      heading="How the Blockchain is working?"
+      para="
+      <b>Step 1</b> - Setting up Environment Instead of developing the app against the live Ethereum blockchain, 
+      we have used an in-memory blockchain (think of it as a blockchain simulator) called testrpc. <br>
+
+      <b>Step 2 </b>- Creating Voting Smart Contract. <br>
+        <!-- <p style=background-color:#D3D3D3; margin-right: 200px;>npm install solc</p> -->
+      
+
+
+    <b>Step3 </b>- Setting connection with ethereum Blockchain services. This will list out the 10 accounts that are given in free in ganache-cli. <br>
+
+     <!-- <p style=background-color:#D3D3D3; margin-right: 200px;>node_modules/.bin/ganache-cli</p>  -->
+
+     Here you can see, I am displaying the accounts at 3 places. All are same. First is the above written command. 
+     2nd and 3rd is when i set up my connection with ganache-cli in browser and node terminal respectively
    
-    <pcase
-      heading="Voting Screen"
-      para="The voting screen
       "
       theme="theme_elevito"
     />
@@ -194,7 +206,49 @@
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/elevito/elevito-wireframe-cyan-mobile.jpg"
+            srcset="~assets/projects/blockchain/elevito-wireframe-cyan-mobile.jpg"
+          />
+          <img
+            src="~assets/projects/blockchain/img1.png"
+            alt="website wireframing, wireframing"
+          />
+          <!-- <p class="ps black90">Initial layout and Primary Colours.</p> -->
+        </picture>
+      </div>
+    </div>
+
+
+    <pcase
+      heading=""
+      para="<b>Step 4</b>- Compiling the contract </b> <br>
+      The contract is written in solidity which contains all the logic for votes. 
+
+        When you compile the code successfully using the command above, the compiler outputs 2 files that are important to understand: <br>
+
+        <b>Voting_sol_Voting.bin</b> : This is the bytecode you get when the source code in Voting.sol is compiled. 
+        This is the code which will be deployed to the blockchain. <br>
+        <b>Voting_sol_Voting.abi</b> : This is an interface or template of the contract (called abi) 
+        which tells the contract user what methods are available in the contract. Whenever you have to interact with the contract in the future,
+        you will need this abi definition. You can read more details about ABI here.
+
+      "
+      theme="theme_elevito"
+    />
+
+
+<!-- 
+     Step 5 - Testing in node console
+
+    Not required just for testing in node console- After writing our smart contract, we'll use Web3js to deploy our app and interact with it
+ -->
+
+      <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/blockchain/elevito-wireframe-cyan-mobile.jpg"
           />
           <img
             src="~assets/projects/blockchain/img4.png"
@@ -205,11 +259,30 @@
       </div>
     </div>
 
+    <p style="margin-left: 100px;"> Given below shows the transaction hash of a particular vote and in the terminal you can found the 
+    increase in votes of all candidates.</p>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/blockchain/elevito-wireframe-cyan-mobile.jpg"
+          />
+          <img
+            src="~assets/projects/blockchain/img2.png"
+            alt="website wireframing, wireframing"
+          />
+          <!-- <p class="ps black90">Initial layout and Primary Colours.</p> -->
+        </picture>
+      </div>
+    </div>
 
 
-    <!-- elevito web  -->
 
-  
+
+
 
     <!-- key Focus Area -->
 
@@ -220,19 +293,14 @@
 
           <div class="pm black70">
             <div class="kf-layout">
-              <span>✔ Research</span>
+              <span>✔ Research on Blockchain</span>
               <span>✔ Ideation</span>
-              <span>✔ Taking Design Meetings</span>
-              <span>✔ Collaborating with developer</span>
-              <span>✔ Creative Direction</span>
-              <span>✔ Lots of IceTea</span>
-              <span>✔ Exporting Assets</span>
-              <span>✔ Wireframing</span>
-              <span>✔ Testing with users</span>
-              <span>✔ Creating A design System</span>
-              <span>✔ Branding</span>
-              <span>✔ Identy Design</span>
-              <span>✔ Defending UX Decisions</span>
+              <span>✔ Regular Meetings</span>
+              <span>✔ Collaborating with developers</span>
+              <span>✔ Thinking how it can be used in real world</span>
+              <span>✔ Backend ethereum connectivity</span>
+              <span>✔ Front end using Html and CSS</span>
+            <span>✔ Blockchain services</span>
             </div>
           </div>
         </div>
@@ -246,25 +314,21 @@
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            Elevito happen during my college time. Its my greatest learning curve. I did everything that I can do all with love.
-            It was time when We did not have even lots of projects to showcase on website, still we managed to show 15 Projects, out of which
-            2 projects was fictional, I did them to learn more, and to be creative with them. I took really a lot of time like 2 months just
-            showcasing 15 projects, there were times when It became very boring, couldn't give my best, but with everyone support and love
-            I never lost enthusiasm and maintained our excitement. Whenever I couldn't do something, there were people whom i could lean on. This
-            was all possible because each and everyone came together even in their busiest of time, even when exams were near.
+            We always wanted to try blockchain and what the fus is all about, so we took the oppurtunity of creating a E-Voting portal through ethereum services.
+
           </p>
         </div>
       </div>
     </div>
 
-    <div class="p-quote contain red">
+    <!-- <div class="p-quote contain red">
       <blockquote>
         1 option is better than many.
         When you're communicating your process and solutions to a people who isn't always the key decision-maker,
         it's important to keep your points clear and concise enough for easy re-communication. Even though that person
         may appreciate the extra displayed effort, it can muddy the waters when feedback comes back out.
       </blockquote>
-    </div>
+    </div> -->
 
     <!-- End Line  -->
 
