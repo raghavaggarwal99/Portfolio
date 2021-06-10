@@ -1,45 +1,14 @@
  <template>
   <div class="nav-container">
+
     <nuxt-link to="/">
       <div class="logo">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="74.707"
-          height="71.707"
-          viewBox="0 0 74.707 71.707"
-        >
-          <g transform="translate(-23.146 -36.146)">
-            <line
-              x1="53"
-              y2="53"
-              transform="translate(23.5 36.5)"
-              fill="none"
-              stroke="#f6ecdd"
-              stroke-width="1"
-            />
-            <path
-              d="M53,0,43.891,9.109,0,53"
-              transform="translate(34.5 45.5)"
-              fill="none"
-              stroke="#f6ecdd"
-              stroke-width="1"
-            />
-            <path
-              d="M53,0,43.891,9.109,0,53"
-              transform="translate(44.5 54.5)"
-              fill="none"
-              stroke="#f6ecdd"
-              stroke-width="1"
-            />
-            <path
-              d="M19.53-18.9c-.56-2.8-2.87-6.44-8.89-6.44C5.95-25.34,2-21.98,2-17.57c0,3.745,2.555,6.3,6.51,7.105l3.465.7c1.925.385,3.01,1.505,3.01,2.94,0,1.75-1.435,3.045-4.025,3.045-3.5,0-5.215-2.2-5.425-4.655L1.05-7.245C1.435-3.71,4.34.525,10.92.525c5.775,0,8.96-3.85,8.96-7.665,0-3.5-2.415-6.44-6.93-7.315L9.485-15.12c-1.82-.35-2.7-1.435-2.7-2.8,0-1.645,1.54-3.15,3.885-3.15a4.237,4.237,0,0,1,4.515,3.5ZM23.17-2.94A3.2,3.2,0,0,0,26.355.245a3.2,3.2,0,0,0,3.22-3.185,3.2,3.2,0,0,0-3.22-3.185A3.2,3.2,0,0,0,23.17-2.94Z"
-              transform="translate(44 82)"
-              fill="#fc3a52"
-            />
-          </g>
-        </svg>
+        <span class="underline-magical">Work</span>
       </div>
     </nuxt-link>
+
+
+    
 
     <!-- <div class="menu-button-container">AAAAAA
       <button v-on:click="show = !show" class="menu-button">Toggle</button>
@@ -66,6 +35,7 @@
         </transition-group>
       </svg>
     </div>
+
     <transition name="slide-in">
       <div v-if="show">
         <div class="nav">
@@ -74,7 +44,7 @@
               <nuxt-link to="/">Home</nuxt-link>
             </span>
             <span class="nav__list-item">
-              <nuxt-link to="/projects">Projects</nuxt-link>
+              <nuxt-link to="/playlife">Play</nuxt-link>
             </span>
             <span class="nav__list-item">
               <nuxt-link to="/blog">Blog</nuxt-link>
@@ -93,7 +63,7 @@
                 <div class="social-two">
                   <a
                     class="button"
-                    href="https://www.facebook.com/saurabhchandrarai"
+                    href="https://www.facebook.com/profile.php?id=100005265196901"
                     target="_blank"
                     rel="noopener"
                     title="Facebook (new tab)"
@@ -108,7 +78,7 @@
                 <div class="social-two">
                   <a
                     class="button"
-                    href="https://www.instagram.com/saurabh.c.rai/"
+                    href="https://www.instagram.com/aggrwal_raghav"
                     target="_blank"
                     rel="noopener"
                     title="Instagram (new tab)"
@@ -123,7 +93,7 @@
                 <div class="social-two">
                   <a
                     class="button"
-                    href="https://www.linkedin.com/in/saurabhchandrarai/"
+                    href="https://www.linkedin.com/in/raghav0089"
                     target="_blank"
                     rel="noopener"
                     title="Linkdin (new tab)"
@@ -138,7 +108,7 @@
                 <div class="social-two">
                   <a
                     class="button"
-                    href="https://medium.com/@saurabhcrai"
+                    href="https://medium.com/@raghavaggarwal0089"
                     target="_blank"
                     rel="noopener"
                     title="Medium (new tab)"
@@ -153,22 +123,7 @@
                 <div class="social-two">
                   <a
                     class="button"
-                    href="https://www.behance.net/saurabhcrai"
-                    target="_blank"
-                    rel="noopener"
-                    title="Behance (new tab)"
-                  >
-                    <div class="social-three">
-                      <img class="social-four" src="~assets/footer/behance-lightgrey.png" />
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="social-one">
-                <div class="social-two">
-                  <a
-                    class="button"
-                    href="https://github.com/SAURABHRAI110"
+                    href="https://github.com/raghavaggarwal99"
                     target="_blank"
                     rel="noopener"
                     title="Github(new tab)"
@@ -186,9 +141,11 @@
     </transition>
 
     <span class="h-fullscreen-container">
-      <button class="full-screen" onclick="openFullscreen();">
-        <p>Go fullscreen</p>
-      </button>
+      <nuxt-link to="/playlife">
+      <div>
+        <span class="underline-magical">Play</span>
+      </div>
+    </nuxt-link>
     </span>
   </div>
 </template>
@@ -204,6 +161,7 @@ export default {
 }
 </script>
 <style scoped>
+
 .nav-container {
   width: 100px;
   height: 100vh;
@@ -230,10 +188,9 @@ button {
 
 .logo {
   display: inline-block;
-  animation: turn 2s linear forwards 1s;
   position: absolute;
   overflow: hidden;
-  left: 15%;
+  left: 50%;
   padding-top: 30px;
   transform: translate(-50%);
   z-index: 10;
@@ -537,7 +494,7 @@ button.full-screen {
 .full-screen:before,
 .full-screen:after {
   content: '';
-  background: white;
+  background: black;
   position: absolute;
 }
 .full-screen:before {

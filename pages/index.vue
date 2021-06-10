@@ -3,17 +3,38 @@
     <div class="a-hero_container">
  
       <div class="nametag-container contain">
+
         <div class="h-name" data-aos="fade-up" data-aos-duration="900">
           <nuxt-link to="/about" style="text-decoration: none;">
             <span class="underline-magical">Raghav Aggarwal</span>
           </nuxt-link>
         </div>
+
+        <div class="h-name example2" data-aos="fade-up" data-aos-duration="900">
+          <nuxt-link to="/blog" style="text-decoration: none;">
+            <span class="underline-magical">Blogs</span>
+          </nuxt-link>
+        </div>
+
+         <div class="h-name example" data-aos="fade-up" data-aos-duration="900">
+         <a target="_blank" href="https://drive.google.com/file/d/1eY17t6eSunu_KQV46eylpop8Wd8C8w3I/view?usp=sharing">
+          <!-- <nuxt-link to="https://drive.google.com/file/d/1eY17t6eSunu_KQV46eylpop8Wd8C8w3I/view?usp=sharing" style="text-decoration: none;"> -->
+            <span class="underline-magical">Resume</span>
+          <!-- </nuxt-link> -->
+          </a>
+        </div>
+
+
+<!-- 
         <div
           class="h-j-title"
           data-aos="fade-up"
           data-aos-duration="900"
           data-aos-delay="200"
-        >Software Developer</div>
+        >Software Developer
+        </div> -->
+
+
       </div>
 
       <div
@@ -23,117 +44,32 @@
         data-aos-delay="400"
       >
         <h1>
-          <span>User Experience</span>
+          <span>Graduate Analyst</span>
           <br />
-          <span class="outlined">Designer</span> At
+          <span class="outlined">Technology</span> At
           <br />
-          <a href="https://www.ranosys.com/" target="_blank" rel="noopener" title="ranosys.com">
-            <span class="underline-magical-hero">Ranosys Technologies</span>
+          <a href="https://www.db.com/" target="_blank" rel="noopener" title="db.com">
+            <span class="underline-magical-hero">Deutsche Bank</span>
           </a>
         </h1>
       </div>
       <div class="contain">
         <p data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
-          Hi! My friends call me Saurabh, I am a multidisciplinary UX/UI Designer and Front-end Developer. I
-          <span>
-            <nuxt-link to="/projects">
-              <span class="underline-magical">design</span>
-            </nuxt-link>,
-            <a
-              href="https://github.com/SAURABHRAI110"
-              target="_blank"
-              rel="noopener"
-              title="Github(new tab)"
-            >
-              <span class="underline-magical">code</span>
-            </a> and
-            <nuxt-link to="/blog">
-              <span class="underline-magical">write.</span>
-            </nuxt-link>
-          </span>
+          Hi! I am Raghav Aggarwal and I am an undergraduate from IIT Guwahati in Mechanical Engineering.
+          I love solving challenges and I code and write.
         </p>
       </div>
     </div>
 
    
-    <!-- get to know me -->
-    <!-- 
-    <div class="more-about-me">
-      <div class="center-h-v">
-        <nuxt-link to="/about">
-          <discovermore class="hover-target" button-text="get to know me" />
-        </nuxt-link>
-      </div>
-    </div>
-    -->
-
-
-    <!-- Showcase video and parallax -->
-    <!--
-    <div class="h-showreel">
-      <div class="showreel-bg">
-        <img v-parallax="0.2" src="~/assets/img/showreel-bg.jpg" alt="elevito wireframe" />
-      </div>
-      <div class="showreel-overlay"></div>
-      <div class="center-h-v">
-        <h1
-          class="showreel-heading"
-          data-aos="fade-up"
-          data-aos-duration="600"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-offset="-200"
-          style="text-transform:uppercase"
-        >Watch Showreel</h1>
-        <p
-          class="showreel-sub-heading"
-          data-aos="fade-up"
-          data-aos-duration="600"
-          data-aos-delay="300"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-offset="-200"
-        >Get Inspired</p>
-        <div
-          @click="openModal"
-          data-aos="fade-up"
-          data-aos-duration="600"
-          data-aos-delay="500"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-offset="-200"
-        >
-          <playbutton />
-        </div>
-      </div>
-    </div>
-   -->
-
-    <!-- Showreell Modal -->
-  
-    <!-- Work Heading -->
-    <!--
-    <div class="h-work_heading contain">
-      <h1>
-        I pour
-        my ❤️️ into
-        <br />
-        <span class="outlined">Every</span>
-        Design.
-      </h1>
-      <p>
-        Here is a small selection of my Work's case study I Enjoy.
-        <nuxt-link to="/projects" class="underline-magical">See all my works.</nuxt-link>
-      </p>
-    </div>
-    -->
-
-    <!-- Work Thumbnails -->
 
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
-        <div class="p-thumbnail-ad">
+         <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/GoCorona">
             <thumbnail
-              thumbnailName="GoCorona"
-              thumbnailDescription="App Designed For Corona"
+              thumbnailName="Gocorona"
+              thumbnailDescription="App  Redesign Concept"
               thumbnail="/cricbuzz-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
@@ -178,25 +114,11 @@
           <nuxt-link to="/projects/SocialContour">
             <thumbnail
               thumbnailName="SocialContour"
-              thumbnailDescription="SocialContour"
+              thumbnailDescription="Freelance"
               thumbnail="/bharatrohangif2.gif"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="300"
-              data-aos-once="true"
-            />
-          </nuxt-link>
-        </div>
-
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/filmingeye">
-            <thumbnail
-              thumbnailName="Filming Eye"
-              thumbnailDescription="Web, Identity"
-              thumbnail="/filming-eye-thumbnail.jpg"
-              data-aos="zoom-out-up"
-              data-aos-duration="400"
-              data-aos-delay="100"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -217,11 +139,11 @@
         </div>
 
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/ft-events">
+          <nuxt-link to="/projects/automizeapps">
             <thumbnail
-              thumbnailName="FT Events"
-              thumbnailDescription="Web, Admin"
-              thumbnail="/ft-event-thumbnail.jpg"
+              thumbnailName="Automize Apps"
+              thumbnailDescription="Internship"
+              thumbnail="/awesome-inc-thumnail-3.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="100"
@@ -230,12 +152,12 @@
           </nuxt-link>
         </div>
 
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/thebbdtimes">
+         <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/goals101">
             <thumbnail
-              thumbnailName="The BBD Times"
-              thumbnailDescription="Branding"
-              thumbnail="/tbt-thumbnail.jpg"
+              thumbnailName="Change Management Tool"
+              thumbnailDescription="Goals 101, Internship"
+              thumbnail="/tbt-app-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="300"
@@ -248,13 +170,13 @@
 
     <!-- view more work -->
 
-    <div class="more-about-me">
+    <!-- <div class="more-about-me">
       <div class="center-h-v">
         <nuxt-link to="/projects">
           <discovermore button-text="view more work" />
         </nuxt-link>
       </div>
-    </div>
+    </div> -->
 
     <!-- people parallax slide section -->
 
@@ -608,4 +530,28 @@ export default {
 .h-blog_heading {
   padding: 40px 0px 40px 0px;
 }
+
+span.bar{
+
+  margin-right: 50px;
+}
+
+
+div.example{
+
+  margin-left: 750px;
+  margin-top: 5px;
+  position: absolute;
+
+}
+
+
+div.example2{
+
+  margin-left: 450px;
+  margin-top: 5px;
+  position: absolute;
+
+}
+
 </style>

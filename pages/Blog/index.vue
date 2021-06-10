@@ -16,13 +16,13 @@
           data-aos-duration="900"
           data-aos-delay="600"
         >
-          When I am not designing or coding, I read. I read a lot and write them on medium and some of them make it here
-          on my website blog. I usually write about
-          <span
+          When I am not coding or watching movies, Sometimes I read, I read about tech controversies happening in the world or some other
+          trending topics what i feel need importance. 
+          <!-- <span
             class="underline-magical"
           >Code</span>,
           <span class="underline-magical">Design</span> and
-          <span class="underline-magical">my Life.</span>
+          <span class="underline-magical">my Life.</span> -->
         </p>
       </div>
     </div>

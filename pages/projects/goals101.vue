@@ -17,13 +17,14 @@
         </p>
       </div>
     </div>
+
     <projecthero
-      pDate="September 2015"
-      pWebsite="TBT App"
-      pCategory="App Design"
-      pHeading="App for students"
+      pDate="May- July 2020"
+      pWebsite="Service Request Management"
+      pCategory="Backend Design"
+      pHeading="Service Request Management Tool"
       pHeadingcolor="color:#0F2E47;"
-      pSubheading="connecting talent in college"
+      pSubheading="Product designed to streamline the request management system of the company completely automated"
     />
     <!-- <div class="p-fe-hero_image">
       <img src="~assets/projects/fe/fe2.png" alt>
@@ -40,22 +41,28 @@
             media="(max-width: 600px)"
             srcset="~assets/projects/tbt-app/tbt-app-hero-mobile.jpg"
           />
-          <img src="~assets/projects/tbt-app/tbt-app-hero.jpg" />
+          <img src="~assets/projects/goals101/main2.jpg" />
         </picture>
         <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
 
         <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
       </div>
     </div>
-    <Preface
-      timeframe=" September 2015 - October 2015
-    <br /> 2 month, Week Dat only"
-      tools=" Adobe Illutrator
-    <br />Adobe Photoshop"
-      role=" UI/UX
-    <br />Research, Content Strategy"
-      team=" Me-UX, Shekhar-Dev
-    <br />Yash/Zainab-Managing"
+
+
+   
+     <Preface
+      timeframe=" May-July 2020
+            <br>3 Months"
+      tools="VueJs
+            <br> Sails"
+
+       purpose="Internship at Goals101"
+
+      github="https://www.goals101.ai/"
+
+      role=" Backend Developer"
+      team="Me only"
     />
 
     <!-- Refrence
@@ -65,74 +72,70 @@
     -->
     <!-- Preface -->
     <pcase
-      heading="The beginning of something amazing"
-      para=" This project was all about coming together and collaborating and making something what 25 thousand student of my college
-        needed and in the process enjoying each little wins. This project laid the foundation of whatever I am today. Kind of everything I did
-        let it be designing App screen, Designing app icon, working with xdpi- xxdpi- mdpi images, prototyping everything, working with developers,
-        working with a team of talented people, all I did was my first time. 
-        <br> 
-        <br>
-        Pretty much it was people that were involved in creating a ecosystem that connects thousands of people. Creating a brands that people recognize and appreciate that can helps 
-        students to share their talents and get involved. Creating an app might seem just a work of few people, but
-        making it possible so that ot helps students is combined effort of a whole team. Well we ere 23 people having skills to make it possible.
-        and we did. 
-     
-                
+      heading="Preface"
+      para=" This project was aimed to
+      streamline internal request management process of the company. The project involved complex workflow
+      management involving multi-step approval of requests and also featured an audit log functionality.
+      The project’s technology stack was Vue.js on the front-end and Sails.js on the back end.          
       "
       theme="theme_tbt-app"
     />
 
-    <div class="p-quote contain red">
-      <blockquote>Alone we can do so little, together we can do so much." --Helen Keller</blockquote>
+
+    <!-- Desighn -->
+    <div class="distress-row">
+      <div class="distress-column">
+        <picture>
+              <source
+                media="(max-width: 600px)"
+                srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+              />
+              <img
+                src="~assets/projects/goals101/vue.png"
+                alt="GoCorona app screenshots"
+              />
+            </picture>
+
+      </div>
+      <br>
+      <br>
+      <div class="distress-column">
+        <picture>
+              <source
+                media="(max-width: 600px)"
+                srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+              />
+              <img
+                src="~assets/projects/goals101/sails.png"
+                alt="GoCorona app screenshots"
+              />
+            </picture>
+      </div>
     </div>
 
-    <!-- slides -->
-    <no-ssr>
-      <agile>
-        <div class="slide">
-          <img class="slide-img" src="~assets/projects/tbt-app/tbt-team-pic-1.jpg" alt="slider1" />
-        </div>
 
-        <div class="slide">
-          <img class="slide-img" src="~assets/projects/tbt-app/tbt-team-pic-2.jpg" alt="slider2" />
-        </div>
-        <div class="slide">
-          <img class="slide-img" src="~assets/projects/tbt-app/tbt-team-pic-3.jpg" alt="slider2" />
-        </div>
-        <div class="slide">
-          <img class="slide-img" src="~assets/projects/tbt-app/tbt-team-pic-4.jpg" alt="slider2" />
-        </div>
-        <div class="slide">
-          <img class="slide-img" src="~assets/projects/tbt-app/tbt-team-pic-5.jpg" alt="slider2" />
-        </div>
-      </agile>
-    </no-ssr>
-
-    <pcase
-      heading="Coming to App"
-      para=" The Idea was to make an app for students where we can share all the happenings
-      from the college. Where students can share their story and we can publish them in App and in our blog. Also to have some interesting stuff and information
-      available and easily accessible. It was our seniors Initiative and we with combined effort made it possible. People that made it possible.
-      @Parvej Khan @Dhairy Mohan Shukla @Avaneesh @krishna Mohan @Sakshi @Zainab Siddique @Yash Srivastava @Jayati @Ambika +more
-     
-                
+     <pcase
+      heading="Features of the Tool"
+      para=" There were total 4 important features in the whole tool : <br>
+      1. Authentification screens that involves forgot password and also google sign in. <br>
+      2. Request Screen where you can create a request and it displays all sent requests. <br>
+      3. Dashboard to show which requests are in your permissions to approve or decline. <br>
+      4. Access, Profile and Logs Screen which just displays the backend data directly. <br>        
       "
       theme="theme_tbt-app"
     />
 
-    <pcase
-      heading="Making The App Logo"
-      para=" Back to 2015, this was my first app logo i was going to design, The idea behind the logo was 
-      To Stand Out. I figured i better use Illustrator for this better learn that scary pen tool. For the first few days 
-      i began to to learn some tools to will be used to logo design and some why and why not, red articles, researched on google with similar
-      logo. After I got inspiration from winner where the first winner is at the top and likewise and 
-      I began working on that with pen tool. After some iterations like 30 40 iteration. I got there where I can say
-      This is it. Wow. Just made my First app logo.
-     
-                
+
+     <pcase
+      heading="1. Authentification Screens"
+      para=" The database contains the information of company's employees which
+      enable them to login. Other two features in this screen are :<br>
+      1. Forgot password which sends a reset link to your gmail id and reset the password<br>
+      2. Google Sign in <br>      
       "
       theme="theme_tbt-app"
     />
+
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -142,30 +145,23 @@
             media="(max-width: 600px)"
             srcset="~assets/projects/tbt-app/tbt-app-icons-mobile.jpg"
           />
-          <img src="~assets/projects/tbt-app/tbt-app-icons.jpg" />
+          <img src="~assets/projects/goals101/authentification.png" />
         </picture>
       </div>
     </div>
 
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <source
-            media="(max-width: 600px)"
-            srcset="~assets/projects/tbt-app/tbt-app-logo-mobile.jpg"
-          />
-          <img src="~assets/projects/tbt-app/tbt-app-logo.jpg" />
-        </picture>
-      </div>
-    </div>
+
 
     <pcase
-      heading="Final Screens"
-      para="Most of the design requirement ws already sent by the developer.  I was just putting everything
-      together, making best layout possible where everyone could agree. This is it. Santanu helped a lot. 
-     
-                
+      heading="2. Request Screen"
+      para="Here the user can create a request and automatically, it will hit the user's parent gmail to approve or decline his/her 
+      request. Example, If a new intern hires wants to get VPN access, it will diredtly hit it's mentor and he can approve/decline the request.   
+      Status of Requests: <br>
+      1. Pending<br>
+      2. Level1Approve<br>
+      3. Level2Approve<br>
+      4. Declined <br>
+      5. IT Approved<br> 
       "
       theme="theme_tbt-app"
     />
@@ -178,10 +174,21 @@
             media="(max-width: 600px)"
             srcset="~assets/projects/tbt-app/tbt-app-screen-1-mobile.jpg"
           />
-          <img src="~assets/projects/tbt-app/tbt-app-screen-1.jpg" />
+          <img src="~assets/projects/goals101/request.png" />
         </picture>
       </div>
     </div>
+
+
+
+    <pcase
+      heading="3. Dashboard Screen"
+      para=" Here I have login as a mentor of the intern. He can see the requests in his portal the intern has requested.
+      He can approve/decline the request. Approve request will move 1 level up and hit the level 2. The process will go ahead 
+      in the same way unless the last level is achieved that is IT.        
+      "
+      theme="theme_tbt-app"
+    />
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -189,12 +196,26 @@
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/tbt-app/tbt-app-screen-2-mobile.jpg"
+            srcset="~assets/projects/tbt-app/tbt-app-mockup-mobile.jpg"
           />
-          <img src="~assets/projects/tbt-app/tbt-app-screen-2.jpg" />
+          <img src="~assets/projects/goals101/dashboard.png" />
         </picture>
       </div>
     </div>
+
+     <pcase
+      heading="Special Features"
+      para="    1. Any request will go upto maximum three levels.<br>
+              2. Every time a operation on request happens, both parties receive an gmail.<br>
+              3. If a CEO or a senior role employee makes a request, it automatically updates it's status according to the employee. <br>
+              4. For requests that requires less than three levels, the code handles it directly. 
+              Example The CEO's request will directly will automated to the IT. <br>
+              5. All pages are paginated, which is dynamically coded in the backend. <br>
+              6. Filters for every table, All dynamically coded in the backend. <br>
+
+      "
+      theme="theme_tbt-app"
+    />
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -202,20 +223,19 @@
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/tbt-app/tbt-app-screen-3-mobile.jpg"
+            srcset="~assets/projects/tbt-app/tbt-app-mockup-mobile.jpg"
           />
-          <img src="~assets/projects/tbt-app/tbt-app-screen-3.jpg" />
+          <img src="~assets/projects/goals101/gmail.png" />
         </picture>
       </div>
     </div>
 
     <pcase
-      heading="Deploying On Play Store"
-      para=" While the app was being deployed on Play store. I was asked to make some shots the upload on play-store.
-      So visited play store, looked here and there. Asked myself how this should be done, talked to content writers about possible
-      tagline for each screen. 
-      Made it, saved it in jpg. Hooyah. Done my first screen for any App.
-     
+      heading="4. Displaying Data from the backend Screens"
+      para="These are the total three screens: <br>
+      1. Profile Screen to display of the logged in user. <br>
+      2. Access Screen to display all the employees with their access. <br>
+      3. Logs Screen that display all the entries of log table. <br>
                 
       "
       theme="theme_tbt-app"
@@ -229,48 +249,65 @@
             media="(max-width: 600px)"
             srcset="~assets/projects/tbt-app/tbt-app-playstore-mobile.jpg"
           />
-          <img src="~assets/projects/tbt-app/tbt-app-playstore.jpg" />
+          <img src="~assets/projects/goals101/profile.png" />
         </picture>
       </div>
     </div>
 
+     <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/tbt-app/tbt-app-playstore-mobile.jpg"
+          />
+          <img src="~assets/projects/goals101/access.png" />
+        </picture>
+      </div>
+    </div>
+
+     <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/tbt-app/tbt-app-playstore-mobile.jpg"
+          />
+          <img src="~assets/projects/goals101/logs.png" />
+        </picture>
+      </div>
+    </div>
+
+
+    <!-- slides -->
+
     <pcase
-      heading="Publicity"
-      para=" The Idea was to make an app for students where we can share all the happenings
-      from the college. Where students can share their story and we can publish them in App and in our blog. Also to have some interesting stuff and information
-      available and easily accessible. It was our seniors Initiative and we with combined effort made it possible. People that made it possible.
-      @Parvej Khan @Dhairy Mohan Shukla @Avaneesh @krishna Mohan @Sakshi @Zainab Siddique @Yash Srivastava @Jayati @Ambika +more
-     
-                
+      heading="Database Design"
+      para=" The complexity of the project revolved aroung Backend and Database Design which is done in Sails.
+      Important Features of the database design: <br>
+      1. Heirarchy SQL Structure. <br>
+      2. Pagination and Filters for every table <br>
+      3. Automated queries and Gmail trigger for every update <br>
       "
       theme="theme_tbt-app"
     />
 
-    <div class="p-image-100-duo">
+
+   <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/tbt-app/tbt-app-mockup-mobile.jpg"
+            srcset="~assets/projects/tbt-app/tbt-app-icons-mobile.jpg"
           />
-          <img src="~assets/projects/tbt-app/tbt-app-mockup.jpg" />
+          <img src="~assets/projects/goals101/database2.jpg" />
         </picture>
       </div>
     </div>
 
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <source
-            media="(max-width: 600px)"
-            srcset="~assets/projects/tbt-app/tbt-app-poster-2-mobile.jpg"
-          />
-          <img src="~assets/projects/tbt-app/tbt-app-poster-2.jpg" />
-        </picture>
-      </div>
-    </div>
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -278,24 +315,18 @@
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/tbt-app/tbt-app-screen-mockup.jpg"
+            srcset="~assets/projects/tbt-app/tbt-app-icons-mobile.jpg"
           />
-          <img src="~assets/projects/tbt-app/tbt-app-screen-mockup.jpg" />
+          <img src="~assets/projects/goals101/backend.png" />
         </picture>
       </div>
     </div>
 
-    <!-- The LAUNCH-->
-    <pcase
-      heading="The Launch"
-      para=" The App was launched in college in Oct 2015 and It was really a proud moment. We started getting
-      positive feedback personally as well as through mail and comments on play store. Students began using it
-       It got more than 2 thousand download in first week. 
-          
-      "
-      theme="theme_tbt-app"
-    />
 
+
+
+
+   
     <!-- key Focus Area -->
 
     <div class="keyfocus">
@@ -304,40 +335,21 @@
           <h2 class="p-para black50">Stuff I did</h2>
           <div class="pm black70">
             <div class="kf-layout">
-              <span>✔ Icon + Logo</span>
+              <span>✔ Database Design</span>
               <span>✔ Ideation</span>
-              <span>✔ Learned basic principles</span>
-              <span>✔ Collaborated with dev+ content writer</span>
-              <span>✔ Made Prototype</span>
-              <span>✔ Step In Party</span>
-              <span>✔ Sleepless Sat and Sunday</span>
-              <span>✔ Made Wireframe</span>
-              <span>✔ Discussed potential User Journey</span>
-              <span>✔ Branding</span>
-              <span>✔ Poster and Flexes</span>
-              <span>✔ Identity Design</span>
-              <span>✔ Defending UX Decisions</span>
-              <span>✔ Pop and un-pop things</span>
+              <span>✔ Wireframe</span>
+              <span>✔ Regular Meetings</span>
+              <span>✔ User Tested with almost 10 people</span>
+              <span>✔ Dynamically Code all the features</span>
+              <span>✔ All requests make asynchronous</span>
+              <span>✔ Gmail connectivity</span>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- conclusion -->
-
-    <div class="Takeaway">
-      <div class="contain">
-        <h2 class="p-para black50">Learnings</h2>
-        <div class="pm black70">
-          <p></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="p-quote contain red">
-      <blockquote>Sometimes to turn an idea into reality all you need is a good mentor, a good coder friend and a dedicated team backing you and lots of courage and finally time for party hard.</blockquote>
-    </div>
+ 
 
     <!-- End Line  -->
 
@@ -416,4 +428,36 @@ export default {
 .project-footer {
   bottom: 0%;
 }
+
+.distress-column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-left: 150px;
+}
+
+.admin-column {
+  float: left;
+  width: 30.33%;
+  padding: 5px;
+  margin-left: 40px;
+
+}
+
+.admin-column-location{
+
+  float: left;
+  width: 20.33%;
+  padding: 5px;
+
+}
+
+/* Clearfix (clear floats) */
+.distress-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
 </style>
