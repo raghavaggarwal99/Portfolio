@@ -1,4 +1,5 @@
 {
+  "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
   "name": "raghavaggarwal.com",
   "version": "1.0.0",
   "description": "Software Developer",
@@ -67,6 +68,7 @@
     "node-sass": "^4.13.0",
     "nodemon": "^1.18.9",
     "prettier": "^1.16.4",
+    "push-dir": "^0.4.1",
     "sass-loader": "^8.0.0",
     "sqip-loader": "^0.2.0",
     "vue-particles": "^1.0.9",
