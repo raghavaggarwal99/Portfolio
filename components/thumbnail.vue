@@ -35,12 +35,12 @@ export default {
   height: 100%;
   perspective: 1000px;
   background-color: white;
-  cursor: url('/raghav/cnblack.svg'), auto;
+  cursor: url('/cnblack.svg'), auto;
 }
 
 .projects-image > img {
   width: 100%;
-  height: 50%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -85,7 +85,7 @@ export default {
 }
 
 .projects-content:active {
-  color: black;
+  color: aquamarine;
 }
 
 .type-sub2 {

@@ -31,7 +31,7 @@
             <thumbnail
               thumbnailName="Gocorona"
               thumbnailDescription="App Development competition"
-              thumbnail="/raghav/gocorona.jpg"
+              thumbnail="/raghav/corona2.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="800"
@@ -46,7 +46,7 @@
             <thumbnail
               thumbnailName="Blockchain Aadhar Voting"
               thumbnailDescription="Microsoft Code fundoo Competition"
-              thumbnail="/raghav/blockchain.jpg"
+              thumbnail="/raghav/voting4.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="1000"
@@ -61,7 +61,7 @@
             <thumbnail
               thumbnailName="Travel Go"
               thumbnailDescription="Chatbot as Internship in Valiance Solutions"
-              thumbnail="/raghav/chatbot2.jpg"
+              thumbnail="/raghav/chatbot4.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="100"
@@ -76,7 +76,7 @@
             <thumbnail
               thumbnailName="SocialContour"
               thumbnailDescription="Freelance"
-              thumbnail="/raghav/s.jpg"
+              thumbnail="/raghav/media4.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="300"
@@ -90,7 +90,7 @@
             <thumbnail
               thumbnailName="OpenSource"
               thumbnailDescription="OpenSource"
-              thumbnail="/raghav/opensource.jpg"
+              thumbnail="/raghav/open2.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="300"
@@ -104,7 +104,7 @@
             <thumbnail
               thumbnailName="Automize Apps"
               thumbnailDescription="Internship"
-              thumbnail="/raghav/sentiment.jpg"
+              thumbnail="/raghav/analysis2.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="100"
@@ -118,7 +118,21 @@
             <thumbnail
               thumbnailName="Change Management Tool"
               thumbnailDescription="Goals 101, Internship"
-              thumbnail="/raghav/change3.jpg"
+              thumbnail="/raghav/change4.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="300"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+
+         <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/streerides">
+            <thumbnail
+              thumbnailName="Streerides"
+              thumbnailDescription="Website Development"
+              thumbnail="/raghav/stree3.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="300"
@@ -166,6 +180,8 @@
         </div>
       </div>
     </div>
+
+    
     <!-- See my Photography -->
     <div class="w-photography-container"></div>
     <div class="w-arts-container"></div>
