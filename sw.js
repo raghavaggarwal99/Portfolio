@@ -14,20 +14,12 @@ workbox.precaching.precacheAndRoute([
     "revision": "600d16b62f06efe68d452696ef0eb4d9"
   },
   {
-    "url": "/raghav/_nuxt/3ba3b4d7a7b4a74b9794.js",
-    "revision": "bb0ee967a763eb412eb8a7d895fb0a1c"
-  },
-  {
-    "url": "/raghav/_nuxt/3d7bc1a50fbaf863ea64.js",
-    "revision": "38655429603429dfe268122583873a98"
-  },
-  {
-    "url": "/raghav/_nuxt/4817f8a443ffc0493c1a.js",
-    "revision": "82d298b8e5c63a5a41da9e3073ece283"
-  },
-  {
     "url": "/raghav/_nuxt/4fd688eeabbe1ec5acdb.js",
     "revision": "9502756f3a40544025cf84012f898296"
+  },
+  {
+    "url": "/raghav/_nuxt/5229372490f3ad57549d.js",
+    "revision": "3df6b393d4ac688bdea19f1ba8073786"
   },
   {
     "url": "/raghav/_nuxt/5bba30fa5c8a97340964.js",
@@ -38,16 +30,16 @@ workbox.precaching.precacheAndRoute([
     "revision": "2a8facd92ccca4a7b8aa2e1f863f3369"
   },
   {
-    "url": "/raghav/_nuxt/773d30e5732776fd0116.js",
-    "revision": "5a374aa48e52d25d13f4501185904a7b"
-  },
-  {
     "url": "/raghav/_nuxt/7a8d51bdd3a4eb228c52.js",
     "revision": "65d2c2d41dd622b2066470eb07a36418"
   },
   {
     "url": "/raghav/_nuxt/7af3a5f80529c97a5a16.js",
     "revision": "ce41c0cdc034cc2713519e677bd8af81"
+  },
+  {
+    "url": "/raghav/_nuxt/80da58f501e755b2d46f.js",
+    "revision": "c15a243020bbd98156359720b5ed0d94"
   },
   {
     "url": "/raghav/_nuxt/840b0f71a84e8422a049.js",
@@ -64,6 +56,10 @@ workbox.precaching.precacheAndRoute([
   {
     "url": "/raghav/_nuxt/890760a69f166e566d97.js",
     "revision": "293c3a7377e87abf17d62adfd3ae765d"
+  },
+  {
+    "url": "/raghav/_nuxt/972a56f745cc5539ea36.js",
+    "revision": "6f5ba63bda038fcf78b33254e1e794d5"
   },
   {
     "url": "/raghav/_nuxt/9dbeae876906685771c1.js",
@@ -88,6 +84,10 @@ workbox.precaching.precacheAndRoute([
   {
     "url": "/raghav/_nuxt/b5dd9e7e95c216e1f7f3.js",
     "revision": "5670ffe33376a87b0326f301a2976706"
+  },
+  {
+    "url": "/raghav/_nuxt/c9fa501a0c62d8c82df2.js",
+    "revision": "f4394318fe03a96db3c5df06559a0b4c"
   },
   {
     "url": "/raghav/_nuxt/daa4a44b70222771e3d1.js",
