@@ -591,11 +591,11 @@
       <div class="projects-footer-container">
         <allprojectsnav />
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/goals101">
+          <nuxt-link to="/projects/streerides">
             <pfooterp
-              projectName="Change Management Tool"
-              projectCategories="Intern at Goals101"
-              thumbnail="/change3.jpg"
+              projectName="Streerides"
+              projectCategories="Freelance"
+              thumbnail="/1.jpg"
             />
           </nuxt-link>
         </div>
@@ -605,7 +605,7 @@
             <pfootern
               projectName="Blockchain Aadhar Voting"
               projectCategories="Microsoft Codefundoo Competition"
-              thumbnail="/blockchain.jpg"
+              thumbnail="/1.jpg"
             />
           </nuxt-link>
         </div>

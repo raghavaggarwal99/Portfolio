@@ -325,8 +325,8 @@
           <nuxt-link to="/projects/GoCorona">
             <pfooterp
               projectName="GoCorona"
-              projectCategories="App Development Competition"
-              thumbnail="/gocorona.jpg"
+              projectCategories="Mishmash Diversity Hackathon"
+              thumbnail="/1.jpg"
             />
           </nuxt-link>
         </div>
@@ -336,7 +336,7 @@
             <pfootern
               projectName="Travelgo"
               projectCategories="Internship at Valiance Solutions"
-              thumbnail="/chatbot2.jpg"
+              thumbnail="/1.jpg"
             />
           </nuxt-link>
         </div>

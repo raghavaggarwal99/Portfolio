@@ -378,7 +378,7 @@
             <pfooterp
               projectName="TravelGo"
               projectCategories="Internship at Valiance Solutions"
-              thumbnail="/chatbot2.jpg"
+              thumbnail="/1.jpg"
             />
           </nuxt-link>
         </div>
@@ -388,7 +388,7 @@
             <pfootern
               projectName="OpenSource"
               projectCategories="Open Source"
-              thumbnail="/opensource.jpg"
+              thumbnail="/1.jpg"
             />
           </nuxt-link>
         </div>

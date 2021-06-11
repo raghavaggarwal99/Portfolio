@@ -154,6 +154,20 @@
             />
           </nuxt-link>
         </div>
+
+         <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/streerides">
+            <thumbnail
+              thumbnailName="Streerides"
+              thumbnailDescription="Website Development"
+              thumbnail="/stree.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="300"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
       </div>
     </div>
 
@@ -180,13 +194,11 @@
 import Thumbnail from '~/components/thumbnail'
 import Parallax from 'vue-parallaxy'
 import Discovermore from '~/components/discovermore'
-import Homepeople from '~/components/homepeople'
 import BlogSection from '~/components/Sections/BlogSection'
 export default {
   components: {
     Thumbnail,
     Discovermore,
-    Homepeople,
     BlogSection,
     Parallax,
   },

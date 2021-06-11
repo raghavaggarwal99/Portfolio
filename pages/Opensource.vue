@@ -108,7 +108,7 @@ http://stephencalvillodesign.com/project/prestoq
             <pfooterp
               projectName="Social Contour"
               projectCategories="Freelance"
-              thumbnail="/s.jpg"
+              thumbnail="/1.jpg"
             />
           </nuxt-link>
         </div>
@@ -118,7 +118,7 @@ http://stephencalvillodesign.com/project/prestoq
             <pfootern
               projectName="Automize Apps"
               projectCategories="Internship"
-              thumbnail="/sentiment.jpg"
+              thumbnail="/1.jpg"
             />
           </nuxt-link>
         </div>

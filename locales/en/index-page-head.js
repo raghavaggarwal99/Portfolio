@@ -1,4 +1,4 @@
 export default {
-  title: 'Saurabh Chandra Rai - UX Designer and Front-End Developer',
-  description: 'I’m a UX/UI Designer and Front-End Developer based in .'
+  title: 'Raghav Aggarwal - Software Developer',
+  description: 'I’m a undergraduate from IIT Guwahati.'
 }

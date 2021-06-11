@@ -35,7 +35,7 @@ export default {
 
 <style >
 .article-read-more {
-  /* font-family: saurabh-book; */
+  /* font-family: */
   font-size: 20px;
   color: var(--primary-color);
   padding-top: 1%;

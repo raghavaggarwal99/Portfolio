@@ -16,7 +16,6 @@ const _1bf88346 = () => interopDefault(import('../pages/projects/GoCorona.vue' /
 const _0e11a878 = () => interopDefault(import('../pages/projects/SocialContour.vue' /* webpackChunkName: "pages/projects/SocialContour" */))
 const _454d213a = () => interopDefault(import('../pages/projects/streerides.vue' /* webpackChunkName: "pages/projects/streerides" */))
 const _c770524a = () => interopDefault(import('../pages/projects/TravelGo.vue' /* webpackChunkName: "pages/projects/TravelGo" */))
-const _31193c89 = () => interopDefault(import('../pages/Blog/_slug.vue' /* webpackChunkName: "pages/Blog/_slug" */))
 const _bba42714 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
@@ -80,10 +79,6 @@ export const routerOptions = {
     path: "/projects/TravelGo",
     component: _c770524a,
     name: "projects-TravelGo___en"
-  }, {
-    path: "/Blog/:slug",
-    component: _31193c89,
-    name: "Blog-slug___en"
   }, {
     path: "/",
     component: _bba42714,

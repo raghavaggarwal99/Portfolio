@@ -336,7 +336,7 @@
             <pfooterp
               projectName="Blockchain Aadhar Voting"
               projectCategories="Microsoft Codefundoo Competition"
-              thumbnail="/blockchain.jpg"
+              thumbnail="/1.jpg"
             />
           </nuxt-link>
         </div>
@@ -346,7 +346,7 @@
             <pfootern
               projectName="Social Contour"
               projectCategories="Freelance"
-              thumbnail="/s.jpg"
+              thumbnail="/1.jpg"
             />
           </nuxt-link>
         </div>

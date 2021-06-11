@@ -60,7 +60,7 @@ export default {
 }
 
 .live-link a::after {
-  background: url(~assets/projects/elevito/img-arrow.svg) no-repeat;
+  background: url(~assets/projects/blockchain/img-arrow.svg) no-repeat;
   background-size: 70% 70%;
   background-position: center center;
 }
@@ -68,7 +68,7 @@ export default {
 .live-link a:after {
   content: '';
   transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
-  background: url(~assets/projects/elevito/img-arrow.svg) no-repeat;
+  background: url(~assets/projects/blockchain/img-arrow.svg) no-repeat;
   background-size: 70% 70%;
   background-position: center center;
   top: 50%;

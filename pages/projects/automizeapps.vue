@@ -197,7 +197,7 @@
             <pfooterp
               projectName="Open Source"
               projectCategories="Opensource"
-              thumbnail="/opensource.jpg"
+              thumbnail="/1.jpg"
             />
           </nuxt-link>
         </div>
@@ -207,7 +207,7 @@
             <pfootern
               projectName="Change Management Tool"
               projectCategories="Internship at Goals101"
-              thumbnail="/change2.jpg"
+              thumbnail="/1.jpg"
             />
           </nuxt-link>
         </div>

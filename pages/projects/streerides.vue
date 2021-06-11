@@ -1,211 +1,220 @@
 <template>
   <div>
     <projecthero
-      pDate="July 2017 "
-      pWebsite="Hello Colors"
-      pCategory="Book Design"
-      pHeading="Fun coloring experiennce"
+      pDate="October- November 2019"
+      pWebsite="Streerides"
+      pCategory="Website Development"
+      pHeading="Streerides"
       pHeadingcolor="color:#e98635;"
-      pSubheading="designing colouring book for childrens"
+      pSubheading="Making the official website of streerides"
     />
-    <!-- <div class="p-fe-hero_image">
-      <img src="~assets/projects/fe/fe2.png" alt>
-      <img src="~assets/projects/fe/fe1.png" alt>
-    </div>-->
 
-    <ScrollDown />
 
     <!-- hero image -->
     <div class="p-helo-color-hero-image">
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_hc" data-aos="reveal-right"></div>
 
-        <img src="~assets/projects/hc/hello-colours-hero.jpg" alt="colouring book design" />
-        <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
-
-        <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
+        <img src="~assets/projects/streerides/main.jpg" alt="colouring book design" />
       </div>
     </div>
-    <Preface
-      timeframe=" July 2019- Oct 2019
-    <br />3 months"
-      tools=" Corel Draw, Adobe Illustrator
-    <br />  Adobe Photoshop, Pen/Pencil."
-      role=" Copy Paste, Design layout,
-    <br />Research, Rewrite Content, Design Whole book"
-      team=" Myself, Abhishek
-    <br />Fahad"
+
+
+   
+     <Preface
+      timeframe=" October- November 2019
+            <br>2 Months"
+      tools="Html, Css, Javascript
+            <br>Google Firebase"
+
+       purpose="Freelance"
+
+      github="https://www.streerides.com/"
+
+      role=" Web Developer"
+      team="Aayush Bansal 
+      <br> Raghav Aggarwal"
     />
 
-    <!-- Refrence
-      http://stephencalvillodesign.com/project/linkedin-elevate
-      http://stephencalvillodesign.com/project/fullscreen
-      
-    -->
-    <!-- Preface -->
     <pcase
       heading="Preface"
       para=" 
-       This project was kind of very unique. It was to design whole Art book for Students from class 1 to 6.
-       Total 12 books, Cover for them and Inside page like Index, Content and all those 60 page for colouring.
-       It was my 3rd time dealing with design in book. I was confident I will be able to deliver it, but the thing was it was
-       very daunting, so many pages and so many page just similar layout and all to be done in Illustrator.
-       
+       The website was built on Firebase with Html, Bootstrap and Javascript in the front end.
       "
       theme="theme_hc"
     />
 
-    <!-- from coreldraw to illutrator -->
-    <pcase
-      heading="Ctrl C + Ctrl V, from Corel Draw to Illustrator"
-      para="  The base file that I got from the client was all set in Corel Draw. They contain all the
-        basic shapes and very basic layout and some content that would have to get in each page. I don't like Core Draw
-        Personally and I got more command over Illustrator. So I choose to do the hard stuff, copying and pasting.
-        I didn't have to draw vector images, well I could have not accepted this if not for that. Because 
-        designing a book (so many books) is not a one man job.
+          <!-- hero image -->
+     <div class="p-hero_image">
+      <div class="reveal-holder" data-aos="fade-up">
+        <div class="reveal-block right theme_hc" data-aos="reveal-right"></div>
+        <picture>
+          <!-- <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
+          /> -->
+          <img src="~assets/projects/streerides/firebase.webp" alt="cool background" />
+        </picture>
+      </div>
+    </div>
 
+    <pcase
+      heading="Login/Signup Screens"
+      para=" 
+            All the authentification will be done using Firebase. Google Sign in and Phone authentification was also implemented.
           "
       theme="theme_hc"
     />
 
     <!-- slides -->
-    <div class="contain">
-      <no-ssr>
-        <agile>
-          <div class="slide">
-            <img
-              class="slide-img"
-              src="~assets/projects/hc/hello-color-screenshot-1.jpg"
-              alt="slider1"
-            />
-          </div>
-
-          <div class="slide">
-            <img
-              class="slide-img"
-              src="~assets/projects/hc/hello-color-screenshot-2.jpg"
-              alt="slider2"
-            />
-          </div>
-        </agile>
-      </no-ssr>
-    </div>
-
-    <p class="contain just-para black90">
-      Anyway, here I was readjusting the artboard to mach the required size of book, and then vector
-      images from Corel draw to Illustrator.
-      I have to say It was very boring. After a week and two. It got worse, I could have done only
-      40 pages and there were more around 400 pages, so asked help from my junior designer Abhishek, and he agreed,'
-      to my expectations we both were able to do this in very less time.
-    </p>
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+     <div class="p-hero_image">
+      <div class="reveal-holder" data-aos="fade-up">
+        <div class="reveal-block right theme_hc" data-aos="reveal-right"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/hc/playwithartsmobile1.jpg" />
-          <img src="~assets/projects/hc/playwitharts1.jpg" />
+          <!-- <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
+          /> -->
+          <img src="~assets/projects/streerides/login.png" alt="cool background" />
         </picture>
       </div>
     </div>
 
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+     <div class="p-hero_image">
+      <div class="reveal-holder" data-aos="fade-up">
+        <div class="reveal-block right theme_hc" data-aos="reveal-right"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/hc/playwithartsmobile3.jpg" />
-          <img src="~assets/projects/hc/playwitharts3.jpg" />
+          <!-- <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
+          /> -->
+          <img src="~assets/projects/streerides/register.png" alt="cool background" />
         </picture>
       </div>
     </div>
 
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/hc/playwithartsmobile5.jpg" />
-          <img src="~assets/projects/hc/playwitharts5.jpg" />
-        </picture>
-      </div>
-    </div>
 
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/hc/playwithartsmobile6.jpg" />
-          <img src="~assets/projects/hc/playwitharts6.jpg" />
-        </picture>
-      </div>
-    </div>
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/hc/playwithartsmobile7.jpg" />
-          <img src="~assets/projects/hc/playwitharts7.jpg" />
-        </picture>
-      </div>
-    </div>
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/hc/playwithartsmobile8.jpg" />
-          <img src="~assets/projects/hc/playwitharts8.jpg" />
-        </picture>
-      </div>
-    </div>
-
-    <!-- from coreldraw to illutrator -->
-    <pcase
-      heading="Then this happened"
-      para="  I remember correctly, almost 2 years back, I was in the middle of the completing this project.
-        I for some days travelled to  Gr. Noida for a break, and during that I lost my Laptop from my friends room. It was Disater, my lptop got stolen.
-        3 years of stuff vanished just like that. Fortunately I have a habit of backing up things to cloud, and after some
-        days I got myself to together and began working from my Old age Desktop Pc having a very slow i5 processor. 
-        Projects got delayed to October and its all on me. Somehow  I made to the end. 
-
-       
-       
-        <br><br>
-
-        With all that in past, it was pretty tough experience. The project was boring, i hated working with Corel Draw,
-        My laptop got stolen, lost 3 years of stuff, lost myself and then redeemed myself as I always do. Now I write these
-        this project made me learn so much. About life, about people, about children about client-designer relationship and many more.
-
-
-      "
+     <pcase
+      heading="Static Screens and Direct Backend"
+      para=" 
+           The screens that were pretty basic and direct store the database in Firebase cloud includes like:
+           1. Login/Signup screen. <br>
+           2. Book a scehdule. <br>
+           3. See the pricing package. <br>
+          "
       theme="theme_hc"
     />
 
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div class="p-hero_image">
+      <div class="reveal-holder" data-aos="fade-up">
+        <div class="reveal-block right theme_hc" data-aos="reveal-right"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/hc/playwithartsmobile9.jpg" />
-          <img src="~assets/projects/hc/playwitharts9.jpg" />
+          <!-- <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
+          /> -->
+          <img src="~assets/projects/streerides/book.png" alt="cool background" />
         </picture>
       </div>
     </div>
 
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  <div class="distress-row">
+      <div class="distress-column">
+        <pcase
+          heading="Book the ride"
+          para="
+          Features are shown in the pic: <br>
+          1. Date, Package, Location all the festures when selected it will be stored in the calendar. <br>
+          2. After selecting the package accordingly, it shows you the payment portal to complete the transaction so that the ride gets final scheduled
+        "
+          theme="theme_cricbuzz"
+        />
+
+      </div>
+  <div class="distress-column">
+  <br>
+  <br>
+  <br>
+  <br>
+    <picture>
+          <!-- <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+          /> -->
+          <img
+            src="~assets/projects/streerides/book2.png"
+            alt="GoCorona app screenshots"
+            height="500px"
+            width="500px"
+          />
+        </picture>
+  </div>
+</div>
+
+
+    <!-- from coreldraw to illutrator -->
+    <pcase
+      heading="Payment Portal"
+      para=" 
+            The most challenging part was the payment portal. We used Razorpay Api with firebase cloud functions. 
+          "
+      theme="theme_hc"
+    />
+
+    <!-- slides -->
+     <div class="p-hero_image">
+      <div class="reveal-holder" data-aos="fade-up">
+        <div class="reveal-block right theme_hc" data-aos="reveal-right"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/hc/playwithartsmobile10.jpg" />
-          <img src="~assets/projects/hc/playwitharts10.jpg" />
+          <!-- <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
+          /> -->
+          <img src="~assets/projects/streerides/payment2.png" alt="cool background" />
         </picture>
       </div>
     </div>
 
-    <!-- Backstory -->
 
-    <div class="p-quote contain red">
-      <blockquote>Every child is an artist. The problem is how to remain an artist once we grow up.</blockquote>
-    </div>
+      <div class="distress-row">
+      <div class="distress-column">
+        <pcase
+          heading=""
+          para="
+          Features are shown in the pic: <br>
+          1. The Razorpay api pretty much handles the whole transaction, including verifying the transaction and also if the payment is not completed in between.<br>
+          2. The payment handles pretty much the same way, You enter the details and OTP comes to your registered phone and once it's verified the payment will be successful. 
+        "
+          theme="theme_cricbuzz"
+        />
+
+      </div>
+  <div class="distress-column">
+  <br>
+  <br>
+  <br>
+  <br>
+    <picture>
+          <!-- <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+          /> -->
+          <img
+            src="~assets/projects/streerides/payment.png"
+            alt="GoCorona app screenshots"
+            height="500px"
+            width="500px"
+          />
+        </picture>
+  </div>
+</div>
+
+
+
+   
+
+
+  
     <!-- key Focus Area -->
 
     <div class="keyfocus">
@@ -217,18 +226,12 @@
             <div class="kf-layout">
               <span>✔ Research</span>
               <span>✔ Ideation</span>
-              <span>✔ Talking with clients</span>
-              <span>✔ Endured Myself</span>
-              <span>✔ Cover Design</span>
-              <span>✔ Copy and Pste</span>
+              <span>✔ Talking with client</span>
+              <span>✔ Firebase connectivity</span>
+              <span>✔ Database Design</span>
+              <span>✔ Payment portal with the team</span>
               <span>✔ Taken Stress</span>
               <span>✔ Redesign stuff</span>
-              <span>✔ Redesign Layout</span>
-              <span>✔ Made Colours children's friendly</span>
-              <span>✔ Said Sorry</span>
-              <span>✔ Made pdf</span>
-              <span>✔ Made mockups</span>
-              <span>✔ Pop and un-pop things</span>
             </div>
           </div>
         </div>
@@ -242,9 +245,8 @@
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            Life is very unpredictable, you got to get backups of your work
-            each day. Anything can happen anytime. Also when working on a projects that requires you to do the same stuff
-            again and again its gets boring. Keeping it interesting and fun is an art each designer should learn the hard way.
+            The website as it seems is pretty simple seems, It was the first time we were working on Google Firebase and it was the first Freelance project
+            that I had. It was a great fun.
           </p>
         </div>
       </div>
@@ -256,12 +258,6 @@
       <hr class="section-divider" />
     </div>
 
-    <!-- appreciate button -->
-
-    <Appreciate
-      heading="Everyone is an Artist"
-      subHeading="Don't forget to appreciate the art in me. XOXO."
-    />
 
     <!-- Project Footer Navigatrion -->
 
@@ -270,21 +266,21 @@
         <allprojectsnav />
 
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/hindigiri">
+          <nuxt-link to="/projects/goals101">
             <pfooterp
-              projectName="Hindigiri"
-              projectCategories="Branding, Marketing"
-              thumbnail="/hindigiri-thumbnail.jpg"
+              projectName="Change Management Tool"
+              projectCategories="Internship at Goals101"
+              thumbnail="/1.jpg"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/logofolio">
+          <nuxt-link to="/projects/GoCorona">
             <pfootern
-              projectName="Logofolio"
-              projectCategories="logos design so far"
-              thumbnail="/logofolio-thumbnail.jpg"
+              projectName="GoCorona"
+              projectCategories="Mishmash Diverisity Hackathon"
+              thumbnail="/1.jpg"
             />
           </nuxt-link>
         </div>
@@ -329,5 +325,35 @@ export default {
 <style>
 .project-footer {
   bottom: 0%;
+}
+
+.distress-column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-left: 150px;
+}
+
+.admin-column {
+  float: left;
+  width: 30.33%;
+  padding: 5px;
+  margin-left: 40px;
+
+}
+
+.admin-column-location{
+
+  float: left;
+  width: 20.33%;
+  padding: 5px;
+
+}
+
+/* Clearfix (clear floats) */
+.distress-row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 </style>

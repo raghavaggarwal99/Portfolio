@@ -357,17 +357,17 @@
             <pfooterp
               projectName="Automize Apps."
               projectCategories="Internship"
-              thumbnail="/sentiment.jpg"
+              thumbnail="/1.jpg"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/GoCorona">
+          <nuxt-link to="/projects/streerides">
             <pfootern
-              projectName="GoCorona"
-              projectCategories="App Development Competition"
-              thumbnail="/gocorona.jpg"
+              projectName="Streerides"
+              projectCategories="Website Development"
+              thumbnail="/1.jpg"
             />
           </nuxt-link>
         </div>
