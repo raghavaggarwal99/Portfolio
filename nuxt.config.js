@@ -15,13 +15,10 @@ const productionUrl = {
 const baseUrl = 'https://raghavaggarwal.com';
 
 export default {
-  mode: 'universal',
-  env: {
-    baseUrl,
-    productionUrl
-  },
+  mode: 'spa',
 
-  router: { base: '/' },
+ 
+  router: { base: '/raghav/' },
 
   head: {
 
@@ -91,7 +88,7 @@ export default {
       },
 
       {
-        src: '/easescroll.js',
+        src: '/raghav/easescroll.js',
         body: true,
         async: true,
         ssr: false
@@ -100,7 +97,7 @@ export default {
 
 
       {
-        src: '/main.js',
+        src: '/raghav/main.js',
         defer: true,
         body: true,
         async: true

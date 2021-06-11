@@ -141,7 +141,7 @@
     </transition>
 
     <span class="h-fullscreen-container">
-    <a href=http://localhost:3000/playlife>
+    <a href=https://raghavaggarwal99.github.io/raghav/playlife>
       <div>
         <span class="underline-magical">Play</span>
       </div>

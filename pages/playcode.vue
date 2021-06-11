@@ -11,9 +11,10 @@
     	<div class="col-xs-4 ">
 				<nav>
 					<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist" style="width: 900px; ">
-						<a class="nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="/playlife" role="tab" aria-controls="nav-home" aria-selected="false">Life</a>
+          
+						<a class="nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="/playlife" role="tab" aria-controls="nav-home" aria-selected="false"><nuxt-link to='/playlife'>Life </nuxt-link></a>
 			
-            <a class="nav-item nav-link active" id="nav-profile-tab" data-toggle="tab" href="/playcode" role="tab" aria-controls="nav-profile" aria-selected="true">Play with Code</a>
+            <a class="nav-item nav-link active" id="nav-profile-tab" data-toggle="tab" href="/playcode" role="tab" aria-controls="nav-profile" aria-selected="true"><nuxt-link to='/playcode'>Code </nuxt-link></a>
 					</div>
 				</nav>
 			</div>
@@ -72,7 +73,7 @@
     <br>
     <br>
 
-    <p  style="margin-left: 150px; color:#B8B8B8; font-size: 50px; font-stretch: expanded;">2. RL Agent for Atari Games</p>
+    <p  style="margin-left: 150px; color:#B8B8B8; font-size: 50px; font-stretch: expanded;">2. R Agent for Atari Games</p>
     <p style="margin-left: 150px;"> As played in general Nokia phones, that used to be a great game for our generation, I developed a snake game using Html and Javascript only.
         This is a standard code for the cartpole problem that trains itself to get the 
     maximum score possible. We use Deep RL here to fit the model in neural network to get the best output. 

@@ -31,7 +31,7 @@
             <thumbnail
               thumbnailName="Gocorona"
               thumbnailDescription="App Development competition"
-              thumbnail="/gocorona.jpg"
+              thumbnail="/raghav/gocorona.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="800"
@@ -46,7 +46,7 @@
             <thumbnail
               thumbnailName="Blockchain Aadhar Voting"
               thumbnailDescription="Microsoft Code fundoo Competition"
-              thumbnail="/blockchain.jpg"
+              thumbnail="/raghav/blockchain.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="1000"
@@ -61,7 +61,7 @@
             <thumbnail
               thumbnailName="Travel Go"
               thumbnailDescription="Chatbot as Internship in Valiance Solutions"
-              thumbnail="/chatbot2.jpg"
+              thumbnail="/raghav/chatbot2.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="100"
@@ -76,7 +76,7 @@
             <thumbnail
               thumbnailName="SocialContour"
               thumbnailDescription="Freelance"
-              thumbnail="/s.jpg"
+              thumbnail="/raghav/s.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="300"
@@ -90,7 +90,7 @@
             <thumbnail
               thumbnailName="OpenSource"
               thumbnailDescription="OpenSource"
-              thumbnail="/opensource.jpg"
+              thumbnail="/raghav/opensource.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="300"
@@ -104,7 +104,7 @@
             <thumbnail
               thumbnailName="Automize Apps"
               thumbnailDescription="Internship"
-              thumbnail="/sentiment.jpg"
+              thumbnail="/raghav/sentiment.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="100"
@@ -118,7 +118,7 @@
             <thumbnail
               thumbnailName="Change Management Tool"
               thumbnailDescription="Goals 101, Internship"
-              thumbnail="/change3.jpg"
+              thumbnail="/raghav/change3.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="300"

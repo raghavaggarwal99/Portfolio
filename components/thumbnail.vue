@@ -7,7 +7,7 @@
           <img :src="thumbnail" />
         </div>
       </div>
-      <div class="projects-content" :style="{ 'color': (color)}">
+      <div class="projects-content" :style="{ 'color': 'black'}">
         <h3 class="type-sub2">{{ thumbnailName }}</h3>
         <p class="type-sub3">{{ thumbnailDescription }}</p>
       </div>
@@ -35,7 +35,7 @@ export default {
   height: 100%;
   perspective: 1000px;
   background-color: white;
-  cursor: url('/cnblack.svg'), auto;
+  cursor: url('/raghav/cnblack.svg'), auto;
 }
 
 .projects-image > img {
@@ -85,7 +85,7 @@ export default {
 }
 
 .projects-content:active {
-  color: aquamarine;
+  color: black;
 }
 
 .type-sub2 {

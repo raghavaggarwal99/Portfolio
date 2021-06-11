@@ -132,8 +132,8 @@ export async function setContext (app, context) {
       store: app.store,
       payload: context.payload,
       error: context.error,
-      base: '/',
-      env: {"baseUrl":"https://raghavaggarwal.com","productionUrl":{"en":"/en"}}
+      base: '/raghav/',
+      env: {}
     }
     // Only set once
     if (context.req) {
