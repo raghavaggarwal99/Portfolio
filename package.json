@@ -1,8 +1,8 @@
 {
-  "name": "saurabhcrai.com",
+  "name": "raghavaggarwal.com",
   "version": "1.0.0",
-  "description": "User Experience Designer. ",
-  "author": "Saurabh Chandra Rai",
+  "description": "Software Developer",
+  "author": "Raghav AggaRWAL",
   "private": true,
   "scripts": {
     "dev": "nuxt",

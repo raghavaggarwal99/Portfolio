@@ -72,7 +72,7 @@
     <br>
     <br>
 
-    <p  style="margin-left: 150px; color:#B8B8B8; font-size: 50px; font-stretch: expanded;">2. RT Agent for Atari Games</p>
+    <p  style="margin-left: 150px; color:#B8B8B8; font-size: 50px; font-stretch: expanded;">2. RL Agent for Atari Games</p>
     <p style="margin-left: 150px;"> As played in general Nokia phones, that used to be a great game for our generation, I developed a snake game using Html and Javascript only.
         This is a standard code for the cartpole problem that trains itself to get the 
     maximum score possible. We use Deep RL here to fit the model in neural network to get the best output. 
@@ -95,6 +95,7 @@
       </div>
     </div>
 
+
     <Footer2/>
 
   </div>
@@ -106,7 +107,9 @@ import Preface from '~/components/projects/preface'
 import Projectfooter from '~/components/projects/projectfooter'
 import Pcase from '~/components/projects/pcase'
 import Footer2 from '~/components/footer2'
-
+import Pfootern from '~/components/projects/pfootern'
+import Pfooterp from '~/components/projects/pfooterp'
+import Allprojectsnav from '~/components/projects/allprojectsnav'
 
 export default {
   layout: 'projects',
@@ -115,7 +118,10 @@ export default {
     Preface,
     Pcase,
     Projecthero,
-    Footer2
+    Footer2,
+    Allprojectsnav,
+    Pfooterp,
+    Pfootern
   }
 }
 </script>
