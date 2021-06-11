@@ -11,7 +11,11 @@
     	<div class="col-xs-4 ">
 				<nav>
 					<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist" style="width: 900px; ">
-						<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="/playlife" role="tab" aria-controls="nav-home" aria-selected="false"><nuxt-link to='/playlife'>Life </nuxt-link></a>
+						<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="/playlife" role="tab" aria-controls="nav-home" aria-selected="false">
+            <nuxt-link to='/playlife'>
+            Life 
+            </nuxt-link>
+            </a>
             <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="/playcode" role="tab" aria-controls="nav-profile" aria-selected="true"> <nuxt-link to='/playcode'>Code </nuxt-link></a>
 					</div>
 				</nav>

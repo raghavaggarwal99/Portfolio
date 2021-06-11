@@ -141,12 +141,13 @@
     </transition>
 
     <span class="h-fullscreen-container">
-    <a href=https://raghavaggarwal99.github.io/raghav/playlife>
+    <nuxt-link to='/playlife'>
       <div>
         <span class="underline-magical">Play</span>
       </div>
-    </a>
+    </nuxt-link>
     </span>
+    
   </div>
 </template>
 
@@ -425,30 +426,6 @@ svg {
   width: 100%;
 }
 
-/* .slide-in-enter-to .nav__list-item {
-  opacity: 1;
-  transform: translateX(0%);
-} */
-
-/* .slide-in-enter-active .nav__list-item {
-  transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;
-}
-.slide-in-enter-active .nav__list-item:nth-child(0) {
-  transition-delay: 0.5s;
-}
-.slide-in-enter-active .nav__list-item:nth-child(1) {
-  transition-delay: 0.6s;
-}
-.slide-in-enter-active .nav__list-item:nth-child(2) {
-  transition-delay: 0.7s;
-}
-.slide-in-enter-active .nav__list-item:nth-child(3) {
-  transition-delay: 0.8s;
-}
-.slide-in-enter-active .nav__list-item:nth-child(4) {
-  transition-delay: 0.9s;
-} */
-
 .h-fullscreen-container {
   position: absolute;
   bottom: 44px;
@@ -459,7 +436,6 @@ svg {
 .h-fullscreen-container p {
   font-size: 12px;
   position: absolute;
-  white-space: nowrap;
   color: black;
   opacity: 0.5;
   padding: 0px 1px 0px 0px;
