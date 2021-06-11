@@ -5,40 +5,16 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _42e0cf74 = () => interopDefault(import('../pages/about/index.vue' /* webpackChunkName: "pages/about/index" */))
 const _32cfddd1 = () => interopDefault(import('../pages/Blog/index.vue' /* webpackChunkName: "pages/Blog/index" */))
-const _1daed4f9 = () => interopDefault(import('../pages/CodeExperiment/index.vue' /* webpackChunkName: "pages/CodeExperiment/index" */))
 const _3ed65091 = () => interopDefault(import('../pages/Opensource.vue' /* webpackChunkName: "pages/Opensource" */))
-const _5fea835e = () => interopDefault(import('../pages/people/index.vue' /* webpackChunkName: "pages/people/index" */))
-const _f37dcef8 = () => interopDefault(import('../pages/photography/index.vue' /* webpackChunkName: "pages/photography/index" */))
 const _e7e9b8a6 = () => interopDefault(import('../pages/playcode.vue' /* webpackChunkName: "pages/playcode" */))
 const _0e0bf588 = () => interopDefault(import('../pages/playlife.vue' /* webpackChunkName: "pages/playlife" */))
 const _ded61aee = () => interopDefault(import('../pages/projects/index.vue' /* webpackChunkName: "pages/projects/index" */))
 const _7ff4d101 = () => interopDefault(import('../pages/projects/automizeapps.vue' /* webpackChunkName: "pages/projects/automizeapps" */))
 const _12c2fb66 = () => interopDefault(import('../pages/projects/Blockchain.vue' /* webpackChunkName: "pages/projects/Blockchain" */))
-const _a576c140 = () => interopDefault(import('../pages/projects/bls.vue' /* webpackChunkName: "pages/projects/bls" */))
-const _d985c8a0 = () => interopDefault(import('../pages/projects/dreamz.vue' /* webpackChunkName: "pages/projects/dreamz" */))
-const _b5f7a428 = () => interopDefault(import('../pages/projects/filmingeye.vue' /* webpackChunkName: "pages/projects/filmingeye" */))
-const _66a1fa2f = () => interopDefault(import('../pages/projects/ft-events.vue' /* webpackChunkName: "pages/projects/ft-events" */))
 const _1097596a = () => interopDefault(import('../pages/projects/goals101.vue' /* webpackChunkName: "pages/projects/goals101" */))
 const _1bf88346 = () => interopDefault(import('../pages/projects/GoCorona.vue' /* webpackChunkName: "pages/projects/GoCorona" */))
-const _262a80c8 = () => interopDefault(import('../pages/projects/happy-miles.vue' /* webpackChunkName: "pages/projects/happy-miles" */))
-const _8d05dbc2 = () => interopDefault(import('../pages/projects/hello-color.vue' /* webpackChunkName: "pages/projects/hello-color" */))
-const _04a0d022 = () => interopDefault(import('../pages/projects/hindigiri.vue' /* webpackChunkName: "pages/projects/hindigiri" */))
-const _4057dd31 = () => interopDefault(import('../pages/projects/homey.vue' /* webpackChunkName: "pages/projects/homey" */))
-const _a3529186 = () => interopDefault(import('../pages/projects/IALSE.vue' /* webpackChunkName: "pages/projects/IALSE" */))
-const _1d95dfa9 = () => interopDefault(import('../pages/projects/irctc-redesign-concept.vue' /* webpackChunkName: "pages/projects/irctc-redesign-concept" */))
-const _6ba57e95 = () => interopDefault(import('../pages/projects/logofolio.vue' /* webpackChunkName: "pages/projects/logofolio" */))
-const _778c319d = () => interopDefault(import('../pages/projects/meeting-rooms.vue' /* webpackChunkName: "pages/projects/meeting-rooms" */))
-const _2510014c = () => interopDefault(import('../pages/projects/mr-irritating.vue' /* webpackChunkName: "pages/projects/mr-irritating" */))
-const _51682868 = () => interopDefault(import('../pages/projects/my-arts.vue' /* webpackChunkName: "pages/projects/my-arts" */))
-const _1fc14d64 = () => interopDefault(import('../pages/projects/my-portfolio-website.vue' /* webpackChunkName: "pages/projects/my-portfolio-website" */))
-const _5d1666c0 = () => interopDefault(import('../pages/projects/news-app.vue' /* webpackChunkName: "pages/projects/news-app" */))
-const _4d4745ae = () => interopDefault(import('../pages/projects/prepowl.vue' /* webpackChunkName: "pages/projects/prepowl" */))
-const _8603bda2 = () => interopDefault(import('../pages/projects/projects-academia.vue' /* webpackChunkName: "pages/projects/projects-academia" */))
-const _8aebd74c = () => interopDefault(import('../pages/projects/r3.vue' /* webpackChunkName: "pages/projects/r3" */))
-const _314a75d2 = () => interopDefault(import('../pages/projects/salesfactory.vue' /* webpackChunkName: "pages/projects/salesfactory" */))
 const _0e11a878 = () => interopDefault(import('../pages/projects/SocialContour.vue' /* webpackChunkName: "pages/projects/SocialContour" */))
-const _3c2c2f0a = () => interopDefault(import('../pages/projects/thebbdtimes.vue' /* webpackChunkName: "pages/projects/thebbdtimes" */))
-const _897566fe = () => interopDefault(import('../pages/projects/thebegining.vue' /* webpackChunkName: "pages/projects/thebegining" */))
+const _454d213a = () => interopDefault(import('../pages/projects/streerides.vue' /* webpackChunkName: "pages/projects/streerides" */))
 const _c770524a = () => interopDefault(import('../pages/projects/TravelGo.vue' /* webpackChunkName: "pages/projects/TravelGo" */))
 const _31193c89 = () => interopDefault(import('../pages/Blog/_slug.vue' /* webpackChunkName: "pages/Blog/_slug" */))
 const _bba42714 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
@@ -61,21 +37,9 @@ export const routerOptions = {
     component: _32cfddd1,
     name: "Blog___en"
   }, {
-    path: "/CodeExperiment",
-    component: _1daed4f9,
-    name: "CodeExperiment___en"
-  }, {
     path: "/Opensource",
     component: _3ed65091,
     name: "Opensource___en"
-  }, {
-    path: "/people",
-    component: _5fea835e,
-    name: "people___en"
-  }, {
-    path: "/photography",
-    component: _f37dcef8,
-    name: "photography___en"
   }, {
     path: "/playcode",
     component: _e7e9b8a6,
@@ -97,22 +61,6 @@ export const routerOptions = {
     component: _12c2fb66,
     name: "projects-Blockchain___en"
   }, {
-    path: "/projects/bls",
-    component: _a576c140,
-    name: "projects-bls___en"
-  }, {
-    path: "/projects/dreamz",
-    component: _d985c8a0,
-    name: "projects-dreamz___en"
-  }, {
-    path: "/projects/filmingeye",
-    component: _b5f7a428,
-    name: "projects-filmingeye___en"
-  }, {
-    path: "/projects/ft-events",
-    component: _66a1fa2f,
-    name: "projects-ft-events___en"
-  }, {
     path: "/projects/goals101",
     component: _1097596a,
     name: "projects-goals101___en"
@@ -121,81 +69,13 @@ export const routerOptions = {
     component: _1bf88346,
     name: "projects-GoCorona___en"
   }, {
-    path: "/projects/happy-miles",
-    component: _262a80c8,
-    name: "projects-happy-miles___en"
-  }, {
-    path: "/projects/hello-color",
-    component: _8d05dbc2,
-    name: "projects-hello-color___en"
-  }, {
-    path: "/projects/hindigiri",
-    component: _04a0d022,
-    name: "projects-hindigiri___en"
-  }, {
-    path: "/projects/homey",
-    component: _4057dd31,
-    name: "projects-homey___en"
-  }, {
-    path: "/projects/IALSE",
-    component: _a3529186,
-    name: "projects-IALSE___en"
-  }, {
-    path: "/projects/irctc-redesign-concept",
-    component: _1d95dfa9,
-    name: "projects-irctc-redesign-concept___en"
-  }, {
-    path: "/projects/logofolio",
-    component: _6ba57e95,
-    name: "projects-logofolio___en"
-  }, {
-    path: "/projects/meeting-rooms",
-    component: _778c319d,
-    name: "projects-meeting-rooms___en"
-  }, {
-    path: "/projects/mr-irritating",
-    component: _2510014c,
-    name: "projects-mr-irritating___en"
-  }, {
-    path: "/projects/my-arts",
-    component: _51682868,
-    name: "projects-my-arts___en"
-  }, {
-    path: "/projects/my-portfolio-website",
-    component: _1fc14d64,
-    name: "projects-my-portfolio-website___en"
-  }, {
-    path: "/projects/news-app",
-    component: _5d1666c0,
-    name: "projects-news-app___en"
-  }, {
-    path: "/projects/prepowl",
-    component: _4d4745ae,
-    name: "projects-prepowl___en"
-  }, {
-    path: "/projects/projects-academia",
-    component: _8603bda2,
-    name: "projects-projects-academia___en"
-  }, {
-    path: "/projects/r3",
-    component: _8aebd74c,
-    name: "projects-r3___en"
-  }, {
-    path: "/projects/salesfactory",
-    component: _314a75d2,
-    name: "projects-salesfactory___en"
-  }, {
     path: "/projects/SocialContour",
     component: _0e11a878,
     name: "projects-SocialContour___en"
   }, {
-    path: "/projects/thebbdtimes",
-    component: _3c2c2f0a,
-    name: "projects-thebbdtimes___en"
-  }, {
-    path: "/projects/thebegining",
-    component: _897566fe,
-    name: "projects-thebegining___en"
+    path: "/projects/streerides",
+    component: _454d213a,
+    name: "projects-streerides___en"
   }, {
     path: "/projects/TravelGo",
     component: _c770524a,

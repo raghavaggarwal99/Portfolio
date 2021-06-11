@@ -455,9 +455,9 @@ export default {}
 
 .distress-column2 {
   float: left;
-  width: 23.33%;
+  width: 25.33%;
   padding: 5px;
-  margin-left: 220px;
+  margin-left: 180px;
 }
 
 

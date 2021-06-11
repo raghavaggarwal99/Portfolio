@@ -1,23 +1,5 @@
 <template>
-  <!-- Feeding Trends -->
   <div>
-    <div class="ppnp-container">
-      <nuxt-link to="elevito">
-        <previous />
-      </nuxt-link>
-
-      <nuxt-link to="bharatrohan">
-        <next />
-      </nuxt-link>
-
-      <div class="ppnp-number-container">
-        <p class="black ppnp-p-number">
-          <span style="color:#1D98B6;">03</span>
-          <span>/</span>
-          <span>20</span>
-        </p>
-      </div>
-    </div>
 
     <!-- hero image -->
  
@@ -35,10 +17,10 @@
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_elevito" data-aos="reveal-right"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/travelgo/chatbot.jpg" alt="cool background" />
         </picture>
       </div>
@@ -73,10 +55,10 @@
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_elevito" data-aos="reveal-right"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/travelgo/preface.png" alt="cool background" />
         </picture>
       </div>
@@ -109,10 +91,10 @@
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_elevito" data-aos="reveal-right"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/travelgo/intents.png" alt="cool background" />
         </picture>
       </div>
@@ -128,6 +110,8 @@
           1. Ask for the buses availability for asked routes<br>
           2. Showing contact information and FAQ in case it's not a trained data<br>
           3. Ask for indirect bus routes <br>
+          4. Dynamically asking the required questions needed to show the correct output from the database.
+          Example For buses availability on a specific day, time, the source and destination is needed.
         "
           theme="theme_cricbuzz"
         />
@@ -139,10 +123,10 @@
   <br>
   <br>
     <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-          />
+          /> -->
           <img
             src="~assets/projects/travelgo/img1.png"
             alt="GoCorona app screenshots"
@@ -165,10 +149,10 @@
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_elevito" data-aos="reveal-right"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/travelgo/database.jpg" alt="cool background" />
         </picture>
       </div>
@@ -178,10 +162,10 @@
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_elevito" data-aos="reveal-right"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/travelgo/database2.png" alt="cool background" />
         </picture>
       </div>
@@ -205,10 +189,10 @@
      <div class="distress-row">
       <div class="distress-column">
         <picture>
-              <source
+              <!-- <source
                 media="(max-width: 600px)"
                 srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-              />
+              /> -->
               <img
                 src="~assets/projects/travelgo/dynamic1.png"
                 alt="GoCorona app screenshots"
@@ -219,10 +203,10 @@
       <div class="distress-column">
       <br>
         <picture>
-              <source
+              <!-- <source
                 media="(max-width: 600px)"
                 srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-              />
+              /> -->
               <img
                 src="~assets/projects/travelgo/dynamic2.png"
                 alt="GoCorona app screenshots"
@@ -237,10 +221,10 @@
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_elevito" data-aos="reveal-right"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/travelgo/workbook.png" alt="cool background" />
         </picture>
       </div>
@@ -272,10 +256,10 @@
   <br>
   <br>
     <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-          />
+          /> -->
           <img
             src="~assets/projects/travelgo/static.png"
             alt="GoCorona app screenshots"
@@ -342,33 +326,27 @@
       <hr class="section-divider" />
     </div>
 
-    <!-- appreciate button -->
-    <Appreciate
-      heading="Share Your thoughts "
-      subHeading="Damn you really like to scroll. Click Me."
-    />
-
     <!-- Project Footer Navigatrion -->
 
     <div class="project-footer">
       <div class="projects-footer-container">
         <allprojectsnav />
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/elevito">
+          <nuxt-link to="/projects/Blockchain">
             <pfooterp
-              projectName="Elevito"
-              projectCategories="Web design, Branding, Print"
-              thumbnail="/elevito-thumbnail.jpg"
+              projectName="Blockchain Aadhar Voting"
+              projectCategories="Microsoft Codefundoo Competition"
+              thumbnail="/blockchain.jpg"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/bharatrohan">
+          <nuxt-link to="/projects/SocialContour">
             <pfootern
-              projectName="Bharatrohan"
-              projectCategories="App, Admin, Web"
-              thumbnail="/bharatrohangif2.gif"
+              projectName="Social Contour"
+              projectCategories="Freelance"
+              thumbnail="/s.jpg"
             />
           </nuxt-link>
         </div>

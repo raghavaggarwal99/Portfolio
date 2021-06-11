@@ -1,23 +1,6 @@
 <template>
   <!-- Feeding Trends -->
   <div>
-    <div class="ppnp-container">
-      <nuxt-link to="my-portfolio-website">
-        <previous />
-      </nuxt-link>
-
-      <nuxt-link to="elevito">
-        <next />
-      </nuxt-link>
-
-      <div class="ppnp-number-container">
-        <p class="black ppnp-p-number">
-          <span style="color:#0088FF;">01</span>
-          <span>/</span>
-          <span>20</span>
-        </p>
-      </div>
-    </div>
 
     <projecthero
       pDate="March 2020 "
@@ -32,13 +15,13 @@
     <div class="p-dz-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/gocorona/cricbuzz-hero-mobile.jpg"
-          />
+          /> -->
           <img
             src="~assets/projects/gocorona/preview.png"
-            alt="woman t-shirt, woman t-shirt mockup"
+            alt="Preview"
             align
           />
         </picture>
@@ -78,7 +61,7 @@
         <picture>
           <img
             src="~assets/projects/gocorona/preface.png"
-            alt="cricbuzz app wireframing"
+            alt="Preface"
           />
         </picture>
       </div>
@@ -129,7 +112,7 @@
         <picture>
           <img
             src="~assets/projects/gocorona/wireframe2.jpg"
-            alt="cricbuzz app wireframing"
+            alt="Wireframe"
           />
         </picture>
       </div>
@@ -149,26 +132,26 @@
     <div class="distress-row">
       <div class="distress-column">
         <picture>
-              <source
+              <!-- <source
                 media="(max-width: 600px)"
                 srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-              />
+              /> -->
               <img
                 src="~assets/projects/gocorona/authentification1.jpg"
-                alt="GoCorona app screenshots"
+                alt="Authentification"
               />
             </picture>
 
       </div>
       <div class="distress-column">
         <picture>
-              <source
+              <!-- <source
                 media="(max-width: 600px)"
                 srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-              />
+              /> -->
               <img
                 src="~assets/projects/gocorona/authentification2.jpg"
-                alt="GoCorona app screenshots"
+                alt="AUthentification Screens"
               />
             </picture>
       </div>
@@ -184,7 +167,7 @@
         <picture>
           <img
             src="~assets/projects/gocorona/authentification3.jpg"
-            alt="cricbuzz app wireframing"
+            alt="Authentification Screens"
           />
         </picture>
       </div>
@@ -218,10 +201,10 @@
     <br>
     <br>
       <picture>
-            <source
+            <!-- <source
               media="(max-width: 600px)"
               srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-            />
+            /> -->
             <img
               src="~assets/projects/gocorona/home.jpg"
               alt="GoCorona app screenshots"
@@ -234,10 +217,10 @@
     <br>
     <br>
       <picture>
-            <source
+            <!-- <source
               media="(max-width: 600px)"
               srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-            />
+            /> -->
             <img
               src="~assets/projects/gocorona/location.jpg"
               alt="Live Storing of Location in real time database"
@@ -276,10 +259,10 @@
 <div class="distress-row">
   <div class="distress-column">
      <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-          />
+          /> -->
           <img
             src="~assets/projects/gocorona/distresscall1.jpg"
             alt="GoCorona app screenshots"
@@ -289,10 +272,10 @@
   </div>
   <div class="distress-column">
     <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-          />
+          /> -->
           <img
             src="~assets/projects/gocorona/distresscall2.jpg"
             alt="GoCorona app screenshots"
@@ -321,10 +304,10 @@
   <div class="distress-row">
     <div class="admin-column">
       <picture>
-            <source
+            <!-- <source
               media="(max-width: 600px)"
               srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-            />
+            /> -->
             <img
               src="~assets/projects/gocorona/messagescreen1.jpg"
               alt="GoCorona app screenshots"
@@ -334,10 +317,10 @@
     </div>
     <div class="admin-column">
       <picture>
-            <source
+            <!-- <source
               media="(max-width: 600px)"
               srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-            />
+            /> -->
             <img
               src="~assets/projects/gocorona/messagescreen2.jpg"
               alt="GoCorona app screenshots"
@@ -346,10 +329,10 @@
     </div>
     <div class="admin-column">
       <picture>
-            <source
+            <!-- <source
               media="(max-width: 600px)"
               srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-            />
+            /> -->
             <img
               src="~assets/projects/gocorona/messagescreen3.jpg"
               alt="GoCorona app screenshots"
@@ -370,10 +353,10 @@
    <div class="distress-row">
   <div class="distress-column">
      <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-          />
+          /> -->
           <img
             src="~assets/projects/gocorona/helpscreen1.jpg"
             alt="GoCorona app screenshots"
@@ -383,10 +366,10 @@
   </div>
   <div class="distress-column">
     <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-          />
+          /> -->
           <img
             src="~assets/projects/gocorona/helpscreen2.jpg"
             alt="GoCorona app screenshots"
@@ -405,7 +388,7 @@
         <picture>
           <img
             src="~assets/projects/gocorona/distressbackend.png"
-            alt="cricbuzz app wireframing"
+            alt="Backend"
           />
         </picture>
       </div>
@@ -450,10 +433,10 @@
   <br>
   <br>
     <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-          />
+          /> -->
           <img
             src="~assets/projects/gocorona/adminscreen.jpg"
             alt="GoCorona app screenshots"
@@ -477,27 +460,6 @@
         </picture>
       </div>
     </div>
-
-<!--
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <source
-            media="(max-width: 600px)"
-            srcset="~assets/projects/cricbuzz/cricbuzz-ui-home-mobile.jpg"
-          />
-          <img
-            src="~assets/projects/cricbuzz/cricbuzz-ui-home.jpg"
-            alt="cricbuzz app redesign home screen"
-          />
-          <p class="ps black70">App Home Screen Instances</p>
-        </picture>
-      </div>
-    </div>
-
--->
 
   <pcase
       heading="Future Scope"
@@ -525,10 +487,10 @@
   <div class="distress-row">
     <div class="admin-column">
       <picture>
-            <source
+            <!-- <source
               media="(max-width: 600px)"
               srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-            />
+            /> -->
             <img
               src="~assets/projects/gocorona/backend.jpg"
               alt="GoCorona app screenshots"
@@ -539,10 +501,10 @@
     </div>
     <div class="admin-column">
       <picture>
-            <source
+            <!-- <source
               media="(max-width: 600px)"
               srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-            />
+            /> -->
             <img
               src="~assets/projects/gocorona/infected.jpg"
               alt="GoCorona app screenshots"
@@ -551,10 +513,10 @@
     </div>
     <div class="admin-column">
       <picture>
-            <source
+            <!-- <source
               media="(max-width: 600px)"
               srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-            />
+            /> -->
             <img
               src="~assets/projects/gocorona/map.jpg"
               alt="GoCorona app screenshots"
@@ -575,23 +537,7 @@
      "
       theme="theme_cricbuzz"
     />
-    <!--
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <source
-            media="(max-width: 600px)"
-            srcset="~assets/projects/cricbuzz/cricbuzz-mockup-mobile.jpg"
-          />
-          <img
-            src="~assets/projects/cricbuzz/cricbuzz-mockup.jpg"
-            alt="cricbuzz app redesign mockup"
-          />
-        </picture>
-      </div>
-    </div>
-    -->
+
 
     <!-- key Focus Area -->
 
@@ -632,26 +578,12 @@
       </div>
     </div>
 
-<!--
-    <div class="p-quote contain red">
-      <blockquote>
-        It’s inevitable that we uncover new pain-points along the way, but we can’t
-        change tack every time this occurs. The challenge lies in staying focused.
-      </blockquote>
-    </div>
 
--->
     <!-- End Line  -->
 
     <div class="section-divider">
       <hr class="section-divider" />
     </div>
-
-    <!-- appreciate button -->
-    <Appreciate
-      heading="Share Your thoughts "
-      subHeading="Damn you really like to scroll. Click Me."
-    />
 
     <!-- Project Footer Navigatrion -->
 
@@ -659,21 +591,21 @@
       <div class="projects-footer-container">
         <allprojectsnav />
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/my-portfolio-website">
+          <nuxt-link to="/projects/goals101">
             <pfooterp
-              projectName="My Portfolio Website"
-              projectCategories="Web design and Development"
-              thumbnail="/my-website-thumbnail.jpg"
+              projectName="Change Management Tool"
+              projectCategories="Intern at Goals101"
+              thumbnail="/change3.jpg"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/elevito">
+          <nuxt-link to="/projects/Blockchain">
             <pfootern
-              projectName="Elevito"
-              projectCategories="Web design, Branding, Print"
-              thumbnail="/elevito-thumbnail.jpg"
+              projectName="Blockchain Aadhar Voting"
+              projectCategories="Microsoft Codefundoo Competition"
+              thumbnail="/blockchain.jpg"
             />
           </nuxt-link>
         </div>

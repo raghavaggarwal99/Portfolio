@@ -1,7 +1,7 @@
 <template>
-  <section>
+   <div class="blog-page">
   
-      <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -20,19 +20,20 @@
     </div>
     </div>
     
-
+    <div class="p-quote contain red" style="margin-left: 475px;">
+        <blockquote>
+         Code is simple. Code is a Play
+        </blockquote>
+      </div>
     
-    
-  <p  style="margin-left: 120px; color:#DF9F17; font-size: 100px; font-stretch: expanded;">GO CRAZY WITH CODE</p>
-
     <div class="p-dz-hero_image">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right theme_dz" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/dearzindagi/dzhero-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/play/main.jpg" alt="indian children smiling" />
         </picture>
       </div>
@@ -59,10 +60,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/dearzindagi/DearZindagi1-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/play/snake2.png" />
         </picture>
       </div>
@@ -85,53 +86,18 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/dearzindagi/DearZindagi1-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/play/rt.png" />
         </picture>
       </div>
     </div>
 
+    <Footer2/>
 
-    <!-- End Line  -->
-
-    <div class="section-divider">
-      <hr class="section-divider" />
-    </div>
-
-    <!-- appreciate button -->
-
-    <Appreciate heading="Loved  Dear Zindagi" subHeading="Don't forgot to appreciate" />
-
-    <!-- Project Footer Navigation -->
-
-    <div class="project-footer">
-      <div class="projects-footer-container">
-        <allprojectsnav />
-        <div class="p-f-p-container">
-          <nuxt-link to="/projects/mr-irritating">
-            <pfooterp
-              projectName="Mr. Irritating"
-              projectCategories="Print, Social Media"
-              thumbnail="/mr-irritating-thumbnail.webp"
-            />
-          </nuxt-link>
-        </div>
-
-        <div class="p-f-n-container">
-          <nuxt-link to="/projects/awesome-inc">
-            <pfootern
-              projectName="Awesome Inc."
-              projectCategories="Identity, Print"
-              thumbnail="/awesome-inc-thumnail-3.jpg"
-            />
-          </nuxt-link>
-        </div>
-      </div>
-    </div>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -139,26 +105,17 @@ import Projecthero from '~/components/projects/projecthero'
 import Preface from '~/components/projects/preface'
 import Projectfooter from '~/components/projects/projectfooter'
 import Pcase from '~/components/projects/pcase'
-import Appreciate from '~/components/projects/appreciate'
-import Next from '~/components/projects/next'
-import Previous from '~/components/projects/previous'
-import Pfootern from '~/components/projects/pfootern'
-import Pfooterp from '~/components/projects/pfooterp'
-import Allprojectsnav from '~/components/projects/allprojectsnav'
+import Footer2 from '~/components/footer2'
+
 
 export default {
   layout: 'projects',
   components: {
     Projectfooter,
     Preface,
-    Appreciate,
     Pcase,
     Projecthero,
-    Next,
-    Previous,
-    Pfooterp,
-    Pfootern,
-    Allprojectsnav
+    Footer2
   }
 }
 </script>
@@ -169,7 +126,7 @@ export default {
 }
 
 .p-hero_top_play {
-  min-height: 40vh;
+  min-height: 15vh;
   background-color: white;
 }
 

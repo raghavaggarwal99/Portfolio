@@ -1,22 +1,5 @@
 <template>
   <div>
-    <div class="ppnp-container">
-      <nuxt-link to="/projects/cricbuzz-app-redesign">
-        <previous />
-      </nuxt-link>
-
-      <nuxt-link to="/projects/feeding-trends">
-        <next />
-      </nuxt-link>
-
-      <div class="ppnp-number-container">
-        <p class="black ppnp-p-number">
-          <span style="color:#FD3E5B;">02</span>
-          <span>/</span>
-          <span>20</span>
-        </p>
-      </div>
-    </div>
 
     <projecthero
       pDate="August-September 2019 "
@@ -26,10 +9,6 @@
       pHeadingcolor="color:#FD3E5B;"
       pSubheading="Aadhaar Based voting system using blockchain technology Project implemented as part Microsoft Codefundo Competititon"
     />
-    <!-- <div class="p-fe-hero_image">
-      <img src="~assets/projects/fe/fe2.png" alt>
-      <img src="~assets/projects/fe/fe1.png" alt>
-    </div>-->
 
     <!-- <ScrollDown /> -->
 
@@ -38,10 +17,10 @@
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_elevito" data-aos="reveal-right"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/blockchain/main.jpg" alt="cool background" />
         </picture>
       </div>
@@ -83,10 +62,10 @@
     <div class="distress-row">
       <div class="distress-column">
         <picture>
-              <source
+              <!-- <source
                 media="(max-width: 600px)"
                 srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-              />
+              /> -->
               <img
                 src="~assets/projects/blockchain/preface2.png"
                 alt="GoCorona app screenshots"
@@ -97,10 +76,10 @@
       </div>
       <div class="distress-column" style="margin-left: 10px">
         <picture>
-              <source
+              <!-- <source
                 media="(max-width: 600px)"
                 srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-              />
+              /> -->
               <img
                 src="~assets/projects/blockchain/img9.png"
                 alt="GoCorona app screenshots"
@@ -147,10 +126,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/blockchain/elevito-wireframe-cyan-mobile.jpg"
-          />
+          /> -->
           <img
             src="~assets/projects/blockchain/img6.png"
             alt="website wireframing, wireframing"
@@ -164,10 +143,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/blockchain/elevito-wireframe-cyan-mobile.jpg"
-          />
+          /> -->
           <img
             src="~assets/projects/blockchain/img5.png"
             alt="website wireframing, wireframing"
@@ -204,10 +183,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/blockchain/elevito-wireframe-cyan-mobile.jpg"
-          />
+          /> -->
           <img
             src="~assets/projects/blockchain/img1.png"
             alt="website wireframing, wireframing"
@@ -246,10 +225,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/blockchain/elevito-wireframe-cyan-mobile.jpg"
-          />
+          /> -->
           <img
             src="~assets/projects/blockchain/img4.png"
             alt="website wireframing, wireframing"
@@ -266,10 +245,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/blockchain/elevito-wireframe-cyan-mobile.jpg"
-          />
+          /> -->
           <img
             src="~assets/projects/blockchain/img2.png"
             alt="website wireframing, wireframing"
@@ -336,10 +315,6 @@
       <hr class="section-divider" />
     </div>
 
-    <!-- appreciate button -->
-
-    <Appreciate heading="Thanks for scrolling 3400 PX" subHeading="Click or tap to appreciate." />
-
     <!-- Project Footer Navigatrion -->
 
     <div class="project-footer">
@@ -347,21 +322,21 @@
         <allprojectsnav />
 
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/cricbuzz-app-redesign">
+          <nuxt-link to="/projects/GoCorona">
             <pfooterp
-              projectName="CricBuzz"
-              projectCategories="App Redesign Concept"
-              thumbnail="/cricbuzz-thumbnail.jpg"
+              projectName="GoCorona"
+              projectCategories="App Development Competition"
+              thumbnail="/gocorona.jpg"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/feeding-trends">
+          <nuxt-link to="/projects/TravelGo">
             <pfootern
-              projectName="Feeding Trends"
-              projectCategories="Web, Branding, Print"
-              thumbnail="/ft-thumbnail-2.jpg"
+              projectName="Travelgo"
+              projectCategories="Internship at Valiance Solutions"
+              thumbnail="/chatbot2.jpg"
             />
           </nuxt-link>
         </div>

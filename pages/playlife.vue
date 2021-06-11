@@ -19,55 +19,64 @@
     </div>
     </div>
 
+    <!-- <section class="a-crazy-section">
+      <div class="contain">
+        <div class="a-c_heading">
+          <div class="reveal-holder" data-aos="reveal-item" data-aos-once="true">
+            <div class="reveal-block red right" data-aos="reveal-right" data-aos-once="true"></div>
+            <h1 class="margin_reveal">Be Curious</h1>
+          </div>
+        </div>
+      </div>
+      <div class="p-quote contain red">
+        <blockquote>
+         Keep no regrets, Grab every oppurtunity on the way
+        </blockquote>
+      </div>
+    </section> -->
 
-  <p  style="margin-left: 120px; color:#DF9F17; font-size: 100px;">GO CRAZY WITH LIFE</p>
+     <div class="p-quote contain red" style="margin-left: 420px;">
+        <blockquote>
+         Life is supposed to be fun
+        </blockquote>
+      </div>
+
+      <p  style="margin-left: 600px; color:red; font-size: 30px;">- Raghav Aggarwal</p>
+<!-- 
+  <p  style="margin-left: 140px; color:#DF9F17; font-size: 50px;">"The purpose of life is to be happy"</p>
   <p  style="margin-left: 120px;">Well who says working can never be fun. I learnt in college, the
   imprtance of working together</p>
     <br>
-    <br>
+    <br> -->
 
      <p  style="margin-left: 150px; color:#B8B8B8; font-size: 50px; font-stretch: expanded;">1. Techniche</p>
     <p style="margin-left: 150px;"> 
-      Being part of Techno-Management Festival of IIT Guwahati, for three years was a lot of fun and memories. </p>
+      Being part of the Techno-Management Festival of IIT Guwahati, for three years was a lot of fun and memories. I joined as a volunteer in my first year and 
+      I became the Convener by 3rd year. I managed around 250 members under my leadership and managing a lot of events and conducting things like workshops,
+      fun events, games, lecture series was a marvellous and life learning experience. You can find the official 
+      techniche <a href="https://techniche.org"> website </a>  here. 
+      </p>
       <br>
 
-    
-    <!-- End Line  -->
-
-    <div class="section-divider">
-      <hr class="section-divider" />
-    </div>
-
-    <!-- appreciate button -->
-
-    <Appreciate heading="Loved  Dear Zindagi" subHeading="Don't forgot to appreciate" />
-
-    <!-- Project Footer Navigation -->
-
-    <div class="project-footer">
-      <div class="projects-footer-container">
-        <allprojectsnav />
-        <div class="p-f-p-container">
-          <nuxt-link to="/projects/mr-irritating">
-            <pfooterp
-              projectName="Mr. Irritating"
-              projectCategories="Print, Social Media"
-              thumbnail="/mr-irritating-thumbnail.webp"
-            />
-          </nuxt-link>
-        </div>
-
-        <div class="p-f-n-container">
-          <nuxt-link to="/projects/awesome-inc">
-            <pfootern
-              projectName="Awesome Inc."
-              projectCategories="Identity, Print"
-              thumbnail="/awesome-inc-thumnail-3.jpg"
-            />
-          </nuxt-link>
-        </div>
+        <!-- hero image -->
+    <div class="p-dz-hero_image">
+      <div class="reveal-holder" data-aos="fade-up">
+        <picture>
+          <!-- <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/gocorona/cricbuzz-hero-mobile.jpg"
+          /> -->
+          <img
+            src="~assets/about/img4.jpg"
+            alt="Techniche Team"
+            align
+          />
+        </picture>
       </div>
     </div>
+    <br>
+
+    <Footer2/>
   </section>
 </template>
 
@@ -76,26 +85,17 @@ import Projecthero from '~/components/projects/projecthero'
 import Preface from '~/components/projects/preface'
 import Projectfooter from '~/components/projects/projectfooter'
 import Pcase from '~/components/projects/pcase'
-import Appreciate from '~/components/projects/appreciate'
-import Next from '~/components/projects/next'
-import Previous from '~/components/projects/previous'
-import Pfootern from '~/components/projects/pfootern'
-import Pfooterp from '~/components/projects/pfooterp'
-import Allprojectsnav from '~/components/projects/allprojectsnav'
+
+import Footer2 from '~/components/footer2'
 
 export default {
   layout: 'projects',
   components: {
     Projectfooter,
     Preface,
-    Appreciate,
     Pcase,
     Projecthero,
-    Next,
-    Previous,
-    Pfooterp,
-    Pfootern,
-    Allprojectsnav
+    Footer2
   }
 }
 </script>
@@ -106,7 +106,7 @@ export default {
 }
 
 .p-hero_top_play {
-  min-height: 40vh;
+  min-height: 15vh;
   background-color: white;
 }
 

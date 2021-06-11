@@ -1,22 +1,5 @@
 <template>
   <div>
-    <div class="ppnp-container">
-      <nuxt-link to="feeding-trends">
-        <previous />
-      </nuxt-link>
-
-      <nuxt-link to="filmingeye">
-        <next />
-      </nuxt-link>
-
-      <div class="ppnp-number-container">
-        <p class="black ppnp-p-number">
-          <span style="color:#11A78E;">04</span>
-          <span>/</span>
-          <span>20</span>
-        </p>
-      </div>
-    </div>
 
     <projecthero
       pDate="May 2021 "
@@ -35,7 +18,7 @@
         <picture>
           <img
             src="~assets/projects/socialcontour/main3.jpg"
-            alt="cricbuzz app wireframing"
+            alt="Main"
           />
         </picture>
       </div>
@@ -74,7 +57,7 @@
         <picture>
           <img
             src="~assets/projects/socialcontour/preface2.png"
-            alt="cricbuzz app wireframing"
+            alt="Preface"
             margin-left="500px"
           />
         </picture>
@@ -110,7 +93,7 @@
         <picture>
           <img
             src="~assets/projects/socialcontour/login.png"
-            alt="cricbuzz app wireframing"
+            alt="Authentification"
           />
         </picture>
       </div>
@@ -132,7 +115,7 @@
         <picture>
           <img
             src="~assets/projects/socialcontour/gmail.png"
-            alt="cricbuzz app wireframing"
+            alt="Forgot Password"
           />
         </picture>
       </div>
@@ -144,7 +127,7 @@
         <picture>
           <img
             src="~assets/projects/socialcontour/resetpassword.png"
-            alt="cricbuzz app wireframing"
+            alt="Password"
           />
         </picture>
       </div>
@@ -161,29 +144,6 @@
       theme="theme_cricbuzz"
     />
 
-
-    <!--
-    <div class="p-quote contain red">
-      <blockquote>
-        Building products is a creative and sometimes messy process. It requires entrepreneurs and product managers
-        to balance coming up with moonshot and ambitious ideas, while prioritizing them to make sure they are
-        aligned with the mission of their company and solving real scalable problems.
-      </blockquote>
-    </div>
-    -->
-
-    <!--
-    <div class="contain">
-      <div class="p-image-100-duo">
-        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-
-          <img src="~assets/projects/bharatrohan/bharatrohan-meeting.jpg" />
-          <p class="ps white">Tense Meetings</p>
-        </div>
-      </div>
-    </div>
-    -->
 
     <pcase
       heading="1. Connecting Social Handles"
@@ -237,10 +197,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/socialcontour/bharatrohan-user-stories.jpg"
-          />
+          /> -->
           <img src="~assets/projects/socialcontour/post.png" />
         </picture>
       </div>
@@ -259,10 +219,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/socialcontour/bharatrohan-user-stories.jpg"
-          />
+          /> -->
           <img src="~assets/projects/socialcontour/detailedreport.png" />
         </picture>
       </div>
@@ -324,10 +284,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/socialcontour/bharatrohan-user-stories.jpg"
-          />
+          /> -->
           <img src="~assets/projects/socialcontour/wireframe.jpg" />
         </picture>
       </div>
@@ -337,10 +297,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/socialcontour/bharatrohan-user-stories.jpg"
-          />
+          /> -->
           <img src="~assets/projects/socialcontour/backend.png" />
         </picture>
       </div>
@@ -400,28 +360,13 @@
         </div>
       </div>
     </div>
-<!-- 
-    <div class="p-quote contain red">
-      <blockquote>
-        The greatest challenge was not the project, but keeping the enthusiasm alive during all those times.
-        I pretty much saw myself and people losing it but again rising with new energy to make all
-        this possible. Thanks💚
-      </blockquote>
-    </div>
 
-    -->
 
     <!-- End Line  -->
 
     <div class="section-divider">
       <hr class="section-divider" />
     </div>
-    <!-- appreciate button -->
-
-    <Appreciate
-      heading="Lets do something awesome together."
-      subHeading="Don't forget to appreciate."
-    />
 
     <!-- Project Footer Navigation -->
 
@@ -429,21 +374,21 @@
       <div class="projects-footer-container">
         <allprojectsnav />
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/feeding-trends">
+          <nuxt-link to="/projects/TravelGo">
             <pfooterp
-              projectName="Feeding Trends"
-              projectCategories="Web, Branding, Print"
-              thumbnail="/ft-thumbnail-2.jpg"
+              projectName="TravelGo"
+              projectCategories="Internship at Valiance Solutions"
+              thumbnail="/chatbot2.jpg"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/filmingeye">
+          <nuxt-link to="/OpenSource">
             <pfootern
-              projectName="Filming Eye"
-              projectCategories="Web, Identity"
-              thumbnail="/filming-eye-thumbnail.jpg"
+              projectName="OpenSource"
+              projectCategories="Open Source"
+              thumbnail="/opensource.jpg"
             />
           </nuxt-link>
         </div>

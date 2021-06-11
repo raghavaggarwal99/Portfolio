@@ -19,7 +19,7 @@
         <picture>
           <img
             src="~assets/opensource/open.jpeg"
-            alt="cricbuzz app wireframing"
+            alt="Open Source"
           />
         </picture>
       </div>
@@ -58,7 +58,7 @@ http://stephencalvillodesign.com/project/prestoq
         <picture>
           <img
             src="~assets/opensource/layer5.png"
-            alt="cricbuzz app wireframing"
+            alt="Layer 5"
           />
         </picture>
       </div>
@@ -83,7 +83,7 @@ http://stephencalvillodesign.com/project/prestoq
         <picture>
           <img
             src="~assets/opensource/hacktober.png"
-            alt="cricbuzz app wireframing"
+            alt="Hacktober Fest"
           />
         </picture>
       </div>
@@ -97,11 +97,6 @@ http://stephencalvillodesign.com/project/prestoq
       <hr class="section-divider" />
     </div>
 
-    <!-- appreciate button -->
-    <Appreciate
-      heading="Share Your thoughts "
-      subHeading="Damn you really like to scroll. Click Me."
-    />
 
     <!-- Project Footer Navigatrion -->
 
@@ -109,21 +104,21 @@ http://stephencalvillodesign.com/project/prestoq
       <div class="projects-footer-container">
         <allprojectsnav />
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/filmingeye">
+          <nuxt-link to="/projects/SocialContour">
             <pfooterp
-              projectName="Filming Eye"
-              projectCategories="Web, Identity"
-              thumbnail="/filming-eye-thumbnail.jpg"
+              projectName="Social Contour"
+              projectCategories="Freelance"
+              thumbnail="/s.jpg"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/ft-events">
+          <nuxt-link to="/projects/automizeapps">
             <pfootern
-              projectName="FT Events"
-              projectCategories="Web Design, Admin Panel"
-              thumbnail="/ft-event-thumbnail.jpg"
+              projectName="Automize Apps"
+              projectCategories="Internship"
+              thumbnail="/sentiment.jpg"
             />
           </nuxt-link>
         </div>

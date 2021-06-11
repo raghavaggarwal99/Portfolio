@@ -24,17 +24,6 @@
           </a>
         </div>
 
-
-<!-- 
-        <div
-          class="h-j-title"
-          data-aos="fade-up"
-          data-aos-duration="900"
-          data-aos-delay="200"
-        >Software Developer
-        </div> -->
-
-
       </div>
 
       <div
@@ -69,8 +58,8 @@
           <nuxt-link to="/projects/GoCorona">
             <thumbnail
               thumbnailName="Gocorona"
-              thumbnailDescription="App  Redesign Concept"
-              thumbnail="/cricbuzz-thumbnail.jpg"
+              thumbnailDescription="App Development competition"
+              thumbnail="/gocorona.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="800"
@@ -85,7 +74,7 @@
             <thumbnail
               thumbnailName="Blockchain Aadhar Voting"
               thumbnailDescription="Microsoft Code fundoo Competition"
-              thumbnail="/elevito-thumbnail.jpg"
+              thumbnail="/blockchain.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="1000"
@@ -100,7 +89,7 @@
             <thumbnail
               thumbnailName="Travel Go"
               thumbnailDescription="Chatbot as Internship in Valiance Solutions"
-              thumbnail="/ft-thumbnail-2.jpg"
+              thumbnail="/chatbot2.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="100"
@@ -115,7 +104,7 @@
             <thumbnail
               thumbnailName="SocialContour"
               thumbnailDescription="Freelance"
-              thumbnail="/bharatrohangif2.gif"
+              thumbnail="/s.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="300"
@@ -129,7 +118,7 @@
             <thumbnail
               thumbnailName="OpenSource"
               thumbnailDescription="OpenSource"
-              thumbnail="/dreamz-thumbnail-cyan.jpg"
+              thumbnail="/opensource.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="300"
@@ -143,7 +132,7 @@
             <thumbnail
               thumbnailName="Automize Apps"
               thumbnailDescription="Internship"
-              thumbnail="/awesome-inc-thumnail-3.jpg"
+              thumbnail="/sentiment.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="100"
@@ -157,7 +146,7 @@
             <thumbnail
               thumbnailName="Change Management Tool"
               thumbnailDescription="Goals 101, Internship"
-              thumbnail="/tbt-app-thumbnail.jpg"
+              thumbnail="/change3.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="300"
@@ -193,9 +182,6 @@ import Parallax from 'vue-parallaxy'
 import Discovermore from '~/components/discovermore'
 import Homepeople from '~/components/homepeople'
 import BlogSection from '~/components/Sections/BlogSection'
-import blogsEn from '~/contents/en/blogsEn.js'
-// import VideoShowcase from '~/components/Modal'
-import playbutton from '~/components/playbutton'
 export default {
   components: {
     Thumbnail,
@@ -203,26 +189,7 @@ export default {
     Homepeople,
     BlogSection,
     Parallax,
-    // VideoShowcase,
-    playbutton
   },
-
-  // async asyncData({ app }) {
-  //   const blogs = app.i18n.locale === 'en' ? blogsEn : blogsEs
-
-  //   async function asyncImport(blogName) {
-  //     const wholeMD = await import(
-  //       `~/contents/${app.i18n.locale}/blog/${blogName}.md`
-  //     )
-  //     return wholeMD.attributes
-  //   }
-
-  //   return Promise.all(blogs.map(blog => asyncImport(blog))).then(res => {
-  //     return {
-  //       blogs: res
-  //     }
-  //   })
-  // },
 
   data() {
     return {
@@ -234,42 +201,6 @@ export default {
       this.modalOpen = !this.modalOpen
     }
   }
-  // data() {
-  //   return {
-  //     card: [
-  //       {
-  //         thumbnailName: 'Filming Eye',
-  //         thumbnailDescription: 'Web, Identity',
-  //         thumbnailImage: require('~/assets/img/thumbnail/showcase9.jpg')
-  //       },
-  //       {
-  //         thumbnailName: 'Art',
-  //         thumbnailDescription: 'Web, Identity',
-  //         thumbnailImage: require('~/assets/img/thumbnail/showcase7.jpg')
-  //       },
-  //       {
-  //         thumbnailName: 'Art',
-  //         thumbnailDescription: 'Web, Identity',
-  //         thumbnailImage: require('~/assets/img/thumbnail/showcase8.jpg')
-  //       },
-  //       {
-  //         thumbnailName: 'Art',
-  //         thumbnailDescription: 'Web, Identity',
-  //         thumbnailImage: require('~/assets/img/thumbnail/showcase9.jpg')
-  //       },
-  //       {
-  //         thumbnailName: 'Art',
-  //         thumbnailDescription: 'Web, Identity',
-  //         thumbnailImage: require('~/assets/img/thumbnail/showcase1.jpg')
-  //       },
-  //       {
-  //         thumbnailName: 'Art',
-  //         thumbnailDescription: 'Web, Identity',
-  //         thumbnailImage: require('~/assets/img/thumbnail/showcase10.jpg')
-  //       }
-  //     ]
-  //   }
-  // }
 }
 </script>
 

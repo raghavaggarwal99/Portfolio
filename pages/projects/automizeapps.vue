@@ -2,9 +2,6 @@
   <!--awesome inc work -->
 
   <div>
-    <div class="ppnp-container">
-     
-    </div>
     
     <projecthero
       pDate="April-May 2020"
@@ -21,10 +18,10 @@
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_ai" data-aos="reveal-right"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/automize/main.jpg" alt="cool background" />
         </picture>
       </div>
@@ -100,10 +97,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/awesome-inc/awesome-inc-tagline-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/automize/img1.png" alt="poster" />
         </picture>
       </div>
@@ -113,10 +110,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/awesome-inc/awesome-inc-tagline-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/automize/img2.png" alt="poster" />
         </picture>
       </div>
@@ -139,10 +136,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/awesome-inc/awesome-inc-tagline-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/automize/img3.png" alt="poster" />
         </picture>
       </div>
@@ -189,26 +186,33 @@
       <hr class="section-divider" />
     </div>
 
-    <!-- Appreciate section -->
-
-    <Appreciate
-      heading="Lets do something awesome together."
-      subHeading="Don't forget to appreciate."
-    />
 
     <!-- Project Footer Navigation -->
 
-
-
-        <div class="p-f-n-container">
-          <nuxt-link to="/projects/tbt-app">
-            <pfootern
-              projectName="TBT App"
-              projectCategories="App, Branding"
-              thumbnail="/tbt-app-thumbnail.jpg"
+       <div class="project-footer">
+      <div class="projects-footer-container">
+        <allprojectsnav />
+        <div class="p-f-p-container">
+          <nuxt-link to="/OpenSource">
+            <pfooterp
+              projectName="Open Source"
+              projectCategories="Opensource"
+              thumbnail="/opensource.jpg"
             />
           </nuxt-link>
         </div>
+
+        <div class="p-f-n-container">
+          <nuxt-link to="/projects/goals101">
+            <pfootern
+              projectName="Change Management Tool"
+              projectCategories="Internship at Goals101"
+              thumbnail="/change2.jpg"
+            />
+          </nuxt-link>
+        </div>
+      </div>
+    </div>
       </div>
     </div>
   </div>

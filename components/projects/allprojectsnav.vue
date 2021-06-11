@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link to="/projects">
+  <nuxt-link to="/">
     <div class="p-all-nav" title="to all projects">
       <div class="p-nav-icon">
         <div></div>

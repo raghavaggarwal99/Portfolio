@@ -1,22 +1,5 @@
 <template>
   <div>
-    <div class="ppnp-container">
-      <nuxt-link to="awesome-inc">
-        <previous />
-      </nuxt-link>
-
-      <nuxt-link to="prepowl">
-        <next />
-      </nuxt-link>
-
-      <div class="ppnp-number-container">
-        <p class="black ppnp-p-number">
-          <span style="color:#0F2E47;">12</span>
-          <span>/</span>
-          <span>20</span>
-        </p>
-      </div>
-    </div>
 
     <projecthero
       pDate="May- July 2020"
@@ -26,10 +9,6 @@
       pHeadingcolor="color:#0F2E47;"
       pSubheading="Product designed to streamline the request management system of the company completely automated"
     />
-    <!-- <div class="p-fe-hero_image">
-      <img src="~assets/projects/fe/fe2.png" alt>
-      <img src="~assets/projects/fe/fe1.png" alt>
-    </div>-->
 
     <!-- hero image -->
     <div class="p-fe-hero_image">
@@ -37,15 +16,12 @@
         <div class="reveal-block right theme_tbt-app" data-aos="reveal-right"></div>
 
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/tbt-app/tbt-app-hero-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/goals101/main2.jpg" />
         </picture>
-        <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
-
-        <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
       </div>
     </div>
 
@@ -86,10 +62,10 @@
     <div class="distress-row">
       <div class="distress-column">
         <picture>
-              <source
+              <!-- <source
                 media="(max-width: 600px)"
                 srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-              />
+              /> -->
               <img
                 src="~assets/projects/goals101/vue.png"
                 alt="GoCorona app screenshots"
@@ -101,10 +77,10 @@
       <br>
       <div class="distress-column">
         <picture>
-              <source
+              <!-- <source
                 media="(max-width: 600px)"
                 srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-              />
+              /> -->
               <img
                 src="~assets/projects/goals101/sails.png"
                 alt="GoCorona app screenshots"
@@ -141,10 +117,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/tbt-app/tbt-app-icons-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/goals101/authentification.png" />
         </picture>
       </div>
@@ -170,10 +146,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/tbt-app/tbt-app-screen-1-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/goals101/request.png" />
         </picture>
       </div>
@@ -194,10 +170,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/tbt-app/tbt-app-mockup-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/goals101/dashboard.png" />
         </picture>
       </div>
@@ -221,10 +197,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/tbt-app/tbt-app-mockup-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/goals101/gmail.png" />
         </picture>
       </div>
@@ -245,10 +221,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/tbt-app/tbt-app-playstore-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/goals101/profile.png" />
         </picture>
       </div>
@@ -258,10 +234,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/tbt-app/tbt-app-playstore-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/goals101/access.png" />
         </picture>
       </div>
@@ -271,10 +247,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/tbt-app/tbt-app-playstore-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/goals101/logs.png" />
         </picture>
       </div>
@@ -299,10 +275,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/tbt-app/tbt-app-icons-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/goals101/database2.jpg" />
         </picture>
       </div>
@@ -313,10 +289,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/tbt-app/tbt-app-icons-mobile.jpg"
-          />
+          /> -->
           <img src="~assets/projects/goals101/backend.png" />
         </picture>
       </div>
@@ -349,6 +325,19 @@
       </div>
     </div>
 
+
+      <div class="Takeaway">
+      <div class="contain">
+        <h2 class="p-para black50">Learnings</h2>``
+        <div class="pm black70">
+          <p>
+           The most challenging part was to make the database design. It's easy just to hard code and make special cases by making if else statements
+           but making all the code dynamic by using of database in less time, is the tough task
+          </p>
+        </div>
+      </div>
+    </div>
+
  
 
     <!-- End Line  -->
@@ -357,10 +346,6 @@
       <hr class="section-divider" />
     </div>
 
-    <!-- appreciate button -->
-
-    <Appreciate heading="You Marvel fan or DC!" subHeading="If marvel show love 3000 times" />
-
     <!-- Project Footer Navigatrion -->
 
     <div class="project-footer">
@@ -368,21 +353,21 @@
         <allprojectsnav />
 
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/awesome-inc">
+          <nuxt-link to="/projects/automizeapps">
             <pfooterp
-              projectName="Awesome Inc."
-              projectCategories="Identity, Print"
-              thumbnail="/awesome-inc-thumnail-3.jpg"
+              projectName="Automize Apps."
+              projectCategories="Internship"
+              thumbnail="/sentiment.jpg"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/prepowl">
+          <nuxt-link to="/projects/GoCorona">
             <pfootern
-              projectName="Prepowl"
-              projectCategories="Web Design and Development"
-              thumbnail="/prepowl-thumbnail-blue.jpg"
+              projectName="GoCorona"
+              projectCategories="App Development Competition"
+              thumbnail="/gocorona.jpg"
             />
           </nuxt-link>
         </div>

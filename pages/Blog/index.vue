@@ -1,6 +1,29 @@
 <template>
   <div class="blog-page">
     <div class="b-hero-container">
+  
+      <div class="nametag-container contain">
+
+        <div class="h-name example3" data-aos="fade-up" data-aos-duration="900">
+          <nuxt-link to="/about" style="text-decoration: none;">
+            <span class="underline-magical">Raghav Aggarwal</span>
+          </nuxt-link>
+        </div>
+
+        <div class="h-name example2" data-aos="fade-up" data-aos-duration="900">
+          <nuxt-link to="/blog" style="text-decoration: none;">
+            <span class="underline-magical">Blogs</span>
+          </nuxt-link>
+        </div>
+
+         <div class="h-name example" data-aos="fade-up" data-aos-duration="900">
+         <a target="_blank" href="https://drive.google.com/file/d/1eY17t6eSunu_KQV46eylpop8Wd8C8w3I/view?usp=sharing">
+          <!-- <nuxt-link to="https://drive.google.com/file/d/1eY17t6eSunu_KQV46eylpop8Wd8C8w3I/view?usp=sharing" style="text-decoration: none;"> -->
+            <span class="underline-magical">Resume</span>
+          <!-- </nuxt-link> -->
+          </a>
+        </div>
+      </div>
 
       <div class="contain b-heading-container">
         <p class="pm b-h-subheading" data-aos="fade-up" data-aos-duration="1000">My Blog</p>
@@ -32,6 +55,8 @@
     <div class="b-all-article-container">
       <BlogSection :blogs="blogs" />
     </div>
+
+    
   </div>
 </template>
 
@@ -70,7 +95,7 @@ export default {
         lang: this.$i18n.locale
       },
       meta: [
-        { name: 'author', content: 'Saurabh Rai' },
+        { name: 'author', content: 'Raghav Aggarwal' },
         {
           name: 'description',
           property: 'og:description',
@@ -93,25 +118,6 @@ export default {
       return
     }
   }
-  // head() {
-  //   return {
-  //     title: 'My Blog',
-  //     titleTemplate: '%s - Saurabh Rai',
-  //     meta: [
-  //       {
-  //         hid: 'description',
-  //         name: 'description',
-  //         content: ' UX, Coding and Life'
-  //       },
-  //       {
-  //         hid: 'keywords',
-  //         name: 'keywords',
-  //         content:
-  //           'my blog, saurabh rai blog, saurabh c rai blog, Best coding blog, blogging website, best designers blog, ux blog, design and code'
-  //       }
-  //     ]
-  //   }
-  // }
 }
 </script>
 
@@ -119,5 +125,30 @@ export default {
 .b-all-article-container {
   width: 100%;
   position: relative;
+}
+
+
+div.example{
+
+  margin-left: 750px;
+  margin-top: 3px;
+  position: absolute;
+
+}
+
+
+div.example2{
+
+  margin-left: 450px;
+  margin-top: 5px;
+  position: absolute;
+
+}
+
+div.example3{
+
+  margin-top: 5px;
+  position: absolute;
+
 }
 </style>

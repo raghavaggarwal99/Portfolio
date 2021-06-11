@@ -141,11 +141,11 @@
     </transition>
 
     <span class="h-fullscreen-container">
-      <nuxt-link to="/playlife">
+    <a href=http://localhost:3000/playlife>
       <div>
         <span class="underline-magical">Play</span>
       </div>
-    </nuxt-link>
+    </a>
     </span>
   </div>
 </template>

@@ -39,13 +39,13 @@
           Software
           <span class="outlined">Developer</span>
         </h1>  <!-- capability -->
-       <!-- <p
+       <p
           class="pm a-subheading_2"
           data-aos="fade-up"
           data-aos-duration="900"
           data-aos-delay="600"
-        >Also Frontend Developer, I believe in things I do, I do all things with all my heart, even if it means losing my sleep for weeks.</p>
-        -->
+        >Also a problem solver and try to have fun at every step. Scroll to know more!</p>
+       
       </div>
 
     </div>
@@ -77,13 +77,13 @@
     <br>
   <br>
     <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-          />
+          /> -->
           <img
             src="~assets/about/raghav.jpg"
-            alt="GoCorona app screenshots"
+            alt="Me"
             width="575px"
             height="600px"
           />
@@ -131,20 +131,24 @@
             </div>
           </div>
         </div>
-
+<!-- 
         <nuxt-link to="/blog">
           <div class="a-c_photography">
             <p class="a-c_subheading red">+Blogging</p>
           </div>
         </nuxt-link>
+        <hr>
 
-        <div class="a-hl"></div>
+        <nuxt-link to="/playlife">
+          <div class="a-c_photography">
+            <p class="a-c_subheading red">+Some Play</p>
+          </div>
+        </nuxt-link> -->
 
-     
+        <!-- <div class="a-hl"></div> -->
+
       </div>
     </section>
-
-  
 
     <section class="a-crazy-section">
       <div class="contain">
@@ -166,8 +170,8 @@
       </div>
     </section>
 
-
-
+    <p style="margin-left: 400px"> Some of the best memories of my life </p>
+    
     <section class="h-sec2-container">
       <div class="h-sec2-grid">
         <div
@@ -294,18 +298,18 @@ export default {
   head() {
     return {
       title: 'About Me',
-      titleTemplate: '%s - Saurabh Chandra Rai',
+      titleTemplate: '%s - Raghav Aggarwal',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: ' UX designer at feeding trends.'
+          content: ' Software Developer at Deutsche Bank'
         },
         {
           hid: 'keywords',
           name: 'keywords',
           content:
-            'UX Designer, saurabhcrai.com, saurabh chandra rai, about me, Saurabh Chandra Rai, saurabhrai, about me, UX designer portfolio, user experience designer, best designer portfolio'
+            'raghav aggarwal, about me, about me, portfolio,'
         }
       ]
     }
