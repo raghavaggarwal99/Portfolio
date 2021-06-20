@@ -4,7 +4,7 @@
     <nuxt-link to="/">
       <div class="logo">
         <span class="underline-magical">Work</span>
-      </div>
+        </div>
     </nuxt-link>
 
 
@@ -140,13 +140,19 @@
       </div>
     </transition>
 
-    <span class="h-fullscreen-container">
+    <!-- <div class="h-fullscreen-container"
     <nuxt-link to='/playlife'>
       <div>
         <span class="underline-magical">Play</span>
       </div>
     </nuxt-link>
-    </span>
+    </div> -->
+
+     <nuxt-link to="/playlife">
+      <div class="h-fullscreen-container">
+        <span class="underline-magical">Play</span>
+        </div>
+    </nuxt-link>
     
   </div>
 </template>
@@ -188,19 +194,18 @@ button {
 }
 
 .logo {
-  display: inline-block;
+  animation: turn 2s linear forwards 1s;
   position: absolute;
-  overflow: hidden;
-  left: 50%;
-  padding-top: 30px;
-  transform: translate(-50%);
-  z-index: 10;
+  transform: translate(-30%);
+  left: 30%;
+  top: 10%;
+  
 }
 
 @media screen and (max-width: 999px) {
   .logo {
     left: 8%;
-    padding-top: 6px;
+    padding-top: 19px;
   }
 
   .logo > svg {
@@ -381,31 +386,6 @@ svg {
   position: relative;
 }
 
-/* .nav__content {
-  position: relative;
-  top: 75%;
-  left: 71%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  font-size: 2.6em;
-  font-weight: 200;
-} */
-
-/* .nav__list {
-  display: flex;
-}
-.nav__list-item {
-  position: relative;
-  display: inline-block;
-  transition-delay: 0.8s;
-  opacity: 1;
-  transform: translate(100%, 100%);
-  transition: opacity 0.2s ease, transform 0.3s ease;
-
-  margin-right: 5%;
-} */
 
 .nav__list-item:before {
   content: '';
@@ -428,27 +408,16 @@ svg {
 
 .h-fullscreen-container {
   position: absolute;
-  bottom: 44px;
-  left: 39%;
-  z-index: 8;
+  top: 90%;
+  left: 37%;
 }
 
-.h-fullscreen-container p {
-  font-size: 12px;
-  position: absolute;
-  color: black;
-  opacity: 0.5;
-  padding: 0px 1px 0px 0px;
-  margin: 20px 1px 0px -31px;
-}
 
-button.full-screen {
-  background: white;
-}
+
 @media screen and (max-width: 999px) {
   .h-fullscreen-container {
-    bottom: 33px;
-    left: 50%;
+    top: 35%;
+    left: 46%;
   }
 
   .h-fullscreen-container p {
@@ -456,35 +425,6 @@ button.full-screen {
   }
 }
 
-.full-screen {
-  vertical-align: middle;
-  box-sizing: border-box;
-  display: inline-block;
-  border: 0.1em solid var(--primary-color);
-  width: 23px;
-  height: 23px;
-  position: relative;
-  font-size: 23px;
-  cursor: pointer;
-}
-.full-screen:before,
-.full-screen:after {
-  content: '';
-  background: black;
-  position: absolute;
-}
-.full-screen:before {
-  width: 0.333em;
-  height: 1em;
-  left: 0.233em;
-  top: -0.1em;
-}
-.full-screen:after {
-  width: 1em;
-  height: 0.333em;
-  top: 0.233em;
-  left: -0.1em;
-}
 
 .menu-social-icon_container {
   position: absolute;

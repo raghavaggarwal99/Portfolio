@@ -4,19 +4,19 @@
  
       <div class="nametag-container contain">
 
-        <div class="h-name" data-aos="fade-up" data-aos-duration="900">
+        <div class="example3" data-aos="fade-up" data-aos-duration="900">
           <nuxt-link to="/about" style="text-decoration: none;">
             <span class="underline-magical">Raghav Aggarwal</span>
           </nuxt-link>
         </div>
 
-        <div class="h-name example2" data-aos="fade-up" data-aos-duration="900">
+        <div class="example2" data-aos="fade-up" data-aos-duration="900">
           <nuxt-link to="/blog" style="text-decoration: none;">
             <span class="underline-magical">Blogs</span>
           </nuxt-link>
         </div>
 
-         <div class="h-name example" data-aos="fade-up" data-aos-duration="900">
+         <div class="example" data-aos="fade-up" data-aos-duration="900">
          <a target="_blank" href="https://drive.google.com/file/d/1eY17t6eSunu_KQV46eylpop8Wd8C8w3I/view?usp=sharing">
           <!-- <nuxt-link to="https://drive.google.com/file/d/1eY17t6eSunu_KQV46eylpop8Wd8C8w3I/view?usp=sharing" style="text-decoration: none;"> -->
             <span class="underline-magical">Resume</span>
@@ -50,8 +50,6 @@
       </div>
     </div>
 
-   
-
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
          <div class="p-thumbnail-ad">
@@ -59,7 +57,7 @@
             <thumbnail
               thumbnailName="Gocorona"
               thumbnailDescription="App Development competition"
-              thumbnail="/raghav/corona2.jpg"
+              thumbnail="/raghav/gocorona2.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="800"
@@ -74,7 +72,7 @@
             <thumbnail
               thumbnailName="Blockchain Aadhar Voting"
               thumbnailDescription="Microsoft Code fundoo Competition"
-              thumbnail="/raghav/voting4.jpg"
+              thumbnail="/raghav/voting2.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="1000"
@@ -89,7 +87,7 @@
             <thumbnail
               thumbnailName="Travel Go"
               thumbnailDescription="Chatbot as Internship in Valiance Solutions"
-              thumbnail="/raghav/chatbot4.jpg"
+              thumbnail="/raghav/travelgo.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="100"
@@ -104,7 +102,7 @@
             <thumbnail
               thumbnailName="SocialContour"
               thumbnailDescription="Freelance"
-              thumbnail="/raghav/media4.jpg"
+              thumbnail="/raghav/socialcontour2.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="300"
@@ -118,7 +116,7 @@
             <thumbnail
               thumbnailName="OpenSource"
               thumbnailDescription="OpenSource"
-              thumbnail="/raghav/open2.jpg"
+              thumbnail="/raghav/open.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="300"
@@ -132,7 +130,7 @@
             <thumbnail
               thumbnailName="Automize Apps"
               thumbnailDescription="Internship"
-              thumbnail="/raghav/analysis2.jpg"
+              thumbnail="/raghav/automize2.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="100"
@@ -146,7 +144,7 @@
             <thumbnail
               thumbnailName="Change Management Tool"
               thumbnailDescription="Goals 101, Internship"
-              thumbnail="/raghav/change4.jpg"
+              thumbnail="/raghav/goals.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="300"
@@ -160,7 +158,7 @@
             <thumbnail
               thumbnailName="Streerides"
               thumbnailDescription="Website Development"
-              thumbnail="/raghav/stree3.jpg"
+              thumbnail="/raghav/streerides3.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="300"
@@ -170,6 +168,9 @@
         </div>
       </div>
     </div>
+
+    <br>
+    <br>
 
 
 
@@ -485,20 +486,41 @@ span.bar{
 
 
 div.example{
-
-  margin-left: 750px;
-  margin-top: 5px;
+  left: 70%;
+  top: 2%;
   position: absolute;
-
 }
 
 
 div.example2{
-
-  margin-left: 450px;
-  margin-top: 5px;
+  left: 45%;
+  top: 2%;
   position: absolute;
-
 }
+
+
+div.example3{
+  top: 2%;
+  position: absolute;
+}
+
+@media screen and (max-width: 999px) {
+  div.example3{
+     top: 4%;
+  }
+}
+@media screen and (max-width: 999px) {
+  div.example{
+     top: 4%;
+     left: 80%;
+  }
+}
+@media screen and (max-width: 999px) {
+  div.example2{
+     top: 4%;
+     left: 50%;
+  }
+}
+
 
 </style>

@@ -379,7 +379,7 @@ p {
 
 .contain {
   /* margin-left: 20%; */
-  margin-right: 10.4%;
+  margin-right: 18.4%;
   margin-left: calc(20% - 83px);
 }
 
@@ -579,7 +579,6 @@ view more work*/
   position: relative;
   display: inline-block;
   overflow: hidden;
-  margin-left: 100px;
 }
 
 .reveal-holder .reveal-block {
@@ -835,7 +834,7 @@ view more work*/
 
 .project-previous {
   /* cursor: url('/cursor-previous.png'), auto; */
-  cursor: url('/cp.svg'), auto;
+  /* cursor: url('/cp.svg'), auto; */
   position: relative;
 
 }
@@ -843,7 +842,7 @@ view more work*/
 .project-next {
   /* background-color: rgb(61, 61, 61); */
   /* cursor: url('/cursor-next.png'), auto; */
-  cursor: url('/cn.svg'), auto;
+  /* cursor: url('/cn.svg'), auto; */
   position: relative;
 
 }
@@ -1130,24 +1129,22 @@ view more work*/
 /* hero */
 
 .a-hero_container {
-  width: 80%;
+  width: 100%;
   position: relative;
-  display: flex;
-  flex-wrap: wrap;
 
 }
 
 .a-h-container {
   padding-top: 250px;
   padding-bottom: 9%;
-  width: 100%;
+  width: 50%;
 }
 
 @media screen and (max-width: 1400px) {
   .a-h-container {
     padding-top: 250px;
     padding-bottom: 9%;
-    width: 80%;
+    width: 60%;
   }
 }
 
@@ -1155,7 +1152,7 @@ view more work*/
   .a-h-container {
     padding-top: 250px;
     padding-bottom: 9%;
-    width: 100%;
+    width: 70%;
   }
 }
 
@@ -1228,19 +1225,18 @@ view more work*/
 }
 
 .me-images {
-  width: 70%;
-  left: 15%;
+  width: 65%;
+  left: 19%;
   background-color: white;
   height: auto;
   position: absolute;
 }
 
 .me-image1 {
-  width: 60%;
-  height: 50%;
+  width: 80%;
   position: absolute;
   padding-top: 50px;
-  left: 60%;
+  left: 0%;
 }
 
 .me-image2 {
@@ -1400,13 +1396,7 @@ view more work*/
 }
 
 .a-hello_container {
-  padding: 25px 0px 0px 0px;
-  margin-right: 700px;
-}
-
-.column {
-  flex: 50%;
-  padding: 10px;
+  padding: 100px 0px 20px 0px;
 }
 
 /* Capability */
@@ -3267,6 +3257,16 @@ background: linear-gradient(#6adfff 0%, #005094 100%);
   background: #0088ff;
 }
 
+
+/* BharatRohan
+   akcent colour   #11A78E
+   green
+   background: linear-gradient(#fff 0%, #11b18e 0%, #11998e 100%);
+  Light green
+
+  background: linear-gradient(#fff 0%, #8fa66d 0%, #5ba44c 100%);
+
+   */
 
 .reveal-block.theme_br::before {
   background: #11A78E;

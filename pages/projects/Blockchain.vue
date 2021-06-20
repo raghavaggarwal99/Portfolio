@@ -10,8 +10,7 @@
       pSubheading="Aadhaar Based voting system using blockchain technology Project implemented as part Microsoft Codefundo Competititon"
     />
 
-    <!-- <ScrollDown /> -->
-
+ 
     <!-- hero image -->
     <div class="p-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
@@ -26,6 +25,7 @@
       </div>
     </div>
 
+  
     <Preface
       timeframe=" August 2019- September 2019
     <br />2 Months"
@@ -43,7 +43,8 @@
             <br>Devaishi Tiwari
             <br>Umang Kakkar"
     />
-    <!-- Preface -->
+
+    
     <pcase
       heading="Preface"
       para="  If you notice, every client (browser) communicates with it’s own instance of the application. There is no central server to which all clients 
@@ -55,44 +56,26 @@
       theme="theme_elevito"
     />
 
-   
-
-
-    <!-- Desighn -->
-    <div class="distress-row">
-      <div class="distress-column">
+  
+    
+    <!-- hero image -->
+    <div class="p-hero_image">
+      <div class="reveal-holder" data-aos="fade-up">
+        <div class="reveal-block right theme_elevito" data-aos="reveal-right"></div>
         <picture>
-              <!-- <source
-                media="(max-width: 600px)"
-                srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-              /> -->
-              <img
-                src="~assets/projects/blockchain/preface2.png"
-                alt="GoCorona app screenshots"
-                 width="400px"
-              />
-            </picture>
-
-      </div>
-      <div class="distress-column" style="margin-left: 10px">
-        <picture>
-              <!-- <source
-                media="(max-width: 600px)"
-                srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-              /> -->
-              <img
-                src="~assets/projects/blockchain/img9.png"
-                alt="GoCorona app screenshots"
-                width="700px"
-                height="500px"
-              />
-            </picture>
+          <!-- <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
+          /> -->
+          <img src="~assets/projects/blockchain/preface4.png" alt="cool background" />
+        </picture>
       </div>
     </div>
+
   
 
-    <!-- Backstory -->
 
+  
     <pcase
       heading="Ideation"
       para=" These are the things how we thought E-Voting could be implemented<br>
@@ -105,13 +88,11 @@
       theme="Research"
     />
 
-    <!-- <p class="contain just-para black90">
+    <p class="contain just-para black90">
       The purpose of the website was to showcase our works we have done so far particularly me and my fellow designers and through
       that, to clients and to convince them that we are the people they are looking far.
-    </p> -->
+    </p>
 
-   
-    <!-- Art direction Design-->
 
     <pcase
       heading="Authentification Screens"
@@ -134,7 +115,7 @@
             src="~assets/projects/blockchain/img6.png"
             alt="website wireframing, wireframing"
           />
-          <!-- <p class="ps black90">Initial layout and Primary Colours.</p> -->
+          <p class="ps black90">Email id and Password Sign in</p>
         </picture>
       </div>
     </div>
@@ -151,11 +132,10 @@
             src="~assets/projects/blockchain/img5.png"
             alt="website wireframing, wireframing"
           />
-          <!-- <p class="ps black90">Initial layout and Primary Colours.</p> -->
+          <p class="ps black90">Aadhar Login</p>
         </picture>
       </div>
     </div>
-
 
      <pcase
       heading="How the Blockchain is working?"
@@ -164,13 +144,13 @@
       we have used an in-memory blockchain (think of it as a blockchain simulator) called testrpc. <br>
 
       <b>Step 2 </b>- Creating Voting Smart Contract. <br>
-        <!-- <p style=background-color:#D3D3D3; margin-right: 200px;>npm install solc</p> -->
+        <p style=background-color:#D3D3D3; margin-right: 200px;>npm install solc</p>
       
 
 
     <b>Step3 </b>- Setting connection with ethereum Blockchain services. This will list out the 10 accounts that are given in free in ganache-cli. <br>
 
-     <!-- <p style=background-color:#D3D3D3; margin-right: 200px;>node_modules/.bin/ganache-cli</p>  -->
+     <p style=background-color:#D3D3D3; margin-right: 200px;>node_modules/.bin/ganache-cli</p> 
 
      Here you can see, I am displaying the accounts at 3 places. All are same. First is the above written command. 
      2nd and 3rd is when i set up my connection with ganache-cli in browser and node terminal respectively
@@ -191,7 +171,7 @@
             src="~assets/projects/blockchain/img1.png"
             alt="website wireframing, wireframing"
           />
-          <!-- <p class="ps black90">Initial layout and Primary Colours.</p> -->
+          <p class="ps black90">Blockchain Connect</p>
         </picture>
       </div>
     </div>
@@ -215,11 +195,11 @@
     />
 
 
-<!-- 
-     Step 5 - Testing in node console
 
-    Not required just for testing in node console- After writing our smart contract, we'll use Web3js to deploy our app and interact with it
- -->
+     <!-- Step 5 - Testing in node console
+
+    Not required just for testing in node console- After writing our smart contract, we'll use Web3js to deploy our app and interact with it -->
+
 
       <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -233,13 +213,19 @@
             src="~assets/projects/blockchain/img4.png"
             alt="website wireframing, wireframing"
           />
-          <p class="ps black90">Initial layout and Primary Colours.</p>
+          <p class="ps black90">Vote your party</p>
         </picture>
       </div>
     </div>
 
-    <p style="margin-left: 100px;"> Given below shows the transaction hash of a particular vote and in the terminal you can found the 
+
+<br>
+
+    <p style="margin-left: 30px;"> Given below shows the transaction hash of a particular vote and in the terminal you can found the 
     increase in votes of all candidates.</p>
+
+    <br>
+  <br>
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -253,17 +239,12 @@
             src="~assets/projects/blockchain/img2.png"
             alt="website wireframing, wireframing"
           />
-          <!-- <p class="ps black90">Initial layout and Primary Colours.</p> -->
+          <p class="ps black90">Transaction Hash</p>
         </picture>
       </div>
     </div>
 
 
-
-
-
-
-    <!-- key Focus Area -->
 
     <div class="keyfocus">
       <div class="content">

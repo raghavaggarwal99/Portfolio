@@ -5,7 +5,7 @@
     
     <projecthero
       pDate="April-May 2020"
-      pWebsite="https://www.automizeapps.com/"
+      pWebsite="Automize Apps"
       pCategory="Software Development"
       pHeading="Automize Apps"
       pHeadingcolor="color:#A05EE5;"

@@ -120,9 +120,7 @@
           class="footer-dev-text"
         >©2021 — Made by Raghav Aggarwal using Vue.js + Nuxt. Huge thanks to Saurabh Chandra Rai.</p>
       </div>
-    </div>
-
-    
+ 
   </footer>
 </template>
 

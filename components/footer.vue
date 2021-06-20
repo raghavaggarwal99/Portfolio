@@ -1,40 +1,41 @@
 <template>
   <footer class="footer-wrapper">
-      <br>
-      <br>
-
-
-    <!-- <img class="footer-hand" src="~assets/footer/footer-hand.png?webp" alt="hand gesture" /> -->
-    <hr>
-
-       <div class="distress-row">
-        <div class="distress-column1">
-      <p style="color: blue; font-size: 20px">Hi, What's up</p> 
-      <p style="color: blue; font-size: 20px">What do you think, "Is code simple?"</p>
-
-      <p style="font-size: 20px">Always been a kind of nerd from the beginning. Marvels Fan and huge crazy about
-       binge watching movies and tv shows. You wanna discuss something, just ping me!</p> <br>
-
-  </div>
-  <br>
-  <br>
-  <div class="distress-column2">
+    <img class="footer-hand" src="~assets/footer/footer-hand.png?webp" alt="hand gesture" />
+    <div class="footer-type1">
+      <div class="footer-left"></div>
+      <div class="footer-right">
+        <div class="text-slide-in">
           <span class="link-effect2 hover-link2">
-            <a href="mailto:raghavaggarwal0089@gmail.com">
-              <span
-                class="sayhi3 black"
-                data-hover="raghavaggarwal0089@gmail.com ↗"
-                style="font-size: 20px"
-              >raghavaggarwal0089@gmail.com  ↗</span>
+            <a href="#" target="_blank">
+              <span data-hover=" & take over the world! ">Yey! let's grab a coffee</span>
             </a>
           </span>
+        </div>
+        <div style="position:relative;     top: 14%;">
+          <span class="footer-m-heading">
+            Yey! let's grab a coffee
+            <br />& take over the world!
+          </span>
+        </div>
 
-            <div class="social-icon_container">
+        <div class="sayhi-container">
+          <span class="sayhi2 para black61">or just say hi!</span>
+          <span class="link-effect2 hover-link2">
+            <a href="mailto:hello@saurabhcrai.com">
+              <span
+                class="sayhi3 black"
+                data-hover="hello@saurabhcrai.com ↗"
+              >hello@saurabhcrai.com ↗</span>
+            </a>
+          </span>
+        </div>
+
+        <div class="social-icon_container">
           <div class="social-one">
             <div class="social-two">
               <a
                 class="button"
-                href="https://www.facebook.com/profile.php?id=100005265196901"
+                href="https://www.facebook.com/saurabhchandrarai"
                 target="_blank"
                 rel="noopener"
                 title="Facebook (new tab)"
@@ -45,13 +46,11 @@
               </a>
             </div>
           </div>
-
-
           <div class="social-one">
             <div class="social-two">
               <a
                 class="button"
-                href="https://www.instagram.com/aggrwal_raghav"
+                href="https://www.instagram.com/saurabh.c.rai/"
                 target="_blank"
                 rel="noopener"
                 title="Instagram (new tab)"
@@ -66,7 +65,7 @@
             <div class="social-two">
               <a
                 class="button"
-                href="https://www.linkedin.com/in/raghav0089"
+                href="https://www.linkedin.com/in/saurabhchandrarai/"
                 target="_blank"
                 rel="noopener"
                 title="Linkdin (new tab)"
@@ -81,7 +80,7 @@
             <div class="social-two">
               <a
                 class="button"
-                href="https://medium.com/@raghavaggarwal0089"
+                href="https://medium.com/@saurabhcrai"
                 target="_blank"
                 rel="noopener"
                 title="Medium (new tab)"
@@ -96,7 +95,22 @@
             <div class="social-two">
               <a
                 class="button"
-                href="https://github.com/raghavaggarwal99"
+                href="https://www.behance.net/saurabhcrai"
+                target="_blank"
+                rel="noopener"
+                title="Behance (new tab)"
+              >
+                <div class="social-three">
+                  <img class="social-four" src="~assets/footer/behance-lightgrey.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="social-one">
+            <div class="social-two">
+              <a
+                class="button"
+                href="https://github.com/SAURABHRAI110"
                 target="_blank"
                 rel="noopener"
                 title="Github(new tab)"
@@ -108,21 +122,14 @@
             </div>
           </div>
         </div>
-
-       
-        
-  </div>
-</div>
-
+      </div>
       <div class="footer-bottom-left"></div>
       <div class="footer-bottom-right">
         <p
           class="footer-dev-text"
-        >©2021 — Made by Raghav Aggarwal using Vue.js + Nuxt. Huge thanks to Saurabh Chandra Rai.</p>
+        >©2019 — Web app designed and coded by Saurabh Chandra Rai using Vue.js + Nuxt.</p>
       </div>
     </div>
-
-    
   </footer>
 </template>
 
@@ -132,7 +139,7 @@ export default {}
 
 <style >
 .footer-wrapper {
-  height: 45vh;
+  height: 90vh;
   width: 100%;
   position: relative;
 }
@@ -258,9 +265,8 @@ export default {}
 
 .social-icon_container {
   position: absolute;
-  top: 38%;
-  left: 64%;
-  width: 30%;
+  top: 75%;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -443,44 +449,5 @@ export default {}
   .footer-m-heading {
     font-size: 26px;
   }
-}
-
-
-.distress-column1 {
-  float: left;
-  width: 45%;
-  padding: 5px;
-  margin-left: 150px;
-}
-
-.distress-column2 {
-  float: left;
-  width: 25.33%;
-  padding: 5px;
-  margin-left: 180px;
-}
-
-
-.admin-column {
-  float: left;
-  width: 30.33%;
-  padding: 5px;
-  margin-left: 40px;
-
-}
-
-.admin-column-location{
-
-  float: left;
-  width: 20.33%;
-  padding: 5px;
-
-}
-
-/* Clearfix (clear floats) */
-.distress-row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 </style>

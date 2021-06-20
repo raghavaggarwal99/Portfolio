@@ -60,12 +60,12 @@
 
     <!-- Desighn -->
     <div class="distress-row">
-      <div class="distress-column">
+      <div class="distress-column mainimage">
         <picture>
-              <!-- <source
+               <source
                 media="(max-width: 600px)"
-                srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-              /> -->
+                srcset="~assets/projects/goals101/vue-mobile.png"
+              />
               <img
                 src="~assets/projects/goals101/vue.png"
                 alt="GoCorona app screenshots"
@@ -75,12 +75,12 @@
       </div>
       <br>
       <br>
-      <div class="distress-column">
+      <div class="distress-column mainimage2">
         <picture>
-              <!-- <source
+              <source
                 media="(max-width: 600px)"
-                srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-              /> -->
+                srcset="~assets/projects/goals101/sails-mobile.jpg"
+              />
               <img
                 src="~assets/projects/goals101/sails.png"
                 alt="GoCorona app screenshots"
@@ -357,7 +357,7 @@
             <pfooterp
               projectName="Automize Apps."
               projectCategories="Internship"
-              thumbnail="/1.jpg"
+              
             />
           </nuxt-link>
         </div>
@@ -367,7 +367,7 @@
             <pfootern
               projectName="Streerides"
               projectCategories="Website Development"
-              thumbnail="/1.jpg"
+              
             />
           </nuxt-link>
         </div>
@@ -420,6 +420,21 @@ export default {
   padding: 5px;
   margin-left: 150px;
 }
+
+@media screen and (max-width: 700px) {
+  div.mainimage{
+    width: 85.33%;
+    margin-left: 37px;
+  
+  }
+
+  div.mainimage2{
+    width: 85.33%;
+    margin-left: 77px;
+  
+  }
+}
+
 
 .admin-column {
   float: left;

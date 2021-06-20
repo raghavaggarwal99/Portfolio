@@ -5,19 +5,19 @@
 
       <div class="nametag-container contain">
 
-        <div class="h-name" data-aos="fade-up" data-aos-duration="900">
+      <div class="h-name" data-aos="fade-up" data-aos-duration="900">
           <nuxt-link to="/about" style="text-decoration: none;">
             <span class="underline-magical">Raghav Aggarwal</span>
           </nuxt-link>
         </div>
 
-        <div class="h-name example2" data-aos="fade-up" data-aos-duration="900">
+        <div class="example2" data-aos="fade-up" data-aos-duration="900">
           <nuxt-link to="/blog" style="text-decoration: none;">
             <span class="underline-magical">Blogs</span>
           </nuxt-link>
         </div>
 
-         <div class="h-name example" data-aos="fade-up" data-aos-duration="900">
+         <div class="example" data-aos="fade-up" data-aos-duration="900">
          <a target="_blank" href="https://drive.google.com/file/d/1eY17t6eSunu_KQV46eylpop8Wd8C8w3I/view?usp=sharing">
           <!-- <nuxt-link to="https://drive.google.com/file/d/1eY17t6eSunu_KQV46eylpop8Wd8C8w3I/view?usp=sharing" style="text-decoration: none;"> -->
             <span class="underline-magical">Resume</span>
@@ -25,6 +25,7 @@
           </a>
         </div>
       </div>
+
 
       <div class="contain a-h-container">
         <p
@@ -47,15 +48,15 @@
         >Also a problem solver and try to have fun at every step. Scroll to know more!</p>
        
       </div>
-
     </div>
 
-      <div class="reveal-holder" data-aos="reveal-item" data-aos-once="true">
+      <div class="reveal-holder hello" data-aos="reveal-item" data-aos-once="true">
             <div class="reveal-block red right" data-aos="reveal-right" data-aos-once="true"></div>
             <h2 class="a-hello primary-color maegin_reveal">Hello there!</h2>
           </div>
+          <br>
+          <br>
 
-    <a href></a>
 
 <div class="distress-row">
   <div class="distress-column">
@@ -64,27 +65,27 @@
       para=" I'm Raghav Aggarwal and Currently I work in Deutsche Bank  in Pune, India. Being from a non CS background, I have developed quite an interest in 
           how software industry works. May it be App development or some new technology like Blockchain, i
           am always interested to learn and dive into it. <br>
-           I have done a lot of projects and have tried to explore every oppurtunity that i get in my way.
+          I have done a lot of projects and have tried to explore every oppurtunity that i get in my way. Apart from academics I have done a lot of extracurricular
+          activities too in the college.
 
      "
       theme="theme_cricbuzz"
     />
 
   </div>
-  <div class="distress-column">
-  <br>
-  <br>
-    <br>
+  <div class="distress-column image-adjust">
   <br>
     <picture>
-          <!-- <source
-            media="(max-width: 600px)"
-            srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-          /> -->
+          <source
+            media="(max-width: 900px)"
+            srcset="~assets/about/raghav.jpg"
+            alt="Me"
+
+          />
           <img
             src="~assets/about/raghav.jpg"
             alt="Me"
-            width="575px"
+            width="480px"
             height="600px"
           />
         </picture>
@@ -170,7 +171,7 @@
       </div>
     </section>
 
-    <p style="margin-left: 400px"> Some of the best memories of my life </p>
+    <p class="image-heading"> Some of the best memories of my life </p>
     
     <section class="h-sec2-container">
       <div class="h-sec2-grid">
@@ -588,18 +589,18 @@ export default {
 
 .distress-column {
   float: left;
-  width: 33.33%;
-  padding: 5px;
-  margin-left: 150px;
+  width: 40.33%;
+  margin-left: 130px;
 }
 
-.admin-column {
-  float: left;
-  width: 30.33%;
-  padding: 5px;
-  margin-left: 40px;
-
+@media screen and (max-width: 999px) {
+  .distress-column {
+    float: left;
+    width: 90%;
+    margin-left: 10px; 
+  }
 }
+
 
 /* Clearfix (clear floats) */
 .distress-row::after {
@@ -608,21 +609,73 @@ export default {
   display: table;
 }
 
+
 div.example{
-
-  margin-left: 750px;
-  margin-top: 5px;
+  left: 80%;
   position: absolute;
-
 }
 
 
 div.example2{
-
-  margin-left: 450px;
-  margin-top: 5px;
+  left: 50%;
   position: absolute;
-
 }
+
+@media screen and (max-width: 999px) {
+  div.example2{
+    left: 60%;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  div.example{
+    left: 95%;
+  }
+}
+
+ div.hello{
+    left: 16%;
+  }
+
+@media screen and (max-width: 999px) {
+  div.hello{
+    float: left;
+  }
+}
+
+
+.image-heading{
+ margin-left: 160px;
+}
+
+@media screen and (max-width: 999px) {
+  .image-heading{
+    float: left;
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  div.image-adjust{
+   
+    margin-left: 190px;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  div.image-adjust{
+   float: left;
+  margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  div.image-adjust{
+   float: left;
+    margin-left: 5px;
+  }
+}
+
 
 </style>

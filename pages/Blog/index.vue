@@ -4,25 +4,26 @@
   
       <div class="nametag-container contain">
 
-        <div class="h-name example3" data-aos="fade-up" data-aos-duration="900">
+        <div class="example3" data-aos="fade-up" data-aos-duration="900">
           <nuxt-link to="/about" style="text-decoration: none;">
             <span class="underline-magical">Raghav Aggarwal</span>
           </nuxt-link>
         </div>
 
-        <div class="h-name example2" data-aos="fade-up" data-aos-duration="900">
+        <div class="example2" data-aos="fade-up" data-aos-duration="900">
           <nuxt-link to="/blog" style="text-decoration: none;">
             <span class="underline-magical">Blogs</span>
           </nuxt-link>
         </div>
 
-         <div class="h-name example" data-aos="fade-up" data-aos-duration="900">
+         <div class="example" data-aos="fade-up" data-aos-duration="900">
          <a target="_blank" href="https://drive.google.com/file/d/1eY17t6eSunu_KQV46eylpop8Wd8C8w3I/view?usp=sharing">
           <!-- <nuxt-link to="https://drive.google.com/file/d/1eY17t6eSunu_KQV46eylpop8Wd8C8w3I/view?usp=sharing" style="text-decoration: none;"> -->
             <span class="underline-magical">Resume</span>
           <!-- </nuxt-link> -->
           </a>
         </div>
+        
       </div>
 
       <div class="contain b-heading-container">
@@ -55,9 +56,9 @@
     <div class="b-all-article-container">
       <BlogSection :blogs="blogs" />
     </div>
-
-    
   </div>
+
+  
 </template>
 
 <script>
@@ -129,26 +130,40 @@ export default {
 
 
 div.example{
-
-  margin-left: 750px;
-  margin-top: 3px;
+  left: 70%;
+  top: 2%;
   position: absolute;
-
 }
 
 
 div.example2{
-
-  margin-left: 450px;
-  margin-top: 5px;
+  left: 45%;
+  top: 2%;
   position: absolute;
-
 }
+
 
 div.example3{
-
-  margin-top: 5px;
+  top: 2%;
   position: absolute;
-
 }
+
+@media screen and (max-width: 999px) {
+  div.example3{
+     top: 4%;
+  }
+}
+@media screen and (max-width: 999px) {
+  div.example{
+     top: 4%;
+     left: 80%;
+  }
+}
+@media screen and (max-width: 999px) {
+  div.example2{
+     top: 4%;
+     left: 50%;
+  }
+}
+
 </style>

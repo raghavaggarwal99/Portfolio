@@ -17,15 +17,16 @@
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_elevito" data-aos="reveal-right"></div>
         <picture>
-          <!-- <source
+          <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
-          /> -->
-          <img src="~assets/projects/travelgo/chatbot.jpg" alt="cool background" />
+            srcset="~assets/projects/travelgo/main-mobile.jpg"
+          />
+          <img src="~assets/projects/travelgo/main2.png" alt="cool background" />
         </picture>
       </div>
     </div>
 
+   
      <Preface
       timeframe=" May-June 2019
             <br>2 Months"
@@ -42,7 +43,6 @@
     />
 
 
-    <!-- Preface -->
     <pcase
       heading="Preface"
       para=" The front end was done using Html and CSS, and for training the data we use Google Dialogflows
@@ -50,7 +50,8 @@
       theme="theme_ft"
     />
 
-      <!-- hero image -->
+
+   
      <div class="p-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_elevito" data-aos="reveal-right"></div>
@@ -65,7 +66,8 @@
     </div>
 
 
-    <!-- Problems -->
+
+   
     <pcase
       heading="Purpose and Features"
       para=" 
@@ -79,7 +81,6 @@
 
 
 
-    <!-- Desighn -->
     <pcase
       heading="Google Dialogflow"
       para=" These are the total intents that were created thinking of the user requirements. 
@@ -103,7 +104,7 @@
 
 
   <div class="distress-row">
-      <div class="distress-column">
+      <div class="distress-column adminscreen">
         <pcase
           heading="Main Screen"
           para="These were the features that were implemented for better UI<br>
@@ -117,28 +118,33 @@
         />
 
       </div>
-  <div class="distress-column">
+  <div class="distress-column mainimage">
   <br>
   <br>
-  <br>
-  <br>
+
     <picture>
           <!-- <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+            srcset="~assets/projects/travelgo/main-mobile2.png"
           /> -->
           <img
             src="~assets/projects/travelgo/img1.png"
             alt="GoCorona app screenshots"
+            width="500px"
+            height="750px"
           />
         </picture>
   </div>
 </div>
 
-    <!-- Problem -->
+
+  
     <pcase
       heading="Database Design"
-      para="Database Design
+      para="The following shows the database design which are basically three tables. <br>
+      1. To contain the bus information and routes of them including other information like seats, date, type, fare. <br>
+      2. To contain the indirect bus routes from the original city to destination. <br>
+      3. To save the chat of every individual. <br>
         
      "
       theme="theme_ft"
@@ -171,23 +177,20 @@
       </div>
     </div>
 
-      <p style="margin-left: 100px"> There are 2 types of intents </p>
 
-
-       <!-- Desighn -->
     <pcase
-      heading="2. Dynamic Intents"
-      para=" I experimented with different layouts to put everything together, got feedback from team and designed
-      som high feudality mockup and test it through Adobe XD prototyping, Made prototype, tested it and finally
-      we got to the points where me and team agreed to stick to one layout and moved farword to design further pages and adding
-      required details.
+      heading="1. Dynamic Intents"
+      para=" Dynamic Intents include those questions which require database queries. Asking for a bus route, will need to know some information like date
+      original city and destination, once we know them through google dialogflow, we will query the database to show all bus routes based on that inputs.
             
      "
       theme="theme_ft"
     />
 
+
+
      <div class="distress-row">
-      <div class="distress-column">
+      <div class="distress-column dynamicimage">
         <picture>
               <!-- <source
                 media="(max-width: 600px)"
@@ -196,12 +199,15 @@
               <img
                 src="~assets/projects/travelgo/dynamic1.png"
                 alt="GoCorona app screenshots"
+                 width="500px"
+            height="750px"
               />
             </picture>
 
       </div>
-      <div class="distress-column">
-      <br>
+      <div class="distress-column dynamicimage">
+    <br>
+
         <picture>
               <!-- <source
                 media="(max-width: 600px)"
@@ -210,11 +216,29 @@
               <img
                 src="~assets/projects/travelgo/dynamic2.png"
                 alt="GoCorona app screenshots"
+                 width="500px"
+            height="730px"
               />
             </picture>
       </div>
     </div>
+       <br>
+<br>
 
+<!-- <div class="p-hero_image">
+      <div class="reveal-holder" data-aos="fade-up">
+        <div class="reveal-block right theme_elevito" data-aos="reveal-right"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
+          />
+          <img src="~assets/projects/travelgo/dynamic3.png" alt="cool background" />
+        </picture>
+      </div>
+    </div>
+ 
+ -->
 
 
     <div class="p-hero_image">
@@ -232,10 +256,8 @@
 
 
 
-
-
      <div class="distress-row">
-      <div class="distress-column">
+      <div class="distress-column adminscreen">
         <pcase
           heading="2. Static Intents"
           para="Due to less time, right now we created a special login for admin so that it can access all the database and perform functions. <br>
@@ -250,9 +272,7 @@
         />
 
       </div>
-  <div class="distress-column">
-  <br>
-  <br>
+  <div class="distress-column mainimage">
   <br>
   <br>
     <picture>
@@ -263,6 +283,8 @@
           <img
             src="~assets/projects/travelgo/static.png"
             alt="GoCorona app screenshots"
+             width="500px"
+            height="750px"
           />
         </picture>
   </div>
@@ -271,9 +293,6 @@
 
 
    
-
-    <!-- Problems -->
-  
     <!-- key Focus Area -->
 
     <div class="keyfocus">
@@ -399,6 +418,89 @@ export default {
   margin-left: 150px;
 }
 
+ div.adminscreen{
+    width: 50.33%;
+    margin-left: 60px;
+
+  }
+
+    div.mainimage{
+   width: 20.33%;
+    margin-left: 7px;
+  
+  }
+
+@media screen and (max-width: 1351px) {
+  div.adminscreen{
+    width: 50.33%;
+    margin-left: 60px;
+
+  }
+
+  div.mainimage{
+   width: 20.33%;
+    margin-left: 7px;
+  
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  div.adminscreen{
+    width: 95.33%;
+    margin-left: 7px;
+
+  }
+  div.mainimage{
+   width: 80.33%;
+    margin-left: 127px;
+  
+  }
+}
+
+@media screen and (max-width: 700px) {
+  div.mainimage{
+   width: 50.33%;
+    margin-left: 37px;
+  
+  }
+}
+
+@media screen and (max-width: 550px) {
+  div.mainimage{
+   width: 20.33%;
+  margin-left: 1px;
+  
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  div.dynamicimage{
+    width: 35.33%;
+    margin-left: 37px;
+  
+  }
+
+}
+
+@media screen and (max-width: 1180px) {
+  div.dynamicimage{
+    width: 85.33%;
+    margin-left: 97px;
+  
+  }
+ 
+}
+
+@media screen and (max-width: 700px) {
+  div.dynamicimage{
+    width: 85.33%;
+    margin-left: 1px;
+  
+  }
+}
+
+
 .admin-column {
   float: left;
   width: 30.33%;
@@ -421,4 +523,6 @@ export default {
   clear: both;
   display: table;
 }
+
+
 </style>

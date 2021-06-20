@@ -10,12 +10,20 @@
     />
 
 
-    <!-- hero image -->
-    <div class="p-helo-color-hero-image">
-      <div class="reveal-holder" data-aos="fade-up">
-        <div class="reveal-block right theme_hc" data-aos="reveal-right"></div>
+  
 
-        <img src="~assets/projects/streerides/main.jpg" alt="colouring book design" />
+      <!-- hero image -->
+    <div class="p-fe-hero_image">
+      <div class="reveal-holder" data-aos="fade-up">
+        <div class="reveal-block right theme_tbt-app" data-aos="reveal-right"></div>
+
+        <picture>
+          <!-- <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/tbt-app/tbt-app-hero-mobile.jpg"
+          /> -->
+          <img src="~assets/projects/streerides/main.jpg" />
+        </picture>
       </div>
     </div>
 
@@ -97,7 +105,7 @@
      <pcase
       heading="Static Screens and Direct Backend"
       para=" 
-           The screens that were pretty basic and direct store the database in Firebase cloud includes like:
+           The screens that were pretty basic and direct store the database in Firebase cloud includes like:  <br>
            1. Login/Signup screen. <br>
            2. Book a scehdule. <br>
            3. See the pricing package. <br>
@@ -118,8 +126,12 @@
       </div>
     </div>
 
+
+
+
+
   <div class="distress-row">
-      <div class="distress-column">
+      <div class="distress-column adminscreen">
         <pcase
           heading="Book the ride"
           para="
@@ -131,9 +143,7 @@
         />
 
       </div>
-  <div class="distress-column">
-  <br>
-  <br>
+  <div class="distress-column mainimage2">
   <br>
   <br>
     <picture>
@@ -142,10 +152,10 @@
             srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
           /> -->
           <img
-            src="~assets/projects/streerides/book2.png"
+            src="~assets/projects/streerides/book3.png"
             alt="GoCorona app screenshots"
-            height="500px"
-            width="500px"
+        
+            width="400px"
           />
         </picture>
   </div>
@@ -177,7 +187,7 @@
 
 
       <div class="distress-row">
-      <div class="distress-column">
+      <div class="distress-column adminscreen">
         <pcase
           heading=""
           para="
@@ -189,9 +199,7 @@
         />
 
       </div>
-  <div class="distress-column">
-  <br>
-  <br>
+  <div class="distress-column mainimage">
   <br>
   <br>
     <picture>
@@ -200,10 +208,9 @@
             srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
           /> -->
           <img
-            src="~assets/projects/streerides/payment.png"
+            src="~assets/projects/streerides/payment3.png"
             alt="GoCorona app screenshots"
-            height="500px"
-            width="500px"
+            width="400px"
           />
         </picture>
   </div>
@@ -356,4 +363,80 @@ export default {
   clear: both;
   display: table;
 }
+
+div.adminscreen{
+    width: 50.33%;
+    margin-left: 60px;
+
+  }
+
+    div.mainimage{
+   width: 20.33%;
+    margin-left: 7px;
+  
+  }
+
+@media screen and (max-width: 1351px) {
+  div.adminscreen{
+    width: 50.33%;
+    margin-left: 60px;
+
+  }
+
+  div.mainimage{
+   width: 20.33%;
+    margin-left: 7px;
+  
+  }
+
+
+  div.mainimage2{
+   width: 20.33%;
+    margin-left: 7px;
+  
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  div.adminscreen{
+    width: 50.33%;
+    margin-left: 7px;
+
+  }
+  div.mainimage{
+   width: 80.33%;
+    margin-left: 127px;
+  
+  }
+  div.mainimage2{
+   width: 20.33%;
+    margin-left: 7px;
+  
+  }
+}
+
+@media screen and (max-width: 850px) {
+ div.adminscreen{
+    width: 95.33%;
+    margin-left: 7px;
+
+  }
+
+  div.mainimage2{
+    width: 4.33%;
+    margin-left: 90px;
+  
+  }
+}
+
+@media screen and (max-width: 700px) {
+  div.mainimage2{
+    width: 40.33%;
+    margin-left: 190px;
+  
+  }
+}
+
+
 </style>
