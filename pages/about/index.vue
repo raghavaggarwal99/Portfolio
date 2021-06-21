@@ -5,7 +5,8 @@
 
       <div class="nametag-container contain">
 
-      <div class="h-name" data-aos="fade-up" data-aos-duration="900">
+    
+        <div class="example3" data-aos="fade-up" data-aos-duration="900">
           <nuxt-link to="/about" style="text-decoration: none;">
             <span class="underline-magical">Raghav Aggarwal</span>
           </nuxt-link>
@@ -24,10 +25,11 @@
           <!-- </nuxt-link> -->
           </a>
         </div>
+
       </div>
 
 
-      <div class="contain a-h-container">
+      <div class="contain a-h-container page-heading">
         <p
           class="pm a-h-subheading"
           data-aos="fade-up"
@@ -50,42 +52,35 @@
       </div>
     </div>
 
-      <div class="reveal-holder hello" data-aos="reveal-item" data-aos-once="true">
-            <div class="reveal-block red right" data-aos="reveal-right" data-aos-once="true"></div>
-            <h2 class="a-hello primary-color maegin_reveal">Hello there!</h2>
-          </div>
-          <br>
-          <br>
 
-
-<div class="distress-row">
-  <div class="distress-column">
-    <pcase
-      heading=""
-      para=" I'm Raghav Aggarwal and Currently I work in Deutsche Bank  in Pune, India. Being from a non CS background, I have developed quite an interest in 
-          how software industry works. May it be App development or some new technology like Blockchain, i
-          am always interested to learn and dive into it. <br>
-          I have done a lot of projects and have tried to explore every oppurtunity that i get in my way. Apart from academics I have done a lot of extracurricular
+ <div class="distress-row">
+      <div class="distress-column adminscreen">
+        <pcase
+          heading="Hello there!"
+          para="I'm Raghav Aggarwal and Currently I work in Deutsche Bank  in Pune, India. 
+          Being from a non CS background, I have developed quite an interest in 
+          how software industry works. <br>
+          I have done a lot of projects and have tried to explore every 
+          oppurtunity that i get in my way. Apart from academics I have done a lot of extracurricular
           activities too in the college.
 
-     "
-      theme="theme_cricbuzz"
-    />
+        "
+          theme="theme_cricbuzz"
+        />
 
-  </div>
+      </div>
   <div class="distress-column image-adjust">
+  <br>
   <br>
     <picture>
           <source
-            media="(max-width: 900px)"
-            srcset="~assets/about/raghav.jpg"
-            alt="Me"
-
+            media="(max-width: 400px)"
+            srcset="~assets/about/raghav-mobile.jpg"
           />
           <img
             src="~assets/about/raghav.jpg"
             alt="Me"
-            width="480px"
+             width="480px"
             height="600px"
           />
         </picture>
@@ -170,6 +165,8 @@
         </blockquote>
       </div>
     </section>
+
+
 
     <p class="image-heading"> Some of the best memories of my life </p>
     
@@ -259,6 +256,8 @@
       </div>
     </section>
  
+      <br>
+      <br>
       <br>
       
     <Footer />
@@ -589,17 +588,63 @@ export default {
 
 .distress-column {
   float: left;
-  width: 40.33%;
-  margin-left: 130px;
+  width: 33.33%;
+  padding: 5px;
+  margin-left: 150px;
 }
 
-@media screen and (max-width: 999px) {
-  .distress-column {
-    float: left;
-    width: 90%;
-    margin-left: 10px; 
+@media screen and (max-width: 1300px) {
+  div.distress-column{ 
+    margin-left: 70px;
+    width: 38.33%;
+     padding: 5px;
   }
 }
+
+@media screen and (max-width: 1100px) {
+  div.distress-column{ 
+    margin-left: 90px;
+    width: 30.33%;
+     padding: 5px;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  div.adminscreen{
+  
+  margin-left: 70px;
+  
+  }
+
+   div.distress-column{
+  
+    width: 30%;
+  
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  div.distress-column{
+    float: center;
+    margin-left: 60px;
+    width: 50.33%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  div.distress-column{
+    float: center;
+    margin-left: 20px;
+    width: 50.33%;
+  }
+}
+
+
 
 
 /* Clearfix (clear floats) */
@@ -610,26 +655,41 @@ export default {
 }
 
 
+
 div.example{
-  left: 80%;
+  left: 70%;
+  top: 2%;
   position: absolute;
 }
 
 
 div.example2{
-  left: 50%;
+  left: 45%;
+  top: 2%;
+  position: absolute;
+}
+
+
+div.example3{
+  top: 2%;
   position: absolute;
 }
 
 @media screen and (max-width: 999px) {
-  div.example2{
-    left: 60%;
+  div.example3{
+     top: 4%;
   }
 }
-
 @media screen and (max-width: 999px) {
   div.example{
-    left: 95%;
+     top: 4%;
+     left: 80%;
+  }
+}
+@media screen and (max-width: 999px) {
+  div.example2{
+     top: 4%;
+     left: 50%;
   }
 }
 
@@ -674,6 +734,24 @@ div.example2{
   div.image-adjust{
    float: left;
     margin-left: 5px;
+  }
+}
+
+div.page-heading{
+
+padding-bottom: 10px;
+
+padding-top: 130px;
+
+}
+
+
+
+@media screen and (max-width: 760px) {
+  div.adminscreen{
+    width: 90.33%;
+    margin-left: 7px;
+
   }
 }
 

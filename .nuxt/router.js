@@ -13,6 +13,8 @@ const _7ff4d101 = () => interopDefault(import('../pages/projects/automizeapps.vu
 const _12c2fb66 = () => interopDefault(import('../pages/projects/Blockchain.vue' /* webpackChunkName: "pages/projects/Blockchain" */))
 const _1097596a = () => interopDefault(import('../pages/projects/goals101.vue' /* webpackChunkName: "pages/projects/goals101" */))
 const _1bf88346 = () => interopDefault(import('../pages/projects/GoCorona.vue' /* webpackChunkName: "pages/projects/GoCorona" */))
+const _99f1fe8c = () => interopDefault(import('../pages/projects/playcode.vue' /* webpackChunkName: "pages/projects/playcode" */))
+const _1ff5e249 = () => interopDefault(import('../pages/projects/playlife.vue' /* webpackChunkName: "pages/projects/playlife" */))
 const _0e11a878 = () => interopDefault(import('../pages/projects/SocialContour.vue' /* webpackChunkName: "pages/projects/SocialContour" */))
 const _454d213a = () => interopDefault(import('../pages/projects/streerides.vue' /* webpackChunkName: "pages/projects/streerides" */))
 const _c770524a = () => interopDefault(import('../pages/projects/TravelGo.vue' /* webpackChunkName: "pages/projects/TravelGo" */))
@@ -67,6 +69,14 @@ export const routerOptions = {
     path: "/projects/GoCorona",
     component: _1bf88346,
     name: "projects-GoCorona___en"
+  }, {
+    path: "/projects/playcode",
+    component: _99f1fe8c,
+    name: "projects-playcode___en"
+  }, {
+    path: "/projects/playlife",
+    component: _1ff5e249,
+    name: "projects-playlife___en"
   }, {
     path: "/projects/SocialContour",
     component: _0e11a878,

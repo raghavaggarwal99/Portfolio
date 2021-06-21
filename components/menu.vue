@@ -140,19 +140,13 @@
       </div>
     </transition>
 
-    <!-- <div class="h-fullscreen-container"
-    <nuxt-link to='/playlife'>
-      <div>
-        <span class="underline-magical">Play</span>
-      </div>
-    </nuxt-link>
-    </div> -->
 
-     <nuxt-link to="/playlife">
+     <a href="/raghav/projects/playlife">
       <div class="h-fullscreen-container">
         <span class="underline-magical">Play</span>
         </div>
-    </nuxt-link>
+        </a>
+   
     
   </div>
 </template>

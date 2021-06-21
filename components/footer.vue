@@ -21,21 +21,22 @@
         <div class="sayhi-container">
           <span class="sayhi2 para black61">or just say hi!</span>
           <span class="link-effect2 hover-link2">
-            <a href="mailto:hello@saurabhcrai.com">
+            <a href="mailto:raghavaggarwal0089@gmail.com">
               <span
                 class="sayhi3 black"
-                data-hover="hello@saurabhcrai.com ↗"
-              >hello@saurabhcrai.com ↗</span>
+                data-hover="raghavaggarwal0089@gmail.com ↗"
+                style="font-size: 20px"
+              >raghavaggarwal0089@gmail.com  ↗</span>
             </a>
           </span>
         </div>
 
         <div class="social-icon_container">
-          <div class="social-one">
+         <div class="social-one">
             <div class="social-two">
               <a
                 class="button"
-                href="https://www.facebook.com/saurabhchandrarai"
+                href="https://www.facebook.com/profile.php?id=100005265196901"
                 target="_blank"
                 rel="noopener"
                 title="Facebook (new tab)"
@@ -46,11 +47,13 @@
               </a>
             </div>
           </div>
+
+
           <div class="social-one">
             <div class="social-two">
               <a
                 class="button"
-                href="https://www.instagram.com/saurabh.c.rai/"
+                href="https://www.instagram.com/aggrwal_raghav"
                 target="_blank"
                 rel="noopener"
                 title="Instagram (new tab)"
@@ -65,7 +68,7 @@
             <div class="social-two">
               <a
                 class="button"
-                href="https://www.linkedin.com/in/saurabhchandrarai/"
+                href="https://www.linkedin.com/in/raghav0089"
                 target="_blank"
                 rel="noopener"
                 title="Linkdin (new tab)"
@@ -80,7 +83,7 @@
             <div class="social-two">
               <a
                 class="button"
-                href="https://medium.com/@saurabhcrai"
+                href="https://medium.com/@raghavaggarwal0089"
                 target="_blank"
                 rel="noopener"
                 title="Medium (new tab)"
@@ -95,22 +98,7 @@
             <div class="social-two">
               <a
                 class="button"
-                href="https://www.behance.net/saurabhcrai"
-                target="_blank"
-                rel="noopener"
-                title="Behance (new tab)"
-              >
-                <div class="social-three">
-                  <img class="social-four" src="~assets/footer/behance-lightgrey.png" />
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="social-one">
-            <div class="social-two">
-              <a
-                class="button"
-                href="https://github.com/SAURABHRAI110"
+                href="https://github.com/raghavaggarwal99"
                 target="_blank"
                 rel="noopener"
                 title="Github(new tab)"
@@ -127,7 +115,7 @@
       <div class="footer-bottom-right">
         <p
           class="footer-dev-text"
-        >©2019 — Web app designed and coded by Saurabh Chandra Rai using Vue.js + Nuxt.</p>
+        >2021 — Portfolio by Raghav Aggarwal using Vue.js + Nuxt. Huge thanks to Saurabh Chandra Rai</p>
       </div>
     </div>
   </footer>
@@ -139,7 +127,7 @@ export default {}
 
 <style >
 .footer-wrapper {
-  height: 90vh;
+  height: 50vh;
   width: 100%;
   position: relative;
 }
