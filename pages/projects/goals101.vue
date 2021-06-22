@@ -59,7 +59,7 @@
 
 
     <!-- Desighn -->
-    <div class="distress-row">
+    <!-- <div class="distress-row">
       <div class="distress-column mainimage">
         <picture>
                <source
@@ -86,6 +86,22 @@
                 alt="GoCorona app screenshots"
               />
             </picture>
+      </div>
+    </div> -->
+
+
+     <!-- hero image -->
+    <div class="p-fe-hero_image" style="justify-content: center">
+      <div class="reveal-holder" data-aos="fade-up">
+        <div class="reveal-block right theme_tbt-app" data-aos="reveal-right"></div>
+
+        <picture>
+          <!-- <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/tbt-app/tbt-app-hero-mobile.jpg"
+          /> -->
+          <img src="~assets/projects/goals101/preface2.png" />
+        </picture>
       </div>
     </div>
 

@@ -1,6 +1,8 @@
 <template>
   <footer class="footer-wrapper">
     <img class="footer-hand" src="~assets/footer/footer-hand.png?webp" alt="hand gesture" />
+    <p>sdvsd</p>
+
     <div class="footer-type1">
       <div class="footer-left"></div>
       <div class="footer-right">

@@ -102,8 +102,33 @@
     </div>
 
 
+    <!-- <pcase
+      heading="Main Screen"
+          para="These were the features that were implemented for better UI<br>
+          1. Ask for the buses availability for asked routes<br>
+          2. Showing contact information and FAQ in case it's not a trained data<br>
+          3. Ask for indirect bus routes <br>
+          4. Dynamically asking the required questions needed to show the correct output from the database.
+          Example For buses availability on a specific day, time, the source and destination is needed.
+        "
+      theme="theme_ft"
+    /> -->
 
-  <div class="distress-row">
+
+ <!-- <div class="p-hero_image">
+      <div class="reveal-holder" data-aos="fade-up">
+        <div class="reveal-block right theme_elevito" data-aos="reveal-right"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
+          />
+          <img src="~assets/projects/travelgo/mainpage.png" alt="cool background" />
+        </picture>
+      </div>
+    </div> -->
+
+     <div class="distress-row">
       <div class="distress-column adminscreen">
         <pcase
           heading="Main Screen"
@@ -114,24 +139,20 @@
           4. Dynamically asking the required questions needed to show the correct output from the database.
           Example For buses availability on a specific day, time, the source and destination is needed.
         "
-          theme="theme_cricbuzz"
+          theme="theme_ft"
         />
 
       </div>
   <div class="distress-column mainimage">
-  <br>
-  <br>
-
     <picture>
           <!-- <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/travelgo/main-mobile2.png"
+            srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
           /> -->
           <img
-            src="~assets/projects/travelgo/img1.png"
+            src="~assets/projects/travelgo/main-mobile.png"
             alt="GoCorona app screenshots"
-            width="500px"
-            height="750px"
+            
           />
         </picture>
   </div>
@@ -159,7 +180,7 @@
             media="(max-width: 600px)"
             srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
           /> -->
-          <img src="~assets/projects/travelgo/database.jpg" alt="cool background" />
+          <img src="~assets/projects/travelgo/database3.jpg" alt="cool background" />
         </picture>
       </div>
     </div>
@@ -188,57 +209,27 @@
     />
 
 
-
-     <div class="distress-row">
-      <div class="distress-column dynamicimage">
-        <picture>
-              <!-- <source
-                media="(max-width: 600px)"
-                srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-              /> -->
-              <img
-                src="~assets/projects/travelgo/dynamic1.png"
-                alt="GoCorona app screenshots"
-                 width="500px"
-            height="750px"
-              />
-            </picture>
-
-      </div>
-      <div class="distress-column dynamicimage">
-    <br>
-
-        <picture>
-              <!-- <source
-                media="(max-width: 600px)"
-                srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
-              /> -->
-              <img
-                src="~assets/projects/travelgo/dynamic2.png"
-                alt="GoCorona app screenshots"
-                 width="500px"
-            height="730px"
-              />
-            </picture>
-      </div>
-    </div>
-       <br>
-<br>
-
-<!-- <div class="p-hero_image">
+<div class="p-hero_image dynamic dynamicimage" >
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_elevito" data-aos="reveal-right"></div>
         <picture>
-          <source
+          <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
-          />
-          <img src="~assets/projects/travelgo/dynamic3.png" alt="cool background" />
+          /> -->
+          <img src="~assets/projects/travelgo/dynamic4.png" alt="cool background" />
         </picture>
       </div>
     </div>
- 
- -->
+
+    <br>
+
+     <p style="float: center; margin-left: 60px; margin-right: 60px;">The dynamic intents include what do you want to do with this user input. So it goes 
+     into your workbook, to see what do you want to implement. Here I have instructed the workbook to see what intent it is and capture all the inputs like 
+     original city, destination and timings then it goes to my backend and ask subsquent query from database.</p>
+
+ <br>
+
 
 
     <div class="p-hero_image">
@@ -273,22 +264,30 @@
 
       </div>
   <div class="distress-column mainimage">
-  <br>
-  <br>
     <picture>
           <!-- <source
             media="(max-width: 600px)"
             srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
           /> -->
           <img
-            src="~assets/projects/travelgo/static.png"
+            src="~assets/projects/travelgo/static-mobile.png"
             alt="GoCorona app screenshots"
-             width="500px"
-            height="750px"
+            
           />
         </picture>
   </div>
 </div>
+
+
+ <pcase
+      heading="Hosting on AWS"
+      para="The deployment on AWS includes two basic steps:<br>
+      1. Hosting the html file in S3 bucket as it is static.<br>
+      2. Hosting the flask api using EC2 instance with dump of your sql file. <br>
+            
+     "
+      theme="theme_ft"
+    />
 
 
 
@@ -302,20 +301,15 @@
 
           <div class="pm black70">
             <div class="kf-layout">
-              <span>✔ Research</span>
+              <span>✔ Research on Travel Bots</span>
               <span>✔ Ideation</span>
-              <span>✔ Taking Design Meetings</span>
-              <span>✔ Collaborating with developer</span>
-              <span>✔ Making Post for social Media</span>
-              <span>✔ Lots of IceTea</span>
-              <span>✔ Exporting Assets</span>
-              <span>✔ Wireframe</span>
-              <span>✔ Testing with users</span>
-              <span>✔ Creating A design System</span>
-              <span>✔ Branding</span>
-              <span>✔ Identity Design</span>
-              <span>✔ Defending UX Decisions</span>
-              <span>✔ Pop and un-pop things</span>
+              <span>✔ Database Design</span>
+              <span>✔ Deploying on AWS with EC2 Instance</span>
+              <span>✔ Backend Design</span>
+              <span>✔ Research on NLP Services</span>
+              <span>✔ Regular Meetings with the client</span>
+              <span>✔ Google Dialogflow Workflow</span>
+     
             </div>
           </div>
         </div>
@@ -329,10 +323,9 @@
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            This project was very long, there was so many changes done one after one. So many iteration.
-            Well after the development the website traffic increased. People started taking there seriously.
-            The problem that was there before redesign was solved. The development team did a great job and
-            took my design even further and better with all the tweaking done from time to time.
+            This project was the first main project that i worked on very proudly as part of an intern. I got to know how client meetings go through,
+            How important UI is to the client for their product, user testing. Just developing isn't enough, you got to enhance it again and again and 
+            think what other things you can offer in your product.
           </p>
         </div>
       </div>
@@ -355,7 +348,7 @@
             <pfooterp
               projectName="Blockchain Aadhar Voting"
               projectCategories="Microsoft Codefundoo Competition"
-              thumbnail="/1.jpg"
+          
             />
           </nuxt-link>
         </div>
@@ -365,7 +358,7 @@
             <pfootern
               projectName="Social Contour"
               projectCategories="Freelance"
-              thumbnail="/1.jpg"
+            
             />
           </nuxt-link>
         </div>
@@ -418,7 +411,7 @@ export default {
   margin-left: 150px;
 }
 
- div.adminscreen{
+div.adminscreen{
     width: 50.33%;
     margin-left: 60px;
 
@@ -427,6 +420,7 @@ export default {
     div.mainimage{
    width: 20.33%;
     margin-left: 7px;
+    margin-top: 35px
   
   }
 
@@ -440,6 +434,14 @@ export default {
   div.mainimage{
    width: 20.33%;
     margin-left: 7px;
+     margin-top: 60px;
+  
+  }
+
+
+  div.mainimage2{
+   width: 20.33%;
+    margin-left: 7px;
   
   }
 
@@ -447,55 +449,123 @@ export default {
 
 @media screen and (max-width: 1200px) {
   div.adminscreen{
-    width: 95.33%;
-    margin-left: 7px;
+    width: 50.33%;
+    margin-left: 15px;
 
   }
   div.mainimage{
-   width: 80.33%;
-    margin-left: 127px;
+   width: 30.33%;
+    margin-left: 1px;
   
   }
-}
-
-@media screen and (max-width: 700px) {
-  div.mainimage{
-   width: 50.33%;
-    margin-left: 37px;
-  
-  }
-}
-
-@media screen and (max-width: 550px) {
-  div.mainimage{
+  div.mainimage2{
    width: 20.33%;
-  margin-left: 1px;
+    margin-left: 7px;
   
   }
 }
+@media screen and (max-width: 890px) {
 
-@media screen and (max-width: 1350px) {
-  div.dynamicimage{
-    width: 35.33%;
-    margin-left: 37px;
-  
+  div.adminscreen{
+    width: 40.33%;
+    margin-left: 40px;
+
   }
-
-}
-
-@media screen and (max-width: 1180px) {
-  div.dynamicimage{
-    width: 85.33%;
-    margin-left: 97px;
-  
+  div.mainimage{
+   width: 30.33%;
+ 
   }
  
 }
 
+
+@media screen and (max-width: 747px) {
+   div.adminscreen{
+    width: 40.33%;
+    margin-left: 10px;
+
+  }
+  div.mainimage{
+   width: 30.33%;
+  
+  }
+}
+
+
 @media screen and (max-width: 700px) {
-  div.dynamicimage{
-    width: 85.33%;
+   div.adminscreen{
+    width: 90.33%;
+    margin-left: 40px;
+   margin-top: -25px;
+
+  }
+  div.mainimage{
+   width: 60.33%;
+    margin-left: 120px;
+   margin-top: -35px;
+  
+  }
+}
+
+
+@media screen and (max-width: 548px) {
+   div.adminscreen{
+    width: 90.33%;
+    margin-left: 4px;
+   margin-top: -25px;
+
+  }
+  div.mainimage{
+   width: 10.33%;
+  margin-left: 60px;
+   margin-top: -35px;
+  
+  }
+}
+
+
+@media screen and (max-width: 476px) {
+   div.adminscreen{
+    width: 90.33%;
+    margin-left: 10px;
+   margin-top: -25px;
+
+  }
+  div.mainimage{
+   width: 60.33%;
+    margin-left: 30px;
+    margin-top: -35px;
+  
+  }
+}
+
+@media screen and (max-width: 445px) {
+   div.adminscreen{
+    width: 90.33%;
+      margin-left: 1px;
+    margin-top: -25px;
+
+  }
+  div.mainimage{
+   width: 40.33%;
     margin-left: 1px;
+    margin-top: -35px;
+  
+  }
+}
+
+
+
+@media screen and (max-width: 1180px) {
+  div.dynamicimage{
+    margin-left: -90px;
+  }
+}
+
+
+@media screen and (max-width: 723px) {
+  div.dynamicimage{
+    margin-left: -40px;
   
   }
 }

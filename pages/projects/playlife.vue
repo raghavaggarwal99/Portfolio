@@ -60,6 +60,8 @@
 
     <br>
 
+    <Footer2/>
+
   </section>
 </template>
 
@@ -69,9 +71,7 @@ import Preface from '~/components/projects/preface'
 import Projectfooter from '~/components/projects/projectfooter'
 import Pcase from '~/components/projects/pcase'
 import Tabs from 'vue-tabs-component';
-
-import Footer2 from '~/components/footer2'
-
+import Footer2 from '~/components/footer'
 export default {
   layout: 'projects',
   components: {
@@ -89,12 +89,10 @@ export default {
 .project-footer {
   bottom: 0%;
 }
-
 .p-hero_top_play {
   min-height: 15vh;
   background-color: white;
 }
-
 .p-min-info {
   position: relative;
   padding: 27px 0px 9px 0px;
@@ -102,15 +100,11 @@ export default {
   grid-template-columns: 1fr 1fr 1fr;
   color: #8d8d8d;
 }
-
-
-
 @media screen and (max-width: 999px) {
   .p-min-info {
     width: 100%;
   }
 }
-
 @media screen and (max-width: 800px) {
  
   .p-min-info {
@@ -118,181 +112,111 @@ export default {
     flex-direction: column;
     padding: 50px 0px 9px 0px;
   }
-
 }
-
 @media screen and (max-width: 500px) {
-
-
   .p-min-info {
     width: 100%;
   }
-
 }
-
 #playlist{
-
 display: inline;
 width: 250%;
 left: 80%;
 margin-left: 120px;
-
 }
-
 .playlife{
 width: 50%;
 }
-
 .playcode{
 width: 50%;
 }
-
-
 @media screen and (max-width: 800px) {
-
   #playlist{
     
     display: inline;
     width: 60%;
     margin-left: 100px;
   }
-
   .playlife{
-
         width: 50%;
         }
-
         .playcode{
-
-
         width: 50%;
         }
 }
-
 @media screen and (max-width: 600px) {
-
   #playlist{
     
     display: inline;
     width: 80%;
     margin-left: 50px;
   }
-
   .playlife{
-
         width: 50%;
         }
-
         .playcode{
-
-
         width: 50%;
         }
 }
-
 @media screen and (max-width: 400px) {
-
   #playlist{
     
     display: inline;
     width: 80%;
     margin-left: 30px;
   }
-
   .playlife{
-
         width: 50%;
         }
-
         .playcode{
-
-
         width: 50%;
         }
 }
-
 .mainquote{
 margin-left: 300px;
-
 }
-
 .author{
-
 color: red;
 font-size: 30px;
 margin-left: 500px;
 }
-
 @media screen and (max-width: 1100px) {
-
-
     .mainquote{
         margin-left: 200px;
-
     }
-
 }
-
 @media screen and (max-width: 800px) {
-
-
     .mainquote{
         margin-left: 100px;
-
     }
-
     .author{
-
         color: red;
         font-size: 30px;
         margin-left: 300px;
         }
-
 }
-
 @media screen and (max-width: 500px) {
-
     .mainquote{
         margin-left: 60px;
-
     }
-
     .author{
-
         color: red;
         font-size: 20px;
         margin-left: 180px;
         top:10%;
         }
-
 }
-
-
 .heading{
-
 margin-left: 100px;
-
 }
-
 @media screen and (max-width: 600px) {
-
 .heading{
-
 margin-left: 50px;
-
 }
-
   }
-
   @media screen and (max-width: 440px) {
-
 .heading{
-
 margin-left: 30px;
-
 }
-
   }
-
-
 </style>

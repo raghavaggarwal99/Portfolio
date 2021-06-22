@@ -69,19 +69,19 @@
         />
 
       </div>
-  <div class="distress-column image-adjust">
+  <div class="distress-column mainimage">
   <br>
   <br>
     <picture>
-          <source
+          <!-- <source
             media="(max-width: 400px)"
             srcset="~assets/about/raghav-mobile.jpg"
-          />
+          /> -->
           <img
-            src="~assets/about/raghav.jpg"
+            src="~assets/about/raghav3.jpg"
             alt="Me"
-             width="480px"
-            height="600px"
+            height="400px"
+           
           />
         </picture>
   </div>
@@ -168,7 +168,7 @@
 
 
 
-    <p class="image-heading"> Some of the best memories of my life </p>
+    <p class="image-heading"><b> Some of the best memories of my life </b></p>
     
     <section class="h-sec2-container">
       <div class="h-sec2-grid">
@@ -191,7 +191,7 @@
           <img id="zoom-default" src="~assets/about/img1.jpg" type="image/webp" />
         </div>
         <div
-          class="bottom-fit"
+          class="bottom-fit shelke"
           data-aos="fade-up"
           data-aos-duration="600"
           data-aos-delay="1300"
@@ -210,7 +210,7 @@
           <img id="zoom-default" src="~assets/about/img10.jpg" type="image/webp" />
         </div>
         <div
-          class="middle-fit"
+          class="middle-fit manasi"
           data-aos="zoom-out-up"
           data-aos-duration="600"
           data-aos-delay="300"
@@ -226,6 +226,8 @@
         >
           <img id="zoom-default" src="~assets/about/img6.jpg" type="image/webp" />
         </div>
+
+       
         <!-- <div
           class="up-fit"
           data-aos="zoom-out-up"
@@ -346,6 +348,7 @@ export default {
   padding-bottom: 2px;
 }
 
+
 .h-sec2-container {
   display: flex;
   width: 70%;
@@ -431,7 +434,7 @@ export default {
 }
 @media screen and (max-width: 600px) {
   .h-sec2-container {
-    width: 83%;
+    width: 73%;
   }
 
   .h-sec2-grid {
@@ -464,6 +467,26 @@ export default {
     grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
   }
 }
+
+div.extra{
+}
+
+@media screen and (max-width: 468px) {
+  div.shelke{
+    margin-bottom: 240px;
+  }
+
+  div.manasi{
+  margin-top: -490px;
+  }
+
+  div.extra{
+  display: block;
+  }
+}
+
+
+
 
 .h-work_heading {
   padding: 120px 0px 40px 0px;
@@ -693,49 +716,45 @@ div.example3{
   }
 }
 
- div.hello{
-    left: 16%;
-  }
-
-@media screen and (max-width: 999px) {
-  div.hello{
-    float: left;
-  }
-}
-
 
 .image-heading{
- margin-left: 160px;
+ margin-left: 440px;
 }
+
+@media screen and (max-width: 1200px) {
+  .image-heading{
+    margin-left: 300px;
+  }
+}
+
 
 @media screen and (max-width: 999px) {
   .image-heading{
-    float: left;
-    margin-left: 50px;
+    margin-left: 250px;
   }
 }
-
-@media screen and (max-width: 999px) {
-  div.image-adjust{
-   
-    margin-left: 190px;
-  }
-}
-
 
 @media screen and (max-width: 700px) {
-  div.image-adjust{
-   float: left;
-  margin-left: 25px;
+  .image-heading{
+    margin-left: 180px;
   }
 }
 
-@media screen and (max-width: 500px) {
-  div.image-adjust{
-   float: left;
-    margin-left: 5px;
+@media screen and (max-width: 585px) {
+  .image-heading{
+    margin-left: 110px;
   }
 }
+
+
+
+@media screen and (max-width: 461px) {
+  .image-heading{
+    margin-left: 70px;
+  }
+}
+
+
 
 div.page-heading{
 
@@ -747,13 +766,119 @@ padding-top: 130px;
 
 
 
-@media screen and (max-width: 760px) {
-  div.adminscreen{
-    width: 90.33%;
-    margin-left: 7px;
+div.adminscreen{
 
-  }
+width: 50%;
+
 }
 
 
+
+div.mainimage{
+
+margin-top: 90px;
+width: 20%;
+margin-left: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+  
+  div.adminscreen{
+
+  width: 40%;
+
+}
+
+
+
+div.mainimage{
+
+margin-top: 90px;
+width: 20%;
+margin-left: 20px;
+}
+}
+
+
+@media screen and (max-width: 844px) {
+  
+  div.adminscreen{
+
+  width: 40%;
+
+}
+
+
+
+div.mainimage{
+
+margin-top: 90px;
+width: 20%;
+margin-left: 1px;
+}
+}
+
+@media screen and (max-width: 795px) {
+  
+  div.adminscreen{
+
+  width: 80%;
+
+}
+
+
+
+  div.mainimage{
+
+  margin-top: -35px;
+  width: 50%;
+  margin-left: 150px;
+}
+}
+
+
+@media screen and (max-width: 610px) {
+  
+
+  div.mainimage{
+
+  margin-top: -35px;
+  width: 50%;
+  margin-left: 100px;
+}
+}
+
+
+@media screen and (max-width: 519px) {
+  
+
+  div.mainimage{
+
+  margin-top: -35px;
+  width: 50%;
+  margin-left: 50px;
+}
+}
+
+@media screen and (max-width: 459px) {
+  
+
+  div.mainimage{
+
+  margin-top: -35px;
+  width: 50%;
+  margin-left: 20px;
+}
+}
+
+@media screen and (max-width: 422px) {
+  
+
+  div.mainimage{
+
+  margin-top: -35px;
+  width: 50%;
+  margin-left: 1px;
+}
+}
 </style>

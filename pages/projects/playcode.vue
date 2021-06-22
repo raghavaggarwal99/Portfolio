@@ -91,6 +91,30 @@
     <br>
 
 
+     <div class="p-image-100-duo rtimage">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <!-- <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/dearzindagi/DearZindagi1-mobile.jpg"
+          /> -->
+          <img src="~assets/play/rt2.png" />
+        </picture>
+      </div>
+    </div>
+
+  <br>
+  <br>
+
+
+ <p  class="heading" style=" color:#B8B8B8; font-size: 50px; font-stretch: expanded;">3. The Foobar Challenge</p>
+    <p class="heading" > The secret challenge of Google, where you have to solve some algorithm problems. Earlier who solved the problems will be given a direct
+    interview in Google
+      You can find the <a href=https://foobar.withgoogle.com/> website </a> here</p>
+      <br>
+
+
      <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
@@ -99,12 +123,14 @@
             media="(max-width: 600px)"
             srcset="~assets/projects/dearzindagi/DearZindagi1-mobile.jpg"
           /> -->
-          <img src="~assets/play/rt3.jpg" />
+          <img src="~assets/play/foobar.jpeg" />
         </picture>
       </div>
     </div>
+    <br>
+    <br>
 
-
+    <Footer2/>
 
   </div>
 </template>
@@ -114,7 +140,7 @@ import Projecthero from '~/components/projects/projecthero'
 import Preface from '~/components/projects/preface'
 import Projectfooter from '~/components/projects/projectfooter'
 import Pcase from '~/components/projects/pcase'
-import Footer2 from '~/components/footer2'
+import Footer2 from '~/components/footer'
 import Pfootern from '~/components/projects/pfootern'
 import Pfooterp from '~/components/projects/pfooterp'
 import Allprojectsnav from '~/components/projects/allprojectsnav'
@@ -344,4 +370,47 @@ margin-left: 30px;
 }
 
   }
+
+
+div.rtimage{
+
+margin-left: 150px;
+width: 80%;
+}
+
+
+ @media screen and (max-width: 760px) {
+
+ div.rtimage{
+
+    margin-left: 100px;
+    width: 80%;
+    }
+
+
+  }
+
+   @media screen and (max-width: 560px) {
+
+ div.rtimage{
+
+    margin-left: 40px;
+    width: 90%;
+    }
+
+
+  }
+
+
+   @media screen and (max-width: 490px) {
+
+ div.rtimage{
+
+    margin-left: 20px;
+    width: 90%;
+    }
+
+
+  }
+
 </style>

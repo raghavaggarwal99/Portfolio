@@ -61,7 +61,7 @@
             media="(max-width: 600px)"
             srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
           /> -->
-          <img src="~assets/projects/streerides/firebase.webp" alt="cool background" />
+          <img src="~assets/projects/streerides/preface.png" alt="cool background" />
         </picture>
       </div>
     </div>
@@ -128,38 +128,33 @@
 
 
 
-
-
-  <div class="distress-row">
-      <div class="distress-column adminscreen">
-        <pcase
-          heading="Book the ride"
+     <pcase
+      heading="Book the ride"
           para="
           Features are shown in the pic: <br>
           1. Date, Package, Location all the festures when selected it will be stored in the calendar. <br>
           2. After selecting the package accordingly, it shows you the payment portal to complete the transaction so that the ride gets final scheduled
         "
-          theme="theme_cricbuzz"
-        />
+          
+      theme="theme_hc"
+    />
 
-      </div>
-  <div class="distress-column mainimage2">
-  <br>
-  <br>
-    <picture>
+       <div class="p-hero_image">
+      <div class="reveal-holder" data-aos="fade-up">
+        <div class="reveal-block right theme_hc" data-aos="reveal-right"></div>
+        <picture>
           <!-- <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+            srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
           /> -->
-          <img
-            src="~assets/projects/streerides/book3.png"
-            alt="GoCorona app screenshots"
-        
-            width="400px"
-          />
+          <img src="~assets/projects/streerides/book4.png" alt="cool background" />
         </picture>
-  </div>
-</div>
+      </div>
+    </div>
+
+
+
+
 
 
     <!-- from coreldraw to illutrator -->
@@ -204,11 +199,11 @@
   <br>
     <picture>
           <!-- <source
-            media="(max-width: 600px)"
-            srcset="~assets/projects/gocorona/cricbuzz-existing-screens-mobile.jpg"
+            media="(max-width: 438px)"
+            srcset="~assets/projects/streerides/payment-mobile.png"
           /> -->
           <img
-            src="~assets/projects/streerides/payment3.png"
+            src="~assets/projects/streerides/payment-mobile2.png"
             alt="GoCorona app screenshots"
             width="400px"
           />
@@ -217,7 +212,29 @@
 </div>
 
 
+ <!-- from coreldraw to illutrator -->
+    <pcase
+      heading="Backend Design"
+      para=" 
+            With authentification using firebase google sign in, email/password, phone OTP every user will have a unique id which will be used to store
+            data for every unique user in cloud database.
+          "
+      theme="theme_hc"
+    />
 
+
+    <div class="p-hero_image">
+      <div class="reveal-holder" data-aos="fade-up">
+        <div class="reveal-block right theme_hc" data-aos="reveal-right"></div>
+        <picture>
+          <!-- <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/blockchain/elevito-hero-mobile.jpg"
+          /> -->
+          <img src="~assets/projects/streerides/backend.png" alt="cool background" />
+        </picture>
+      </div>
+    </div>
    
 
 
@@ -386,6 +403,7 @@ div.adminscreen{
   div.mainimage{
    width: 20.33%;
     margin-left: 7px;
+     margin-top: 60px;
   
   }
 
@@ -401,12 +419,12 @@ div.adminscreen{
 @media screen and (max-width: 1200px) {
   div.adminscreen{
     width: 50.33%;
-    margin-left: 7px;
+    margin-left: 15px;
 
   }
   div.mainimage{
-   width: 80.33%;
-    margin-left: 127px;
+   width: 30.33%;
+    margin-left: 1px;
   
   }
   div.mainimage2{
@@ -415,28 +433,100 @@ div.adminscreen{
   
   }
 }
+@media screen and (max-width: 890px) {
 
-@media screen and (max-width: 850px) {
- div.adminscreen{
-    width: 95.33%;
-    margin-left: 7px;
+  div.adminscreen{
+    width: 40.33%;
+    margin-left: 40px;
 
   }
+  div.mainimage{
+   width: 30.33%;
+    margin-top: -25px;
+  
+  }
+ 
+}
 
-  div.mainimage2{
-    width: 4.33%;
-    margin-left: 90px;
+
+@media screen and (max-width: 747px) {
+   div.adminscreen{
+    width: 40.33%;
+    margin-left: 10px;
+
+  }
+  div.mainimage{
+   width: 30.33%;
+    margin-top: -25px;
   
   }
 }
+
 
 @media screen and (max-width: 700px) {
-  div.mainimage2{
-    width: 40.33%;
-    margin-left: 190px;
+   div.adminscreen{
+    width: 90.33%;
+    margin-left: 40px;
+   margin-top: -25px;
+
+  }
+  div.mainimage{
+   width: 60.33%;
+    margin-left: 120px;
+   margin-top: -35px;
   
   }
 }
+
+
+@media screen and (max-width: 548px) {
+   div.adminscreen{
+    width: 90.33%;
+    margin-left: 40px;
+   margin-top: -25px;
+
+  }
+  div.mainimage{
+   width: 60.33%;
+    margin-left: 70px;
+   margin-top: -35px;
+  
+  }
+}
+
+
+@media screen and (max-width: 476px) {
+   div.adminscreen{
+    width: 90.33%;
+    margin-left: 10px;
+   margin-top: -25px;
+
+  }
+  div.mainimage{
+   width: 60.33%;
+    margin-left: 30px;
+    margin-top: -35px;
+  
+  }
+}
+
+@media screen and (max-width: 445px) {
+   div.adminscreen{
+    width: 90.33%;
+      margin-left: 1px;
+    margin-top: -25px;
+
+  }
+  div.mainimage{
+   width: 40.33%;
+    margin-left: 1px;
+    margin-top: -35px;
+  
+  }
+}
+
+
+
 
 
 </style>

@@ -6,8 +6,6 @@ import scrollBehavior from './router.scrollBehavior.js'
 const _42e0cf74 = () => interopDefault(import('../pages/about/index.vue' /* webpackChunkName: "pages/about/index" */))
 const _32cfddd1 = () => interopDefault(import('../pages/Blog/index.vue' /* webpackChunkName: "pages/Blog/index" */))
 const _3ed65091 = () => interopDefault(import('../pages/Opensource.vue' /* webpackChunkName: "pages/Opensource" */))
-const _e7e9b8a6 = () => interopDefault(import('../pages/playcode.vue' /* webpackChunkName: "pages/playcode" */))
-const _0e0bf588 = () => interopDefault(import('../pages/playlife.vue' /* webpackChunkName: "pages/playlife" */))
 const _ded61aee = () => interopDefault(import('../pages/projects/index.vue' /* webpackChunkName: "pages/projects/index" */))
 const _7ff4d101 = () => interopDefault(import('../pages/projects/automizeapps.vue' /* webpackChunkName: "pages/projects/automizeapps" */))
 const _12c2fb66 = () => interopDefault(import('../pages/projects/Blockchain.vue' /* webpackChunkName: "pages/projects/Blockchain" */))
@@ -41,14 +39,6 @@ export const routerOptions = {
     path: "/Opensource",
     component: _3ed65091,
     name: "Opensource___en"
-  }, {
-    path: "/playcode",
-    component: _e7e9b8a6,
-    name: "playcode___en"
-  }, {
-    path: "/playlife",
-    component: _0e0bf588,
-    name: "playlife___en"
   }, {
     path: "/projects",
     component: _ded61aee,
