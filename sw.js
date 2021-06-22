@@ -10,8 +10,20 @@ workbox.precaching.precacheAndRoute([
     "revision": "0fba13135f21f776237342d335d7c187"
   },
   {
+    "url": "/raghav/_nuxt/14d9c4c991be296cab6a.js",
+    "revision": "f48fc3ccab66c2cfc8f718a23e60827f"
+  },
+  {
     "url": "/raghav/_nuxt/198e5b9d1dc70c40e1a1.js",
     "revision": "27ad5b3100453e17c607b4ec4d18482a"
+  },
+  {
+    "url": "/raghav/_nuxt/1fb810bf54da9243e878.js",
+    "revision": "bdf2b05cef6cc0672ec63bbed421588d"
+  },
+  {
+    "url": "/raghav/_nuxt/290b0ee319f4cab60604.js",
+    "revision": "a6696c8517db76548414b903aec27fb5"
   },
   {
     "url": "/raghav/_nuxt/2c70a070b64dd696c50d.js",
@@ -54,10 +66,6 @@ workbox.precaching.precacheAndRoute([
     "revision": "456dac390518b64a16ae48e346c7d31b"
   },
   {
-    "url": "/raghav/_nuxt/8d8663df7a301243f73d.js",
-    "revision": "f32543ea50f2d4af1eed0124a10884f0"
-  },
-  {
     "url": "/raghav/_nuxt/9a48df67c715da7fd2fc.js",
     "revision": "e4efb757981e456a6dd5f5be7df2404a"
   },
@@ -72,10 +80,6 @@ workbox.precaching.precacheAndRoute([
   {
     "url": "/raghav/_nuxt/ac0272fc17544cd3f769.js",
     "revision": "f2ba3519eb1d68422a28b4e93a5ee3b7"
-  },
-  {
-    "url": "/raghav/_nuxt/b071ffa03febb984e1c4.js",
-    "revision": "447b86fa86b0c6a74977b1bbb5d3aa69"
   },
   {
     "url": "/raghav/_nuxt/b5a6d871fa40133d6b23.js",
@@ -112,10 +116,6 @@ workbox.precaching.precacheAndRoute([
   {
     "url": "/raghav/_nuxt/f9d5a61589bbf5463e2d.js",
     "revision": "3c313bad52d5c76337cbf76906606558"
-  },
-  {
-    "url": "/raghav/_nuxt/fd0a5d25d211d388784c.js",
-    "revision": "49ff92e495870e5fb59c4ddca746f158"
   }
 ], {
   "cacheId": "raghavaggarwal.com",
